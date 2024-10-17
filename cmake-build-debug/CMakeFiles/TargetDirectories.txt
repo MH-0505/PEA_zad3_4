@@ -1,0 +1,5 @@
+C:/Users/micha/OneDrive/Pulpit/PEA zad1/cmake-build-debug/CMakeFiles/brute_force.dir
+C:/Users/micha/OneDrive/Pulpit/PEA zad1/cmake-build-debug/CMakeFiles/random.dir
+C:/Users/micha/OneDrive/Pulpit/PEA zad1/cmake-build-debug/CMakeFiles/nearest_neighbour.dir
+C:/Users/micha/OneDrive/Pulpit/PEA zad1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/micha/OneDrive/Pulpit/PEA zad1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
