@@ -5,6 +5,7 @@
 #include <random>
 #include "TpsRandom.h"
 #include "../AdjMatrix.h"
+// dodać warunek stopu: po przeglądzie zupełnym, znalezieniu wartości optymalnej, sprawdzić mt19937, shuffle
 
 std::vector<int> TpsRandom::start_algorithm(AdjMatrix& graph, int exec_time){
     std::vector<int> results;

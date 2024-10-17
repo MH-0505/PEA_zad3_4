@@ -5,6 +5,7 @@
 #include <random>
 #include "../AdjMatrix.h"
 #include "TspNearestNeighbour.h"
+// wierzchołek początkowy / losowy, sprawdzić co gdy dwa wierzchołki mają tą samą wartość
 
 std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec_time){
     std::vector<int> results;
