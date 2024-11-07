@@ -6,8 +6,8 @@
 #include <iostream>
 #include "../AdjMatrix.h"
 #include "TspNearestNeighbour.h"
-// wierzchołek początkowy / losowy, sprawdzić co gdy dwa wierzchołki mają tą samą wartość
-
+// wierzchołek początkowy / losowy, sprawdzić co gdy dwa wierzchołki mają tą samą wartość, rozgałęzienia czyli co kiedy są dwa wierzchołki tej samej wagi (sprawdzić dwie drogi)
+// zip ze wszysktim a raport w pdf oddzielnie
 std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec_time, bool random_start){
     std::vector<int> results;
     int best_path[graph.vertex_count];
