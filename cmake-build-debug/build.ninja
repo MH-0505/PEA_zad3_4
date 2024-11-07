@@ -119,6 +119,12 @@ build CMakeFiles/random.dir/random/TpsRandom.cpp.obj: CXX_COMPILER__random_unsca
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir\random
 
+build CMakeFiles/random.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/OneDrive/Pulpit/PEA$ zad1/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_random
+  DEP_FILE = CMakeFiles\random.dir\brute_force\TpsBruteForce.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\random.dir
+  OBJECT_FILE_DIR = CMakeFiles\random.dir\brute_force
+
 build CMakeFiles/random.dir/ConfigManager.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/OneDrive/Pulpit/PEA$ zad1/ConfigManager.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\ConfigManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -133,7 +139,7 @@ build CMakeFiles/random.dir/ConfigManager.cpp.obj: CXX_COMPILER__random_unscanne
 #############################################
 # Link the executable random.exe
 
-build random.exe: CXX_EXECUTABLE_LINKER__random_Debug CMakeFiles/random.dir/random/main_r.cpp.obj CMakeFiles/random.dir/AdjMatrix.cpp.obj CMakeFiles/random.dir/random/TpsRandom.cpp.obj CMakeFiles/random.dir/ConfigManager.cpp.obj
+build random.exe: CXX_EXECUTABLE_LINKER__random_Debug CMakeFiles/random.dir/random/main_r.cpp.obj CMakeFiles/random.dir/AdjMatrix.cpp.obj CMakeFiles/random.dir/random/TpsRandom.cpp.obj CMakeFiles/random.dir/brute_force/TpsBruteForce.cpp.obj CMakeFiles/random.dir/ConfigManager.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

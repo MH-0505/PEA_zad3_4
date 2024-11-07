@@ -4,7 +4,7 @@
 
 class TspNearestNeighbour {
 public:
-    static std::vector<int> start_algorithm(AdjMatrix& graph, int exec_time);
+    static std::vector<int> start_algorithm(AdjMatrix& graph, int exec_time, bool random_start);
 };
 
 

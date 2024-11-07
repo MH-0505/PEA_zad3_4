@@ -7,7 +7,7 @@
 #include "../AdjMatrix.h"
 // dodać warunek stopu: po przeglądzie zupełnym, znalezieniu wartości optymalnej, sprawdzić mt19937, shuffle
 
-std::vector<int> TpsRandom::start_algorithm(AdjMatrix& graph, int exec_time){
+std::vector<int> TpsRandom::start_algorithm(AdjMatrix& graph, int exec_time, int optimal_cost){
     std::vector<int> results;
     int best_path[graph.vertex_count];
     int current_path[graph.vertex_count];
@@ -31,6 +31,13 @@ std::vector<int> TpsRandom::start_algorithm(AdjMatrix& graph, int exec_time){
             lowest_cost = current_cost;
             for(int i = 0; i < graph.vertex_count; i++){
                 best_path[i] = current_path[i];
+            }
+            if(lowest_cost == optimal_cost){
+                results.push_back(lowest_cost);
+                for(int i = 0; i < graph.vertex_count; i++){
+                    results.push_back(best_path[i]);
+                }
+                return results;
             }
         }
         std::shuffle(current_path+1, current_path+graph.vertex_count, std::mt19937{std::random_device{}()});

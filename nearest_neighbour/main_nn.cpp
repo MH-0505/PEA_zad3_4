@@ -27,7 +27,7 @@ int main() {
         std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: nearest-neighbour\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
         auto start_time = std::chrono::high_resolution_clock::now();
 
-        std::vector<int> results = TspNearestNeighbour::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
+        std::vector<int> results = TspNearestNeighbour::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]), true);
 
         auto end_time = std::chrono::high_resolution_clock::now();
         auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();

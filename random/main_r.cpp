@@ -7,6 +7,7 @@
 #include "../AdjMatrix.h"
 #include "../ConfigManager.h"
 #include "TpsRandom.h"
+#include "../brute_force/TpsBruteForce.h"
 
 std::string path_to_string(std::vector<int> results);
 
@@ -25,9 +26,11 @@ int main() {
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
         std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: random\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
+        std::vector<int> optimal_results = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
+
         auto start_time = std::chrono::high_resolution_clock::now();
 
-        std::vector<int> results = TpsRandom::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
+        std::vector<int> results = TpsRandom::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]), optimal_results[0]);
 
         auto end_time = std::chrono::high_resolution_clock::now();
         auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();

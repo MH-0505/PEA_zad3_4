@@ -9,7 +9,7 @@
 
 class TpsRandom{
 public:
-    static std::vector<int> start_algorithm(AdjMatrix &graph, int exec_time);
+    static std::vector<int> start_algorithm(AdjMatrix &graph, int exec_time, int optimal_cost);
 };
 
 

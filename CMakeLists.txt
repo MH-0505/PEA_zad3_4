@@ -14,6 +14,8 @@ add_executable(random random/main_r.cpp
         AdjMatrix.cpp
         random/TpsRandom.cpp
         random/TpsRandom.h
+        brute_force/TpsBruteForce.cpp
+        brute_force/TpsBruteForce.h
         ConfigManager.cpp
         ConfigManager.h)
 add_executable(nearest_neighbour nearest_neighbour/main_nn.cpp

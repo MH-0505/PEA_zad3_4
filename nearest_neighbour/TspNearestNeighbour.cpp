@@ -3,11 +3,12 @@
 #include <climits>
 #include <algorithm>
 #include <random>
+#include <iostream>
 #include "../AdjMatrix.h"
 #include "TspNearestNeighbour.h"
 // wierzchołek początkowy / losowy, sprawdzić co gdy dwa wierzchołki mają tą samą wartość
 
-std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec_time){
+std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec_time, bool random_start){
     std::vector<int> results;
     int best_path[graph.vertex_count];
     bool visited_nodes[graph.vertex_count];
@@ -21,7 +22,11 @@ std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec
     for(int i = 0; i < graph.vertex_count; i++){
         visited_nodes[i] = false;
     }
-    best_path[0] = range(gen);
+    if(random_start){
+        best_path[0] = range(gen);
+    } else{
+        best_path[0] = 0;
+    }
     visited_nodes[best_path[0]] = true;
 
     for(int i = 0; i < graph.vertex_count - 1 && std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time; i++){
@@ -32,6 +37,10 @@ std::vector<int> TspNearestNeighbour::start_algorithm(AdjMatrix& graph, int exec
                 min_weight = graph.matrix[best_path[i]][j];
                 min_index = j;
             }
+        }
+        if(min_index == -1){
+            std::cout << "\nNie znaleziono sciezki. Graf jest rozlaczny\n";
+            break;
         }
         best_path[i+1] = min_index;
         visited_nodes[min_index] = true;

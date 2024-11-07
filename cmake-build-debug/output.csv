@@ -234,3 +234,67 @@ wynik optymalny:;136
 wynik algorytmu:;145
 czas realizacji:;0;ms
 sciezka:;6 -> 3 -> 5 -> 1 -> 2 -> 0 -> 4 -> 7 -> 6
+
+
+BADANIE;11:59:10
+metoda:;nearest-neighbour
+
+plik:;g6.txt
+wynik optymalny:;150
+wynik algorytmu:;265
+czas realizacji:;1;ms
+sciezka:;2 -> 0 -> 5 -> 4 -> 1 -> 3 -> 2
+
+plik:;g8.txt
+wynik optymalny:;136
+wynik algorytmu:;196
+czas realizacji:;0;ms
+sciezka:;2 -> 0 -> 6 -> 3 -> 5 -> 1 -> 7 -> 4 -> 2
+
+
+BADANIE;11:59:20
+metoda:;nearest-neighbour
+
+plik:;g6.txt
+wynik optymalny:;150
+wynik algorytmu:;162
+czas realizacji:;1;ms
+sciezka:;0 -> 5 -> 4 -> 1 -> 2 -> 3 -> 0
+
+plik:;g8.txt
+wynik optymalny:;136
+wynik algorytmu:;194
+czas realizacji:;0;ms
+sciezka:;4 -> 6 -> 3 -> 5 -> 1 -> 2 -> 0 -> 7 -> 4
+
+
+BADANIE;11:59:25
+metoda:;nearest-neighbour
+
+plik:;g6.txt
+wynik optymalny:;150
+wynik algorytmu:;209
+czas realizacji:;1;ms
+sciezka:;3 -> 5 -> 4 -> 0 -> 2 -> 1 -> 3
+
+plik:;g8.txt
+wynik optymalny:;136
+wynik algorytmu:;219
+czas realizacji:;0;ms
+sciezka:;1 -> 6 -> 3 -> 5 -> 0 -> 4 -> 7 -> 2 -> 1
+
+
+BADANIE;12:02:28
+metoda:;random
+
+plik:;g6.txt
+wynik optymalny:;150
+wynik algorytmu:;150
+czas realizacji:;6;ms
+sciezka:;3 -> 1 -> 2 -> 4 -> 0 -> 5 -> 3
+
+plik:;g8.txt
+wynik optymalny:;136
+wynik algorytmu:;136
+czas realizacji:;178;ms
+sciezka:;5 -> 1 -> 2 -> 0 -> 6 -> 4 -> 7 -> 3 -> 5
