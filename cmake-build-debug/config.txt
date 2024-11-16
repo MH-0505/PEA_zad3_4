@@ -1,3 +1,7 @@
-input_files=g6.txt,g8.txt
+input_files=g6_1.txt
 output_file=output.csv
-max_exec_time_s=1
+max_exec_time_s=36000
+
+# NEAREST NEIGHBOUR
+starting_node=-1        # wartość -1 oznacza losowy wybór, wartość równa lub wyższa liczbie wierzchołków grafu oznacza wierzchołek ostatni
+branches=3              # obsługa rozgałęzień, (0-wybierz pierwszy wierzchołek, 1-ostatni, 2-losowy, 3-sprawdź wszystkie rozgałęzienia)

@@ -24,7 +24,13 @@ int main() {
 
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
-        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: brute-force\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
+        std::string optimal_s;
+        if(graph.tsp_optimal_weight == -1){
+            optimal_s = "nieznany";
+        } else{
+            optimal_s = std::to_string(graph.tsp_optimal_weight);
+        }
+        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: brute-force\nNazwa pliku: " << filename << "\nWynik optymalny: " << optimal_s;
         auto start_time = std::chrono::high_resolution_clock::now();
 
         std::vector<int> results = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
@@ -44,7 +50,10 @@ int main() {
 }
 
 std::string path_to_string(std::vector<int> results){
-    std::string s = "";
+    if(results.size() == 1 || results.empty()){
+        return " ";
+    }
+    std::string s;
     for(int i = 1; i < results.size(); i++){
         s += std::to_string(results[i]);
         s += " -> ";

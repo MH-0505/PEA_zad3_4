@@ -27,7 +27,12 @@ std::vector<int> TpsBruteForce::start_algorithm(AdjMatrix& graph, int exec_time)
                 best_path[i] = current_path[i];
             }
         }
-    }while(std::next_permutation(current_path+1, current_path+graph.vertex_count) && std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time);
+        if(std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() > exec_time){
+            results.push_back(-2);
+            return results;
+        }
+
+    }while(std::next_permutation(current_path+1, current_path+graph.vertex_count));
 
     results.push_back(lowest_cost);
     for(int i = 0; i < graph.vertex_count; i++){

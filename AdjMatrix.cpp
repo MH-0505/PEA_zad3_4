@@ -1,6 +1,8 @@
 #include <fstream>
 #include <iostream>
+#include <vector>
 #include "AdjMatrix.h"
+
 
 
 void AdjMatrix::loadGraph(const std::string& filename) {
@@ -10,11 +12,24 @@ void AdjMatrix::loadGraph(const std::string& filename) {
     ifile >> tsp_optimal_weight;
     initiateMatrix(vertex_count);
 
-    for(int i = 0; i < vertex_count; i++){
-        for(int j = 0; j < vertex_count; j++) {
-            ifile >> matrix[i][j];
+    if(tsp_optimal_weight <= 0){
+        ifile.close();
+        ifile.open(filename);
+        ifile >> vertex_count;
+        for(int i = 0; i < vertex_count; i++){
+            for(int j = 0; j < vertex_count; j++) {
+                ifile >> matrix[i][j];
+            }
+        }
+    }else{
+        for(int i = 0; i < vertex_count; i++){
+            for(int j = 0; j < vertex_count; j++) {
+                ifile >> matrix[i][j];
+            }
         }
     }
+
+
     ifile.close();
 }
 

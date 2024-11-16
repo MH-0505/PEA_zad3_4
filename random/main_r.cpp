@@ -25,12 +25,15 @@ int main() {
 
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
+        if(graph.tsp_optimal_weight == -1){
+            std::vector<int> v = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
+            graph.tsp_optimal_weight = v.front();
+        }
         std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: random\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
-        std::vector<int> optimal_results = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
 
         auto start_time = std::chrono::high_resolution_clock::now();
 
-        std::vector<int> results = TpsRandom::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]), optimal_results[0]);
+        std::vector<int> results = TpsRandom::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]), graph.tsp_optimal_weight);
 
         auto end_time = std::chrono::high_resolution_clock::now();
         auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();
@@ -47,7 +50,10 @@ int main() {
 }
 
 std::string path_to_string(std::vector<int> results){
-    std::string s = "";
+    if(results.size() == 1 || results.empty()){
+        return " ";
+    }
+    std::string s;
     for(int i = 1; i < results.size(); i++){
         s += std::to_string(results[i]);
         s += " -> ";

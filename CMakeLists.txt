@@ -22,5 +22,7 @@ add_executable(nearest_neighbour nearest_neighbour/main_nn.cpp
         AdjMatrix.cpp
         ConfigManager.cpp
         ConfigManager.h
+        brute_force/TpsBruteForce.cpp
+        brute_force/TpsBruteForce.h
         nearest_neighbour/TspNearestNeighbour.cpp
         nearest_neighbour/TspNearestNeighbour.h)
