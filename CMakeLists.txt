@@ -26,3 +26,12 @@ add_executable(nearest_neighbour nearest_neighbour/main_nn.cpp
         brute_force/TpsBruteForce.h
         nearest_neighbour/TspNearestNeighbour.cpp
         nearest_neighbour/TspNearestNeighbour.h)
+add_executable(branch_and_bound branch_and_bound/main_bb.cpp
+        AdjMatrix.cpp
+        ConfigManager.cpp
+        ConfigManager.h
+        brute_force/TpsBruteForce.cpp
+        brute_force/TpsBruteForce.h
+        branch_and_bound/main_bb.cpp
+        branch_and_bound/TspBranchAndBound.h
+        branch_and_bound/TspBranchAndBound.cpp)

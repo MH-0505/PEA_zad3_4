@@ -1,5 +1,6 @@
-C:/Users/michal_studia/Desktop/PEA zad1.2/cmake-build-debug/CMakeFiles/brute_force.dir
-C:/Users/michal_studia/Desktop/PEA zad1.2/cmake-build-debug/CMakeFiles/random.dir
-C:/Users/michal_studia/Desktop/PEA zad1.2/cmake-build-debug/CMakeFiles/nearest_neighbour.dir
-C:/Users/michal_studia/Desktop/PEA zad1.2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/michal_studia/Desktop/PEA zad1.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/brute_force.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/random.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/nearest_neighbour.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/branch_and_bound.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,6 @@
+//
+// Created by michal_studia on 18.11.2024.
+//
 #include <iostream>
 #include <vector>
 #include <map>
@@ -6,7 +9,7 @@
 #include <iomanip>
 #include "../AdjMatrix.h"
 #include "../ConfigManager.h"
-#include "TspNearestNeighbour.h"
+#include "TspBranchAndBound.h"
 #include "../brute_force/TpsBruteForce.h"
 
 std::string path_to_string(std::vector<int> results);
@@ -29,12 +32,12 @@ int main() {
             std::vector<int> v = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
             graph.tsp_optimal_weight = v.front();
         }
-        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: nearest-neighbour\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
+        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: branch and bound (\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
         auto start_time = std::chrono::high_resolution_clock::now();
 
-        std::vector<int> results = TspNearestNeighbour::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]),
-                                                                        std::stoi(configuration["starting_node_nn"]),
-                                                                        static_cast<TspNearestNeighbour::EqualWeightPickOrder>(std::stoi(configuration["branches"])));
+        std::vector<int> results = TspBranchAndBound::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]),
+                                                                        std::stoi(configuration["starting_node_bb"]),
+                                                                        static_cast<TspBranchAndBound::SearchType>(std::stoi(configuration["search_type"])));
 
         auto end_time = std::chrono::high_resolution_clock::now();
         auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();
@@ -43,9 +46,9 @@ int main() {
 
         output << "\nplik:" << ";" << filename << "\n"
                << "wynik optymalny:" << ";" << graph.tsp_optimal_weight << "\n"
-                << "wynik algorytmu:" << ";" << results[0] << "\n"
-                << "czas realizacji:" << ";" << time << ";" << "ms\n"
-                << "sciezka:" << ";" << path_to_string(results) << "\n";
+               << "wynik algorytmu:" << ";" << results[0] << "\n"
+               << "czas realizacji:" << ";" << time << ";" << "ms\n"
+               << "sciezka:" << ";" << path_to_string(results) << "\n";
 
         graph.deleteMatrix();
     }
