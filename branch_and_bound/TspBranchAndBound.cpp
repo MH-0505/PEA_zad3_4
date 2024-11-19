@@ -101,16 +101,15 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
     // Tworzenie początkowego węzła
     Node root;
     if(starting_vertex == -1){
-        root.path = {range(gen)};
+        starting_vertex = range(gen);
     } else if(starting_vertex > graph.vertex_count - 1){
-        root.path = {n - 1};
-    } else{
-        root.path = {starting_vertex};
+        starting_vertex = n-1;
     }
+    root.path = {starting_vertex};
     root.reducedMatrix = costMatrix;
     root.cost = reduceMatrix(root.reducedMatrix);
     root.level = 0;
-    root.city = 0;
+    root.city = starting_vertex;
 
     // Wstawienie węzła początkowego do odpowiedniej struktury
     if (searchType == BFS) {
@@ -147,8 +146,8 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
 
         // Jeśli osiągnięto pełną ścieżkę (wszystkie miasta odwiedzone)
         if (current.level == n - 1) {
-            current.path.push_back(0); // Powrót do miasta początkowego
-            int finalCost = current.cost + costMatrix[current.city][starting_vertex];
+            current.path.push_back(root.city); // Powrót do miasta początkowego
+            int finalCost = current.cost + root.reducedMatrix[current.city][root.city];
             if (finalCost < bestCost) {
                 bestCost = finalCost;
                 bestPath = current.path;
@@ -172,7 +171,7 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
                 child.reducedMatrix[nextCity][starting_vertex] = INF;         // Odcinamy powrót do miasta początkowego
 
                 // Obliczenie kosztu
-                child.cost = current.cost + costMatrix[current.city][nextCity] + reduceMatrix(child.reducedMatrix);   // TU COS POJEBANEGO
+                child.cost = current.cost + current.reducedMatrix[current.city][nextCity] + reduceMatrix(child.reducedMatrix);   // TU COS POJEBANEGO
                 child.level = current.level + 1;
                 child.city = nextCity;
 

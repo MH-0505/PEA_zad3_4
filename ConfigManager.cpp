@@ -23,14 +23,23 @@ std::map<std::string, std::string> ConfigManager::load_configuration(const std::
         }
 
         auto equals_sign_pos = line.find('=');
+        auto blank_pos = line.find(' ');
         if(equals_sign_pos != std::string::npos){
             std::string key = line.substr(0,equals_sign_pos);
-            std::string value = line.substr(equals_sign_pos+1);
+            std::string value = line.substr(equals_sign_pos+1, blank_pos);
 
             configuration[key] = value;
         }
     }
     return configuration;
+}
+
+std::string ConfigManager::config_to_string(std::map<std::string, std::string> &configuration){
+    std::string config;
+    for (auto itr = configuration.begin(); itr != configuration.end(); ++itr) {
+        config += itr->first + "=" + itr->second + ", ";
+    }
+    return config;
 }
 
 std::vector<std::string> ConfigManager::parse_filenames(std::map<std::string, std::string> &configuration) {

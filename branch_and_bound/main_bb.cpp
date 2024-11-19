@@ -23,8 +23,10 @@ int main() {
     auto now = std::chrono::system_clock::now();
     std::time_t now_time_t = std::chrono::system_clock::to_time_t(now);
     std::tm* local_time = std::localtime(&now_time_t);
-    output  << "\n\n" << "BADANIE" << ";" << std::put_time(local_time, "%H:%M:%S") << "\n"
-            << "metoda:" << ";" << "nearest-neighbour" << "\n";
+    output  << "\n\n" << "BADANIE;" << std::put_time(local_time, "%H:%M:%S") << "\n"
+            << "metoda:;" << "branch and bound\n"
+            << "konfiguracja:;" << ConfigManager::config_to_string(configuration);
+
 
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
@@ -32,23 +34,27 @@ int main() {
             std::vector<int> v = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
             graph.tsp_optimal_weight = v.front();
         }
-        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: branch and bound (\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
-        auto start_time = std::chrono::high_resolution_clock::now();
+        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: branch and bound \nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
 
-        std::vector<int> results = TspBranchAndBound::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]),
-                                                                        std::stoi(configuration["starting_node_bb"]),
-                                                                        static_cast<TspBranchAndBound::SearchType>(std::stoi(configuration["search_type"])));
+        output << "\n\nplik:;" << filename << "\n"
+               << "wynik optymalny:;" << graph.tsp_optimal_weight << "\n"
+               << "liczba wierzcholkow:;" << graph.vertex_count << "\n"
+               << "iteracja;czas [ms];wynik;sciezka\n";
 
-        auto end_time = std::chrono::high_resolution_clock::now();
-        auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();
 
-        std::cout << "\nCzas realizacji: " << time << " ms\nWynik algorytmu: " << results[0] << "\nWyznaczona sciezka: " << path_to_string(results);
+        for(int i = 1; i <= std::stoi(configuration["iterations"]); i++){
+            auto start_time = std::chrono::high_resolution_clock::now();
+            std::vector<int> results = TspBranchAndBound::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]),
+                                                                          std::stoi(configuration["starting_node_bb"]),
+                                                                          static_cast<TspBranchAndBound::SearchType>(std::stoi(configuration["search_type"])));
 
-        output << "\nplik:" << ";" << filename << "\n"
-               << "wynik optymalny:" << ";" << graph.tsp_optimal_weight << "\n"
-               << "wynik algorytmu:" << ";" << results[0] << "\n"
-               << "czas realizacji:" << ";" << time << ";" << "ms\n"
-               << "sciezka:" << ";" << path_to_string(results) << "\n";
+            auto end_time = std::chrono::high_resolution_clock::now();
+            auto time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time-start_time).count();
+
+            std::cout << "\nIteracja: " << i << "\nCzas realizacji: " << time << " ms\nWynik algorytmu: " << results[0] << "\nWyznaczona sciezka: " << path_to_string(results);
+            output << i << ";" << time << ";" << results[0] << ";" << path_to_string(results)  << "\n";
+        }
+
 
         graph.deleteMatrix();
     }
@@ -62,7 +68,7 @@ std::string path_to_string(std::vector<int> results){
     std::string s;
     for(int i = 1; i < results.size(); i++){
         s += std::to_string(results[i]);
-        s += " -> ";
+        s += " ";
     }
     s += std::to_string(results[1]);
     return s;

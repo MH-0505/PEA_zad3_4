@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PEA_zad1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "branch_and_bound::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-branch_and_bound-Debug-20cfe5842f63407ee599.json",
+					"name" : "branch_and_bound",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "brute_force::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-brute_force-Debug-f313f84ee46e6ffe26dd.json",
+					"name" : "brute_force",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nearest_neighbour::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nearest_neighbour-Debug-f3439a8d2575e9178e75.json",
+					"name" : "nearest_neighbour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "random::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-random-Debug-903449a6831b1d424b52.json",
+					"name" : "random",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/micha/Downloads/PEA zad1.5/cmake-build-debug",
+		"source" : "C:/Users/micha/Downloads/PEA zad1.5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

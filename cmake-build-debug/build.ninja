@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/michal_studia/Desktop/PEA$ zad1.3/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/micha/Downloads/PEA$ zad1.5/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target brute_force
 
@@ -49,29 +49,37 @@ cmake_ninja_workdir = C$:/Users/michal_studia/Desktop/PEA$ zad1.3/cmake-build-de
 
 build cmake_object_order_depends_target_brute_force: phony || CMakeFiles/brute_force.dir
 
-build CMakeFiles/brute_force.dir/brute_force/main_bf.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/brute_force/main_bf.cpp || cmake_object_order_depends_target_brute_force
+build CMakeFiles/brute_force.dir/brute_force/main_bf.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/brute_force/main_bf.cpp || cmake_object_order_depends_target_brute_force
   DEP_FILE = CMakeFiles\brute_force.dir\brute_force\main_bf.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\brute_force.dir
   OBJECT_FILE_DIR = CMakeFiles\brute_force.dir\brute_force
+  TARGET_COMPILE_PDB = CMakeFiles\brute_force.dir\
+  TARGET_PDB = brute_force.pdb
 
-build CMakeFiles/brute_force.dir/AdjMatrix.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/AdjMatrix.cpp || cmake_object_order_depends_target_brute_force
+build CMakeFiles/brute_force.dir/AdjMatrix.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/AdjMatrix.cpp || cmake_object_order_depends_target_brute_force
   DEP_FILE = CMakeFiles\brute_force.dir\AdjMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\brute_force.dir
   OBJECT_FILE_DIR = CMakeFiles\brute_force.dir
+  TARGET_COMPILE_PDB = CMakeFiles\brute_force.dir\
+  TARGET_PDB = brute_force.pdb
 
-build CMakeFiles/brute_force.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_brute_force
+build CMakeFiles/brute_force.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_brute_force
   DEP_FILE = CMakeFiles\brute_force.dir\brute_force\TpsBruteForce.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\brute_force.dir
   OBJECT_FILE_DIR = CMakeFiles\brute_force.dir\brute_force
+  TARGET_COMPILE_PDB = CMakeFiles\brute_force.dir\
+  TARGET_PDB = brute_force.pdb
 
-build CMakeFiles/brute_force.dir/ConfigManager.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/ConfigManager.cpp || cmake_object_order_depends_target_brute_force
+build CMakeFiles/brute_force.dir/ConfigManager.cpp.obj: CXX_COMPILER__brute_force_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/ConfigManager.cpp || cmake_object_order_depends_target_brute_force
   DEP_FILE = CMakeFiles\brute_force.dir\ConfigManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\brute_force.dir
   OBJECT_FILE_DIR = CMakeFiles\brute_force.dir
+  TARGET_COMPILE_PDB = CMakeFiles\brute_force.dir\
+  TARGET_PDB = brute_force.pdb
 
 
 # =============================================================================
@@ -88,9 +96,10 @@ build brute_force.exe: CXX_EXECUTABLE_LINKER__brute_force_Debug CMakeFiles/brute
   OBJECT_DIR = CMakeFiles\brute_force.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\brute_force.dir\
   TARGET_FILE = brute_force.exe
   TARGET_IMPLIB = libbrute_force.dll.a
-  TARGET_PDB = brute_force.exe.dbg
+  TARGET_PDB = brute_force.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target random
@@ -101,35 +110,45 @@ build brute_force.exe: CXX_EXECUTABLE_LINKER__brute_force_Debug CMakeFiles/brute
 
 build cmake_object_order_depends_target_random: phony || CMakeFiles/random.dir
 
-build CMakeFiles/random.dir/random/main_r.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/random/main_r.cpp || cmake_object_order_depends_target_random
+build CMakeFiles/random.dir/random/main_r.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/random/main_r.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\random\main_r.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir\random
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
+  TARGET_PDB = random.pdb
 
-build CMakeFiles/random.dir/AdjMatrix.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/AdjMatrix.cpp || cmake_object_order_depends_target_random
+build CMakeFiles/random.dir/AdjMatrix.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/AdjMatrix.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\AdjMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
+  TARGET_PDB = random.pdb
 
-build CMakeFiles/random.dir/random/TpsRandom.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/random/TpsRandom.cpp || cmake_object_order_depends_target_random
+build CMakeFiles/random.dir/random/TpsRandom.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/random/TpsRandom.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\random\TpsRandom.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir\random
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
+  TARGET_PDB = random.pdb
 
-build CMakeFiles/random.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_random
+build CMakeFiles/random.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\brute_force\TpsBruteForce.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir\brute_force
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
+  TARGET_PDB = random.pdb
 
-build CMakeFiles/random.dir/ConfigManager.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/ConfigManager.cpp || cmake_object_order_depends_target_random
+build CMakeFiles/random.dir/ConfigManager.cpp.obj: CXX_COMPILER__random_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/ConfigManager.cpp || cmake_object_order_depends_target_random
   DEP_FILE = CMakeFiles\random.dir\ConfigManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\random.dir
   OBJECT_FILE_DIR = CMakeFiles\random.dir
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
+  TARGET_PDB = random.pdb
 
 
 # =============================================================================
@@ -146,9 +165,10 @@ build random.exe: CXX_EXECUTABLE_LINKER__random_Debug CMakeFiles/random.dir/rand
   OBJECT_DIR = CMakeFiles\random.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\random.dir\
   TARGET_FILE = random.exe
   TARGET_IMPLIB = librandom.dll.a
-  TARGET_PDB = random.exe.dbg
+  TARGET_PDB = random.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target nearest_neighbour
@@ -159,35 +179,45 @@ build random.exe: CXX_EXECUTABLE_LINKER__random_Debug CMakeFiles/random.dir/rand
 
 build cmake_object_order_depends_target_nearest_neighbour: phony || CMakeFiles/nearest_neighbour.dir
 
-build CMakeFiles/nearest_neighbour.dir/nearest_neighbour/main_nn.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/nearest_neighbour/main_nn.cpp || cmake_object_order_depends_target_nearest_neighbour
+build CMakeFiles/nearest_neighbour.dir/nearest_neighbour/main_nn.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/nearest_neighbour/main_nn.cpp || cmake_object_order_depends_target_nearest_neighbour
   DEP_FILE = CMakeFiles\nearest_neighbour.dir\nearest_neighbour\main_nn.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   OBJECT_FILE_DIR = CMakeFiles\nearest_neighbour.dir\nearest_neighbour
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
+  TARGET_PDB = nearest_neighbour.pdb
 
-build CMakeFiles/nearest_neighbour.dir/AdjMatrix.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/AdjMatrix.cpp || cmake_object_order_depends_target_nearest_neighbour
+build CMakeFiles/nearest_neighbour.dir/AdjMatrix.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/AdjMatrix.cpp || cmake_object_order_depends_target_nearest_neighbour
   DEP_FILE = CMakeFiles\nearest_neighbour.dir\AdjMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   OBJECT_FILE_DIR = CMakeFiles\nearest_neighbour.dir
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
+  TARGET_PDB = nearest_neighbour.pdb
 
-build CMakeFiles/nearest_neighbour.dir/ConfigManager.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/ConfigManager.cpp || cmake_object_order_depends_target_nearest_neighbour
+build CMakeFiles/nearest_neighbour.dir/ConfigManager.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/ConfigManager.cpp || cmake_object_order_depends_target_nearest_neighbour
   DEP_FILE = CMakeFiles\nearest_neighbour.dir\ConfigManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   OBJECT_FILE_DIR = CMakeFiles\nearest_neighbour.dir
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
+  TARGET_PDB = nearest_neighbour.pdb
 
-build CMakeFiles/nearest_neighbour.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_nearest_neighbour
+build CMakeFiles/nearest_neighbour.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_nearest_neighbour
   DEP_FILE = CMakeFiles\nearest_neighbour.dir\brute_force\TpsBruteForce.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   OBJECT_FILE_DIR = CMakeFiles\nearest_neighbour.dir\brute_force
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
+  TARGET_PDB = nearest_neighbour.pdb
 
-build CMakeFiles/nearest_neighbour.dir/nearest_neighbour/TspNearestNeighbour.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/nearest_neighbour/TspNearestNeighbour.cpp || cmake_object_order_depends_target_nearest_neighbour
+build CMakeFiles/nearest_neighbour.dir/nearest_neighbour/TspNearestNeighbour.cpp.obj: CXX_COMPILER__nearest_neighbour_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/nearest_neighbour/TspNearestNeighbour.cpp || cmake_object_order_depends_target_nearest_neighbour
   DEP_FILE = CMakeFiles\nearest_neighbour.dir\nearest_neighbour\TspNearestNeighbour.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   OBJECT_FILE_DIR = CMakeFiles\nearest_neighbour.dir\nearest_neighbour
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
+  TARGET_PDB = nearest_neighbour.pdb
 
 
 # =============================================================================
@@ -204,9 +234,10 @@ build nearest_neighbour.exe: CXX_EXECUTABLE_LINKER__nearest_neighbour_Debug CMak
   OBJECT_DIR = CMakeFiles\nearest_neighbour.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\nearest_neighbour.dir\
   TARGET_FILE = nearest_neighbour.exe
   TARGET_IMPLIB = libnearest_neighbour.dll.a
-  TARGET_PDB = nearest_neighbour.exe.dbg
+  TARGET_PDB = nearest_neighbour.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target branch_and_bound
@@ -217,35 +248,45 @@ build nearest_neighbour.exe: CXX_EXECUTABLE_LINKER__nearest_neighbour_Debug CMak
 
 build cmake_object_order_depends_target_branch_and_bound: phony || CMakeFiles/branch_and_bound.dir
 
-build CMakeFiles/branch_and_bound.dir/branch_and_bound/main_bb.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/branch_and_bound/main_bb.cpp || cmake_object_order_depends_target_branch_and_bound
+build CMakeFiles/branch_and_bound.dir/branch_and_bound/main_bb.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/branch_and_bound/main_bb.cpp || cmake_object_order_depends_target_branch_and_bound
   DEP_FILE = CMakeFiles\branch_and_bound.dir\branch_and_bound\main_bb.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   OBJECT_FILE_DIR = CMakeFiles\branch_and_bound.dir\branch_and_bound
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
+  TARGET_PDB = branch_and_bound.pdb
 
-build CMakeFiles/branch_and_bound.dir/AdjMatrix.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/AdjMatrix.cpp || cmake_object_order_depends_target_branch_and_bound
+build CMakeFiles/branch_and_bound.dir/AdjMatrix.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/AdjMatrix.cpp || cmake_object_order_depends_target_branch_and_bound
   DEP_FILE = CMakeFiles\branch_and_bound.dir\AdjMatrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   OBJECT_FILE_DIR = CMakeFiles\branch_and_bound.dir
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
+  TARGET_PDB = branch_and_bound.pdb
 
-build CMakeFiles/branch_and_bound.dir/ConfigManager.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/ConfigManager.cpp || cmake_object_order_depends_target_branch_and_bound
+build CMakeFiles/branch_and_bound.dir/ConfigManager.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/ConfigManager.cpp || cmake_object_order_depends_target_branch_and_bound
   DEP_FILE = CMakeFiles\branch_and_bound.dir\ConfigManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   OBJECT_FILE_DIR = CMakeFiles\branch_and_bound.dir
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
+  TARGET_PDB = branch_and_bound.pdb
 
-build CMakeFiles/branch_and_bound.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_branch_and_bound
+build CMakeFiles/branch_and_bound.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/brute_force/TpsBruteForce.cpp || cmake_object_order_depends_target_branch_and_bound
   DEP_FILE = CMakeFiles\branch_and_bound.dir\brute_force\TpsBruteForce.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   OBJECT_FILE_DIR = CMakeFiles\branch_and_bound.dir\brute_force
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
+  TARGET_PDB = branch_and_bound.pdb
 
-build CMakeFiles/branch_and_bound.dir/branch_and_bound/TspBranchAndBound.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad1.3/branch_and_bound/TspBranchAndBound.cpp || cmake_object_order_depends_target_branch_and_bound
+build CMakeFiles/branch_and_bound.dir/branch_and_bound/TspBranchAndBound.cpp.obj: CXX_COMPILER__branch_and_bound_unscanned_Debug C$:/Users/micha/Downloads/PEA$ zad1.5/branch_and_bound/TspBranchAndBound.cpp || cmake_object_order_depends_target_branch_and_bound
   DEP_FILE = CMakeFiles\branch_and_bound.dir\branch_and_bound\TspBranchAndBound.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   OBJECT_FILE_DIR = CMakeFiles\branch_and_bound.dir\branch_and_bound
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
+  TARGET_PDB = branch_and_bound.pdb
 
 
 # =============================================================================
@@ -262,16 +303,17 @@ build branch_and_bound.exe: CXX_EXECUTABLE_LINKER__branch_and_bound_Debug CMakeF
   OBJECT_DIR = CMakeFiles\branch_and_bound.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\branch_and_bound.dir\
   TARGET_FILE = branch_and_bound.exe
   TARGET_IMPLIB = libbranch_and_bound.dll.a
-  TARGET_PDB = branch_and_bound.exe.dbg
+  TARGET_PDB = branch_and_bound.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\michal_studia\Desktop\PEA zad1.3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\micha\Downloads\PEA zad1.5\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -282,7 +324,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\michal_studia\Desktop\PEA zad1.3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\michal_studia\Desktop\PEA zad1.3" -B"C:\Users\michal_studia\Desktop\PEA zad1.3\cmake-build-debug""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\micha\Downloads\PEA zad1.5\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\micha\Downloads\PEA zad1.5" -B"C:\Users\micha\Downloads\PEA zad1.5\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -306,7 +348,7 @@ build random: phony random.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/michal_studia/Desktop/PEA zad1.3/cmake-build-debug
+# Folder: C:/Users/micha/Downloads/PEA zad1.5/cmake-build-debug
 
 build all: phony brute_force.exe random.exe nearest_neighbour.exe branch_and_bound.exe
 
@@ -317,14 +359,14 @@ build all: phony brute_force.exe random.exe nearest_neighbour.exe branch_and_bou
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/michal_studia/Desktop/PEA$ zad1.3/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/micha/Downloads/PEA$ zad1.5/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/michal_studia/Desktop/PEA$ zad1.3/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/micha/Downloads/PEA$ zad1.5/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

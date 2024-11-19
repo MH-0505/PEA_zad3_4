@@ -10,6 +10,7 @@ class ConfigManager {
 public:
     static std::map<std::string, std::string> load_configuration(const std::string& filename);
     static std::vector<std::string> parse_filenames(std::map<std::string, std::string>& configuration);
+    static std::string config_to_string(std::map<std::string, std::string> &configuration);
 };
 
 
