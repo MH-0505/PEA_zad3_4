@@ -14,9 +14,9 @@
 #include <chrono>
 
 
-std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, int num_ants, double alpha, double beta, double evaporation_rate, double pheromone_quantity, int max_iterations, int dorigo_alg) {
+std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, int ants_number, double alpha, double beta, double evaporation_rate, double pheromone_quantity, int max_iterations, int dorigo_alg) {
     int n = graph.vertex_count;
-
+    int num_ants = ants_number;
     // Initialize pheromone levels
     std::vector<std::vector<double>> pheromone(n, std::vector<double>(n, 1.0));
 
@@ -28,6 +28,10 @@ std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, i
     // Best solution tracking
     std::vector<int> best_solution;
     int best_cost = std::numeric_limits<int>::max();
+
+    if(num_ants == -1){
+        num_ants = graph.vertex_count;
+    }
 
     auto start = std::chrono::steady_clock::now();
 

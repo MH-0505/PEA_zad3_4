@@ -17,7 +17,7 @@ int main() {
     std::vector<std::string> filenames = ConfigManager::parse_filenames(configuration);
     AdjMatrix graph{};
     std::fstream output;
-    output.open("output_sa.csv", std::ios::app);
+    output.open("output_as.csv", std::ios::app);
     auto now = std::chrono::system_clock::now();
     std::time_t now_time_t = std::chrono::system_clock::to_time_t(now);
     std::tm* local_time = std::localtime(&now_time_t);
@@ -28,11 +28,8 @@ int main() {
 
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
-        if(graph.tsp_optimal_weight == -1){
-            std::vector<int> v = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
-            graph.tsp_optimal_weight = v.front();
-        }
-        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: simulated annealing\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
+
+        std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: ant system\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
         output.open("output_sa.csv", std::ios::app);
         output << "\n\nplik:;" << filename << "\n"
                << "wynik optymalny:;" << graph.tsp_optimal_weight << "\n"
@@ -46,9 +43,14 @@ int main() {
         for(int i = 1; i <= iterations; i++){
             auto start_time = std::chrono::high_resolution_clock::now();
 
-
-
-            std::vector<int> results = TspAntSystem::startAlgorithm(graph, std::stoi(configuration["max_exec_time_s"]), 6, 1.0, 3.0, 0.5, 100, 100000000, 0);
+            std::vector<int> results = TspAntSystem::startAlgorithm(graph, std::stoi(configuration["max_exec_time_s"]),
+                                                                    std::stoi(configuration["num_ants"]),
+                                                                    std::stod(configuration["alpha"]),
+                                                                    std::stod(configuration["beta"]),
+                                                                    std::stod(configuration["evaporation_rate"]),
+                                                                    std::stoi(configuration["pheromone_quantity"]),
+                                                                    std::stoi(configuration["alg_iterations"]),
+                                                                    std::stoi(configuration["dorigo_alg"]));
 
             auto end_time = std::chrono::high_resolution_clock::now();
             auto time = std::chrono::duration_cast<std::chrono::microseconds >(end_time-start_time).count();
