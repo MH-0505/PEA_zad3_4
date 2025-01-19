@@ -1,0 +1,11 @@
+input_files=g/gr6.txt
+max_exec_time_s=10
+iterations=10
+initial_temperature=1000.0
+minimum_temperature=0.000001
+cooling_rate=0.99
+sa_iterations=1000000000
+epoch=1
+annealing_mode=0                # 0 - wyżarzanie geometryczne, 1 - wyżarzanie logarytmiczne
+solution_gen_mode=0             # 0 - zamiana miejscami dwóch losowowych wierzchołków, 1 - losowe przetasowanie wierzchołków między nimi
+random_start_path=0             # 0 - początkowa ścieżka wyznaczona przez alg. nn, 1 - wygenerowana losowo

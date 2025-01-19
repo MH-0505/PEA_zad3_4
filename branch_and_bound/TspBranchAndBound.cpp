@@ -14,29 +14,34 @@ using namespace std;
 
 const int INF = numeric_limits<int>::max();
 
-// Struktura reprezentująca węzeł drzewa przeszukiwania
-struct Node {
-    vector<int> path;       // Odwiedzona ścieżka (kolejność miast)
-    vector<vector<int>> reducedMatrix; // Zredukowana macierz kosztów
-    int cost;               // Koszt częściowej ścieżki
-    int level;              // Poziom węzła (liczba odwiedzonych miast)
-    int city;               // Ostatnio odwiedzone miasto
+int path_cost(std::vector<int> &path, AdjMatrix &graph){
+    int cost = 0;
+    for(int i = 0; i < graph.vertex_count ; i++){
+        cost += graph.matrix[path[i]][path[i+1]];
+    }
+    return cost;
+}
 
-    // Operator porównania do kolejki priorytetowej (dla najmniejszego kosztu)
+struct Node {
+    vector<int> path;
+    vector<vector<int>> reducedMatrix;
+    int cost;
+    int level;
+    int vertex_index;
+
     bool operator<(const Node& other) const {
         return cost > other.cost;
     }
 };
 
-// Funkcja pomocnicza do przetwarzania macierzy sąsiedztwa
 vector<vector<int>> initiateCostMatrix(AdjMatrix& graph) {
     int n = graph.vertex_count;
     vector<vector<int>> costMatrix(n, vector<int> (n, 0));
 
     for(int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            if (graph.matrix[i][j] == -1 || graph.matrix[i][j] == 0) {
-                costMatrix[i][j] = INF;     // Brak krawędzi oznaczony jako INF
+            if (graph.matrix[i][j] == -1) {
+                costMatrix[i][j] = INF;
             } else {
                 costMatrix[i][j] = graph.matrix[i][j];
             }
@@ -45,11 +50,9 @@ vector<vector<int>> initiateCostMatrix(AdjMatrix& graph) {
     return costMatrix;
 }
 
-// Funkcja pomocnicza do redukcji macierzy kosztów
 int reduceMatrix(vector<vector<int>>& matrix) {
     int reductionCost = 0;
 
-    // Redukcja wierszy
     for (int i = 0; i < matrix.size(); i++) {
         int rowMin = INF;
         for (int j = 0; j < matrix.size(); j++) {
@@ -63,7 +66,6 @@ int reduceMatrix(vector<vector<int>>& matrix) {
         }
     }
 
-    // Redukcja kolumn
     for (int j = 0; j < matrix.size(); j++) {
         int colMin = INF;
         for (int i = 0; i < matrix.size(); i++) {
@@ -80,25 +82,23 @@ int reduceMatrix(vector<vector<int>>& matrix) {
     return reductionCost;
 }
 
-// Funkcja Branch and Bound do rozwiązania problemu TSP
 std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_time, int starting_vertex, SearchType searchType) {
     std::vector<int> results;
-    vector<vector<int>> costMatrix = initiateCostMatrix(graph); // Przetwarzamy macierz, zamieniając -1 na INF
+    vector<vector<int>> costMatrix = initiateCostMatrix(graph);
 
     int n = graph.vertex_count;
     int bestCost = INF;
     vector<int> bestPath;
 
-    // Struktury danych do różnych metod przeszukiwania
-    queue<Node> bfsQueue;                // Kolejka FIFO dla BFS
-    stack<Node> dfsStack;                // Stos LIFO dla DFS
-    priority_queue<Node> priorityQueue; // Kolejka priorytetowa dla Lowest Cost First
+    queue<Node> bfsQueue;
+    stack<Node> dfsStack;
+    priority_queue<Node> priorityQueue;
 
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> range(0, n - 1);
     
-    // Tworzenie początkowego węzła
+
     Node root;
     if(starting_vertex == -1){
         starting_vertex = range(gen);
@@ -109,9 +109,8 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
     root.reducedMatrix = costMatrix;
     root.cost = reduceMatrix(root.reducedMatrix);
     root.level = 0;
-    root.city = starting_vertex;
+    root.vertex_index = starting_vertex;
 
-    // Wstawienie węzła początkowego do odpowiedniej struktury
     if (searchType == BFS) {
         bfsQueue.push(root);
     } else if (searchType == DFS) {
@@ -121,13 +120,12 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
     }
 
     auto start = std::chrono::steady_clock::now();
-    // Przeszukiwanie
+
     while (((!bfsQueue.empty() && searchType == BFS) ||
            (!dfsStack.empty() && searchType == DFS) ||
            (!priorityQueue.empty() && searchType == LOWEST_COST)) &&
             (std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time)) {
 
-        // Wybór węzła w zależności od metody przeszukiwania
         Node current;
         switch (searchType) {
             case DFS:
@@ -144,10 +142,10 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
                 break;
         }
 
-        // Jeśli osiągnięto pełną ścieżkę (wszystkie miasta odwiedzone)
         if (current.level == n - 1) {
-            current.path.push_back(root.city); // Powrót do miasta początkowego
-            int finalCost = current.cost + root.reducedMatrix[current.city][root.city];
+            current.path.push_back(root.vertex_index);
+            //int finalCost = current.cost + root.reducedMatrix[current.vertex_index][root.vertex_index];
+            int finalCost = path_cost(current.path, graph);
             if (finalCost < bestCost) {
                 bestCost = finalCost;
                 bestPath = current.path;
@@ -155,27 +153,23 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
             continue;
         }
 
-        // Generowanie dzieci (kolejnych miast do odwiedzenia)
-        for (int nextCity = 0; nextCity < n; nextCity++) {
-            if (find(current.path.begin(), current.path.end(), nextCity) == current.path.end()) {
+        for (int next_vertex = 0; next_vertex < n; next_vertex++) {
+            if (find(current.path.begin(), current.path.end(), next_vertex) == current.path.end()) {
                 Node child;
                 child.path = current.path;
-                child.path.push_back(nextCity);
+                child.path.push_back(next_vertex);
                 child.reducedMatrix = current.reducedMatrix;
 
-                // Aktualizacja macierzy kosztów
                 for (int i = 0; i < n; i++) {
-                    child.reducedMatrix[current.city][i] = INF; // Odcinamy wiersz
-                    child.reducedMatrix[i][nextCity] = INF;     // Odcinamy kolumnę
+                    child.reducedMatrix[current.vertex_index][i] = INF;
+                    child.reducedMatrix[i][next_vertex] = INF;
                 }
-                child.reducedMatrix[nextCity][starting_vertex] = INF;         // Odcinamy powrót do miasta początkowego
+                child.reducedMatrix[next_vertex][root.vertex_index] = INF;
 
-                // Obliczenie kosztu
-                child.cost = current.cost + current.reducedMatrix[current.city][nextCity] + reduceMatrix(child.reducedMatrix);   // TU COS POJEBANEGO
+                child.cost = current.cost + current.reducedMatrix[current.vertex_index][next_vertex] + reduceMatrix(child.reducedMatrix);
                 child.level = current.level + 1;
-                child.city = nextCity;
+                child.vertex_index = next_vertex;
 
-                // Dodanie dziecka do odpowiedniej struktury
                 if (child.cost < bestCost) {
                     switch (searchType) {
                         case DFS:
@@ -200,4 +194,5 @@ std::vector<int> TspBranchAndBound::start_algorithm(AdjMatrix& graph, int exec_t
 
     return results;
 }
+
 

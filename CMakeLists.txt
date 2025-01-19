@@ -35,3 +35,21 @@ add_executable(branch_and_bound branch_and_bound/main_bb.cpp
         branch_and_bound/main_bb.cpp
         branch_and_bound/TspBranchAndBound.h
         branch_and_bound/TspBranchAndBound.cpp)
+add_executable(simulated_annealing simulated_annealing/main_sa.cpp
+        simulated_annealing/TspSA.cpp
+        simulated_annealing/TspSA.h
+        AdjMatrix.cpp
+        ConfigManager.cpp
+        ConfigManager.h
+        brute_force/TpsBruteForce.cpp
+        brute_force/TpsBruteForce.h
+        nearest_neighbour/TspNearestNeighbour.cpp
+        nearest_neighbour/TspNearestNeighbour.h)
+add_executable(ant_system ant_system/main_as.cpp
+        ant_system/TspAntSystem.cpp
+        ant_system/TspAntSystem.h
+        AdjMatrix.cpp
+        ConfigManager.cpp
+        ConfigManager.h
+        brute_force/TpsBruteForce.cpp
+        brute_force/TpsBruteForce.h)

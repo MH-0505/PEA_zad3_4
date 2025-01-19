@@ -1,12 +1,11 @@
-input_files=g4.txt
-output_file=output.csv
-max_exec_time_s=36000
-iterations=10
+input_files=g/gr16.txt
+max_exec_time_s=10
+iterations=1
 
 # NEAREST NEIGHBOUR
 starting_node_nn=-1          # wartość -1 oznacza losowy wybór, wartość równa lub wyższa liczbie wierzchołków grafu oznacza wierzchołek ostatni
-branches=3                   # obsługa rozgałęzień, (0-wybierz pierwszy wierzchołek, 1-ostatni, 2-losowy, 3-sprawdź wszystkie rozgałęzienia)
+branches=3                  # obsługa rozgałęzień, (0-wybierz pierwszy wierzchołek, 1-ostatni, 2-losowy, 3-sprawdź wszystkie rozgałęzienia)
 
 # BRANCH AND BOUND
-starting_node_bb=-1          # wartości takie same jak w nearest neighbour
-search_type=0                # sposób przeszukiwania (0-DFS, 1-BFS, 2-LOWEST COST FIRST)
+starting_node_bb=-1          # wartości takie same jak dla nearest neighbour
+search_type=2             # sposób przeszukiwania (0-DFS, 1-BFS, 2-LOWEST COST FIRST)
