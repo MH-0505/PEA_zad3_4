@@ -14,8 +14,6 @@
 #include "../AdjMatrix.h"
 #include "../nearest_neighbour/TspNearestNeighbour.h"
 
-// o co chodzi z epokami, dodać dodatkowy sposób wyżarzania oprócz e^x np. logarytmiczne,
-// dodać możliwosc losowej sciezki poczatkowej, dodać coś więcej oprócz swapa, dodać warunek stopu na podstawie iteracji
 
 int TspSA::calculateRouteCost(AdjMatrix& graph, const std::vector<int>& route) {
     int cost = 0;
