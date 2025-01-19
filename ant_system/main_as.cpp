@@ -9,8 +9,10 @@
 #include "../ConfigManager.h"
 #include "../brute_force/TpsBruteForce.h"
 #include "TspAntSystem.h"
+#include "../TsplibParser.h"
 
 std::string path_to_string(std::vector<int> results);
+int checkFileExtension(const std::string& filename);
 
 int main() {
     std::map<std::string, std::string> configuration = ConfigManager::load_configuration("config_as.txt");
@@ -27,7 +29,16 @@ int main() {
     output.close();
 
     for(const std::string& filename: filenames){
-        graph.loadGraph(filename);
+        int filetype = checkFileExtension(filename);
+        if(filetype == 0 ){
+            graph.loadGraph(filename);
+        }else if(filetype == 1){
+            TsplibParser::parseTSPFile(graph, filename);
+        }else if(filetype == -1){
+            std::cout << "\nBLEDNY PLIK\n";
+            continue;
+        }
+
 
         std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: ant system\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
         output.open("output_sa.csv", std::ios::app);
@@ -92,4 +103,11 @@ std::string path_to_string(std::vector<int> results){
     }
     s += std::to_string(results[1]);
     return s;
+}
+
+int checkFileExtension(const std::string& filename) {
+    std::string lastThree = filename.substr(filename.size() - 3);
+    if(lastThree == "txt") return 0;
+    else if(lastThree == "tsp") return 1;
+    else return -1;
 }

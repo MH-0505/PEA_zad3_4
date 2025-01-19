@@ -1015,3 +1015,202 @@ iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
 10;41;132;133;-13300;1 2 3 4 5 0 1
 sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
 104;166.1;332.2;-33220
+
+
+plik:;ftv44.atsp
+wynik optymalny:;0
+liczba wierzcholkow:;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1103;2147483647;2147483647;inf; 
+2;30;2147483647;2147483647;inf; 
+3;40;2147483647;2147483647;inf; 
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+391;7.15828e+08;1.43166e+09;inf
+
+
+plik:;ftv44.atsp
+wynik optymalny:;0
+liczba wierzcholkow:;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1311;2147483647;2147483647;inf; 
+2;48;2147483647;2147483647;inf; 
+3;43;2147483647;2147483647;inf; 
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+467;7.15828e+08;1.43166e+09;inf
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;17464;4306;2693;166.956;14 13 28 25 24 15 2 3 26 30 29 31 39 41 5 20 7 44 4 0 19 18 17 23 27 32 37 34 38 35 22 12 1 6 40 43 10 11 33 36 8 9 21 42 16 14
+2;10303;4438;2825;175.139;36 29 30 24 17 16 22 12 15 13 20 11 10 26 21 32 23 42 6 41 39 40 8 43 14 19 28 33 44 3 4 18 31 0 2 38 5 35 25 1 9 7 34 27 37 36
+3;12766;3960;2347;145.505;7 15 16 17 34 2 21 0 1 3 29 22 11 13 5 14 10 43 19 20 44 4 39 12 26 33 36 31 30 32 38 37 6 9 8 40 27 28 41 35 25 42 23 24 18 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+13511;2621.67;5243.33;325.067
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;18605;4408;2795;173.28;34 19 22 14 6 41 4 10 37 2 26 27 18 16 17 35 32 15 40 28 39 31 44 29 25 42 23 43 1 5 0 21 20 7 8 9 33 36 38 3 11 30 24 12 13 34
+2;16674;4085;2472;153.255;29 23 24 33 32 5 18 22 13 7 42 25 27 28 26 30 1 10 12 9 8 15 20 2 3 41 6 39 34 37 0 31 21 14 17 40 35 38 44 36 4 19 43 11 16 29
+3;14710;4252;2639;163.608;18 13 17 11 12 21 28 35 32 3 41 39 38 44 29 25 27 26 23 14 5 30 1 0 15 31 4 6 7 10 9 20 19 2 42 37 16 43 40 33 34 36 22 8 24 18
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+16663;2635.33;5270.67;326.762
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;16296;4242;2629;162.988;39 40 41 30 11 18 37 5 3 22 27 42 23 26 25 1 44 38 35 2 32 28 15 43 14 7 9 10 19 21 0 29 31 24 33 6 4 8 16 17 12 13 20 36 34 39
+2;14757;4250;2637;163.484;44 3 41 7 42 26 22 23 43 11 21 0 1 37 30 5 24 20 18 14 10 12 17 15 4 28 25 27 32 38 6 2 8 9 40 33 34 36 31 35 39 19 29 13 16 44
+3;23617;4061;2448;151.767;27 32 36 38 39 41 44 2 15 13 7 11 14 24 29 35 37 43 12 3 4 5 6 10 17 25 28 33 40 9 19 0 1 22 23 21 18 16 31 30 20 8 42 26 34 27
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+18223;2571.33;5142.67;318.826
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;101005773;1772;159;9.85741;19 21 0 31 30 29 24 42 23 22 18 16 17 15 12 13 14 43 11 10 1 2 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 20 7 9 8 41 6 39 40 19
+2;101010493;1875;262;16.243;40 6 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 14 43 11 12 13 15 23 24 42 19 21 1 2 31 30 29 22 18 16 17 20 10 7 9 8 41 39 40
+3;101000253;1823;210;13.0192;35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 20 11 10 43 12 13 14 15 17 18 16 21 0 31 30 29 24 42 23 22 19 1 2 39 40 41 6 7 9 8 35
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+101005506;210.333;420.667;26.0798
+
+
+BADANIE;00:24:58
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;493291;2059;446;27.6503;28 32 33 27 26 42 18 16 17 0 21 19 14 10 43 11 12 13 15 23 24 22 31 1 3 6 39 40 34 35 36 37 38 44 20 7 9 8 41 4 5 2 30 29 25 28
+2;276674;2002;389;24.1166;39 40 36 34 35 31 32 28 25 26 42 23 22 14 20 9 8 41 44 3 4 5 0 1 2 6 7 10 12 13 15 17 18 16 43 11 19 21 30 29 24 27 33 37 38 39
+3;224974;2014;401;24.8605;44 3 41 6 7 9 8 40 39 38 32 33 34 35 31 30 29 27 28 36 37 4 1 2 5 0 19 14 15 17 20 10 43 11 12 13 16 18 42 23 25 26 24 22 21 44
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+331646;412;824;51.0849
+
+
+BADANIE;00:25:39
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=10000, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+BADANIE;00:25:40
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=10000, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;27340832;1821;208;12.8952;4 5 0 21 31 30 29 28 32 35 1 2 44 39 40 41 6 8 9 19 20 7 10 14 43 11 12 13 15 16 17 22 18 42 23 24 25 26 27 33 34 36 37 38 3 4
+2;26788303;1656;43;2.66584;11 12 13 15 17 14 20 7 9 8 40 39 38 35 32 28 25 26 27 33 34 36 37 44 3 4 6 41 5 19 21 0 1 2 31 30 29 24 42 23 22 18 16 10 43 11
+3;26854696;1740;127;7.87353;4 5 1 2 31 0 21 19 20 7 9 8 40 41 6 39 35 32 28 26 42 23 22 18 16 17 15 14 10 43 11 12 13 30 29 24 25 27 33 34 36 37 38 44 3 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+26994610;126;252;15.6231
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;27266696;1731;118;7.31556;6 7 9 8 41 39 40 34 35 32 33 27 28 25 26 42 23 24 22 18 16 17 14 19 20 10 43 11 12 13 15 21 31 30 29 36 37 38 44 3 4 5 0 1 2 6
+2;26964222;1776;163;10.1054;40 41 39 38 4 5 21 0 1 2 31 30 29 22 15 16 18 42 23 24 25 26 27 33 34 35 32 28 36 37 44 3 6 7 10 43 11 12 13 17 14 19 20 9 8 40
+3;26705166;1801;188;11.6553;24 23 22 14 21 19 20 7 9 8 4 5 0 31 1 2 35 32 28 30 29 25 27 33 34 36 37 38 44 3 39 40 41 6 10 43 11 12 13 15 16 17 18 42 26 24
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+26978694;156.333;312.667;19.3842
+
+
+BADANIE;00:27:34
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;318031;1989;376;23.3106;40 39 35 32 22 15 16 18 42 23 24 26 27 33 34 31 30 29 25 28 36 37 38 44 3 4 5 1 2 6 41 0 43 11 12 13 17 14 19 21 20 10 7 9 8 40
+2;227072;1898;285;17.6689;43 11 10 14 21 0 1 2 5 20 7 9 8 40 39 38 44 3 4 6 41 35 32 28 29 24 22 23 25 26 27 33 34 36 37 31 30 42 18 16 17 15 13 12 19 43
+3;228086;1972;359;22.2567;29 25 26 27 28 32 33 34 36 37 4 20 7 10 43 11 12 13 31 2 5 21 19 14 15 16 17 18 42 23 24 22 0 1 44 39 38 3 41 6 9 8 40 35 30 29
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+257729;340;680;42.1575
+
+
+BADANIE;00:27:55
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=1               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+BADANIE;00:29:52
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;288777;1844;231;14.3211;21 0 1 2 5 20 7 9 8 40 39 38 44 3 4 6 41 35 32 28 29 24 22 23 25 26 27 33 34 36 37 31 30 42 18 16 17 14 43 11 10 12 13 15 19 21
+2;224640;1929;316;19.5908;39 38 44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 7 9 8 40 41 6 10 11 12 13 15 17 14 43 16 18 42 33 34 36 37 39
+3;234812;1911;298;18.4749;34 35 31 22 18 16 17 15 12 13 14 21 1 2 5 20 43 11 10 19 0 30 29 32 28 25 26 42 23 24 27 33 36 37 39 38 44 3 4 41 6 7 9 8 40 34
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+249409;281.667;563.333;34.9246
+
+
+BADANIE;00:30:46
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=1             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;492080;2063;450;27.8983;34 35 32 28 29 24 22 23 25 26 27 33 36 37 38 44 3 4 5 2 31 30 42 18 16 17 14 43 11 10 7 9 8 40 39 41 6 0 21 19 20 12 13 15 1 34
+2;486052;2062;449;27.8363;14 43 11 10 7 9 8 40 39 38 44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 12 13 15 17 18 42 33 34 36 37 41 6 16 14
+3;450323;1948;335;20.7688;44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 7 9 8 40 39 38 41 6 10 11 12 13 15 17 14 43 16 18 42 33 34 36 37 44
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+476151;411.333;822.667;51.0023
+
+
+BADANIE;00:31:02
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.99, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=1             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;501606;2036;423;26.2244;15 17 14 43 11 10 7 9 8 40 39 38 44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 12 13 16 18 42 33 34 36 37 41 6 15
+2;537069;1924;311;19.2808;31 30 29 24 22 23 25 26 27 28 32 35 1 2 5 0 21 19 20 7 9 8 40 39 38 44 3 4 6 41 10 11 12 13 15 17 14 43 16 18 42 33 34 36 37 31
+3;506552;2186;573;35.5239;12 13 15 17 14 43 11 10 7 9 8 40 39 38 44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 41 6 34 36 37 33 42 18 16 12
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+515075;435.667;871.333;54.0194
+
+
+BADANIE;00:31:56
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=0               , cooling_rate=0.50, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5300;2186;573;35.5239;12 13 15 17 14 43 11 10 7 9 8 40 39 38 44 3 4 5 2 31 30 29 24 22 23 25 26 27 28 32 35 1 0 21 19 20 41 6 34 36 37 33 42 18 16 12
+2;5358;2122;509;31.5561;29 24 22 23 25 26 27 28 32 35 31 30 36 37 38 44 3 4 5 2 0 21 19 20 7 9 8 40 39 41 6 10 11 12 13 15 17 14 43 16 18 42 1 33 34 29
+3;5987;2215;602;37.3218;8 9 7 10 11 12 13 15 17 14 43 21 0 1 2 5 20 19 31 30 29 24 22 23 25 26 27 28 32 35 38 44 3 4 6 41 39 40 36 37 33 34 42 18 16 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+5548;561.333;1122.67;69.6012
+
+
+BADANIE;00:32:13
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=1               , cooling_rate=0.50, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 
+
+BADANIE;00:32:14
+metoda:;simulated annealing
+konfiguracja:;annealing_mode=1               , cooling_rate=0.50, epoch=100, initial_temperature=1000.0, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, minimum_temperature=0.000001, random_start_path=0             # 0 -, sa_iterations=0              , solution_gen_mode=0             # 0 -, 

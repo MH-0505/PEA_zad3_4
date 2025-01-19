@@ -1,0 +1,29 @@
+
+
+BADANIE;23:44:16
+metoda:;ant system
+konfiguracja:;alg_iterations=1000000, alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=ftv44.atsp, iterations=3, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;23:45:00
+metoda:;ant system
+konfiguracja:;alg_iterations=1000000, alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=ftv44.atsp, iterations=3, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;00:00:19
+metoda:;ant system
+konfiguracja:;alg_iterations=1000000, alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=ftv44.atsp, iterations=3, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;00:00:52
+metoda:;ant system
+konfiguracja:;alg_iterations=1000000, alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;00:01:40
+metoda:;ant system
+konfiguracja:;alg_iterations=1000000, alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;00:13:12
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;00:15:45
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, num_ants=-1         , pheromone_quantity=100, 

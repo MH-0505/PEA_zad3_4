@@ -14,9 +14,16 @@
 #include <chrono>
 
 
-std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, int ants_number, double alpha, double beta, double evaporation_rate, double pheromone_quantity, int max_iterations, int dorigo_alg) {
+std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, int ants_number, double alpha, double beta, double evaporation_rate, double pheromone_quantity, long long int max_iterations, int dorigo_alg) {
     int n = graph.vertex_count;
     int num_ants = ants_number;
+    long long int maxIterations;
+
+    if(max_iterations == 0){
+        maxIterations = LLONG_MAX;
+    } else{
+        maxIterations = max_iterations;
+    }
     // Initialize pheromone levels
     std::vector<std::vector<double>> pheromone(n, std::vector<double>(n, 1.0));
 
@@ -36,7 +43,7 @@ std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, i
     auto start = std::chrono::steady_clock::now();
 
     // Start iterations
-    for (int iteration = 0; iteration < max_iterations; ++iteration) {
+    for (long long int iteration = 0; iteration < maxIterations; ++iteration) {
         std::vector<std::vector<int>> ant_solutions(num_ants);
         std::vector<int> ant_costs(num_ants, 0);
 
@@ -121,7 +128,7 @@ std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, i
                 pheromone[from][to] += pheromone_quantity / ant_costs[ant];
             }
         }
-        if(std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time) break;
+        if(std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() > exec_time) break;
     }
 
     std::vector<int> return_v(n+1);

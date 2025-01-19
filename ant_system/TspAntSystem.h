@@ -11,7 +11,7 @@
 
 class TspAntSystem {
 public:
-    static std::vector<int> startAlgorithm(AdjMatrix& graph, int exec_time, int num_ants, double alpha, double beta, double evaporation_rate, double pheromone_quantity, int max_iterations, int dorigo_alg);
+    static std::vector<int> startAlgorithm(AdjMatrix& graph, int exec_time, int num_ants, double alpha, double beta, double evaporation_rate, double pheromone_quantity, long long int max_iterations, int dorigo_alg);
 };
 
 

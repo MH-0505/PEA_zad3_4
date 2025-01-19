@@ -25,9 +25,17 @@ int TspSA::calculateRouteCost(AdjMatrix& graph, const std::vector<int>& route) {
     return cost;
 }
 
-std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, double minimum_temperature, double cooling_rate, int exec_time, int max_iterations,int epoch, int annealing_mode, int solution_generator_mode, bool random_start_path) {
+std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, double minimum_temperature, double cooling_rate, int exec_time, long long int max_iterations, int epoch, int annealing_mode, int solution_generator_mode, bool random_start_path) {
     std::vector<int> bestSolution = TspNearestNeighbour::start_algorithm(graph, 900, -1, TspNearestNeighbour::RANDOM);
     //std::vector<int> bestSolution = TspNearestNeighbour::start_algorithm(graph, 900, 4, TspNearestNeighbour::FIRST);
+    long long int maxIterations;
+
+    if(max_iterations == 0){
+        maxIterations = LLONG_MAX;
+    } else{
+        maxIterations = max_iterations;
+    }
+
     int bestCost = bestSolution[0];
     int currentCost = bestSolution[0];
     std::vector<int> currentSolution(graph.vertex_count);
@@ -50,7 +58,7 @@ std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, do
 
 
     double temperature = initial_temp;
-    int iteration = 0;
+    long long int iteration = 0;
 
     auto start = std::chrono::steady_clock::now();
 
@@ -93,7 +101,7 @@ std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, do
                 temperature = initial_temp / (1 + (1-cooling_rate) * std::log(iteration));
             }
         }
-    } while (temperature > minimum_temperature && iteration < max_iterations && currentCost != graph.tsp_optimal_weight && std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time);
+    } while (temperature > minimum_temperature && iteration < maxIterations && currentCost != graph.tsp_optimal_weight && std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time);
 
     return bestSolution;
 }
