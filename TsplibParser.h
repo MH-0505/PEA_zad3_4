@@ -6,11 +6,13 @@
 #define PEA_ZAD1_TSPLIBPARSER_H
 
 
+#include <map>
 #include "AdjMatrix.h"
 
 class TsplibParser {
 public:
-    static void parseTSPFile(AdjMatrix& graph, const std::__cxx11::basic_string<char> &filename);
+
+    static void parseTSPFile(AdjMatrix& graph, const std::string& filename);
 };
 
 

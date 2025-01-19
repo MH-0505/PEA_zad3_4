@@ -6,6 +6,11 @@
 #include <vector>
 #include <string>
 #include <stdexcept>
+std::map<std::string, int> optimal_weigths = {{"asy/br17.atsp", 39}, {"asy/ftv33.atsp", 1286}, {"asy/ftv35.atsp", 1473},
+                                              {"asy/ftv38.atsp", 1530}, {"asy/ftv44.atsp", 1613}, {"asy/ftv47.atsp", 1776},
+                                              {"sym/bays29.tsp", 2020}, {"sym/dantzig42.tsp", 699}, {"sym/fri26.tsp", 937},
+                                              {"sym/gr17.tsp", 2085}, {"sym/gr21.tsp", 2707}, {"sym/gr24.tsp", 1272},
+                                              {"sym/gr48.tsp", 5046}};
 
 void TsplibParser::parseTSPFile(AdjMatrix& graph, const std::string& filename) {
     std::ifstream file(filename);
@@ -18,6 +23,7 @@ void TsplibParser::parseTSPFile(AdjMatrix& graph, const std::string& filename) {
     std::string edgeWeightType;
     std::string edgeWeightFormat;
     bool readingEdgeWeights = false;
+    graph.tsp_optimal_weight = optimal_weigths[filename];
 
     while (std::getline(file, line)) {
         std::istringstream iss(line);

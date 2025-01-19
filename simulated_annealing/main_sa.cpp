@@ -28,10 +28,7 @@ int main() {
 
     for(const std::string& filename: filenames){
         graph.loadGraph(filename);
-        if(graph.tsp_optimal_weight == -1){
-            std::vector<int> v = TpsBruteForce::start_algorithm(graph, std::stoi(configuration["max_exec_time_s"]));
-            graph.tsp_optimal_weight = v.front();
-        }
+
         std::cout << "\n\nROZPOCZETO BADANIE\nMetoda: simulated annealing\nNazwa pliku: " << filename << "\nWynik optymalny: " << graph.tsp_optimal_weight;
         output.open("output_sa.csv", std::ios::app);
         output << "\n\nplik:;" << filename << "\n"
