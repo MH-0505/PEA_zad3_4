@@ -34,6 +34,7 @@ void AdjMatrix::loadGraph(const std::string& filename) {
 }
 
 void AdjMatrix::initiateMatrix(int verts_n) {
+    vertex_count = verts_n;
     matrix = new int* [verts_n];
     for (int i = 0; i < verts_n; i++) {
         matrix[i] = new int[verts_n];

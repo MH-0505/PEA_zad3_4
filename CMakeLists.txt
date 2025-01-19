@@ -44,7 +44,9 @@ add_executable(simulated_annealing simulated_annealing/main_sa.cpp
         brute_force/TpsBruteForce.cpp
         brute_force/TpsBruteForce.h
         nearest_neighbour/TspNearestNeighbour.cpp
-        nearest_neighbour/TspNearestNeighbour.h)
+        nearest_neighbour/TspNearestNeighbour.h
+        TsplibParser.cpp
+        TsplibParser.h)
 add_executable(ant_system ant_system/main_as.cpp
         ant_system/TspAntSystem.cpp
         ant_system/TspAntSystem.h
@@ -52,4 +54,12 @@ add_executable(ant_system ant_system/main_as.cpp
         ConfigManager.cpp
         ConfigManager.h
         brute_force/TpsBruteForce.cpp
-        brute_force/TpsBruteForce.h)
+        brute_force/TpsBruteForce.h
+        TsplibParser.cpp
+        TsplibParser.h)
+add_executable(test main_test.cpp
+        TsplibParser.cpp
+        TsplibParser.h
+        AdjMatrix.cpp
+        ConfigManager.cpp
+        ConfigManager.h)

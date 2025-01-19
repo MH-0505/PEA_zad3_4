@@ -311,6 +311,12 @@ build CMakeFiles/simulated_annealing.dir/nearest_neighbour/TspNearestNeighbour.c
   OBJECT_DIR = CMakeFiles\simulated_annealing.dir
   OBJECT_FILE_DIR = CMakeFiles\simulated_annealing.dir\nearest_neighbour
 
+build CMakeFiles/simulated_annealing.dir/TsplibParser.cpp.obj: CXX_COMPILER__simulated_annealing_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/TsplibParser.cpp || cmake_object_order_depends_target_simulated_annealing
+  DEP_FILE = CMakeFiles\simulated_annealing.dir\TsplibParser.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simulated_annealing.dir
+  OBJECT_FILE_DIR = CMakeFiles\simulated_annealing.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target simulated_annealing
@@ -319,7 +325,7 @@ build CMakeFiles/simulated_annealing.dir/nearest_neighbour/TspNearestNeighbour.c
 #############################################
 # Link the executable simulated_annealing.exe
 
-build simulated_annealing.exe: CXX_EXECUTABLE_LINKER__simulated_annealing_Debug CMakeFiles/simulated_annealing.dir/simulated_annealing/main_sa.cpp.obj CMakeFiles/simulated_annealing.dir/simulated_annealing/TspSA.cpp.obj CMakeFiles/simulated_annealing.dir/AdjMatrix.cpp.obj CMakeFiles/simulated_annealing.dir/ConfigManager.cpp.obj CMakeFiles/simulated_annealing.dir/brute_force/TpsBruteForce.cpp.obj CMakeFiles/simulated_annealing.dir/nearest_neighbour/TspNearestNeighbour.cpp.obj
+build simulated_annealing.exe: CXX_EXECUTABLE_LINKER__simulated_annealing_Debug CMakeFiles/simulated_annealing.dir/simulated_annealing/main_sa.cpp.obj CMakeFiles/simulated_annealing.dir/simulated_annealing/TspSA.cpp.obj CMakeFiles/simulated_annealing.dir/AdjMatrix.cpp.obj CMakeFiles/simulated_annealing.dir/ConfigManager.cpp.obj CMakeFiles/simulated_annealing.dir/brute_force/TpsBruteForce.cpp.obj CMakeFiles/simulated_annealing.dir/nearest_neighbour/TspNearestNeighbour.cpp.obj CMakeFiles/simulated_annealing.dir/TsplibParser.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -369,6 +375,12 @@ build CMakeFiles/ant_system.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\ant_system.dir
   OBJECT_FILE_DIR = CMakeFiles\ant_system.dir\brute_force
 
+build CMakeFiles/ant_system.dir/TsplibParser.cpp.obj: CXX_COMPILER__ant_system_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/TsplibParser.cpp || cmake_object_order_depends_target_ant_system
+  DEP_FILE = CMakeFiles\ant_system.dir\TsplibParser.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ant_system.dir
+  OBJECT_FILE_DIR = CMakeFiles\ant_system.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ant_system
@@ -377,7 +389,7 @@ build CMakeFiles/ant_system.dir/brute_force/TpsBruteForce.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable ant_system.exe
 
-build ant_system.exe: CXX_EXECUTABLE_LINKER__ant_system_Debug CMakeFiles/ant_system.dir/ant_system/main_as.cpp.obj CMakeFiles/ant_system.dir/ant_system/TspAntSystem.cpp.obj CMakeFiles/ant_system.dir/AdjMatrix.cpp.obj CMakeFiles/ant_system.dir/ConfigManager.cpp.obj CMakeFiles/ant_system.dir/brute_force/TpsBruteForce.cpp.obj
+build ant_system.exe: CXX_EXECUTABLE_LINKER__ant_system_Debug CMakeFiles/ant_system.dir/ant_system/main_as.cpp.obj CMakeFiles/ant_system.dir/ant_system/TspAntSystem.cpp.obj CMakeFiles/ant_system.dir/AdjMatrix.cpp.obj CMakeFiles/ant_system.dir/ConfigManager.cpp.obj CMakeFiles/ant_system.dir/brute_force/TpsBruteForce.cpp.obj CMakeFiles/ant_system.dir/TsplibParser.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -387,6 +399,58 @@ build ant_system.exe: CXX_EXECUTABLE_LINKER__ant_system_Debug CMakeFiles/ant_sys
   TARGET_FILE = ant_system.exe
   TARGET_IMPLIB = libant_system.dll.a
   TARGET_PDB = ant_system.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/main_test.cpp.obj: CXX_COMPILER__test_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/main_test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\main_test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+build CMakeFiles/test.dir/TsplibParser.cpp.obj: CXX_COMPILER__test_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/TsplibParser.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\TsplibParser.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+build CMakeFiles/test.dir/AdjMatrix.cpp.obj: CXX_COMPILER__test_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/AdjMatrix.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\AdjMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+build CMakeFiles/test.dir/ConfigManager.cpp.obj: CXX_COMPILER__test_unscanned_Debug C$:/Users/michal_studia/Desktop/PEA$ zad$ 3.0/ConfigManager.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\ConfigManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/main_test.cpp.obj CMakeFiles/test.dir/TsplibParser.cpp.obj CMakeFiles/test.dir/AdjMatrix.cpp.obj CMakeFiles/test.dir/ConfigManager.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
 
 
 #############################################
@@ -426,6 +490,8 @@ build random: phony random.exe
 
 build simulated_annealing: phony simulated_annealing.exe
 
+build test: phony test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -434,7 +500,7 @@ build simulated_annealing: phony simulated_annealing.exe
 #############################################
 # Folder: C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug
 
-build all: phony brute_force.exe random.exe nearest_neighbour.exe branch_and_bound.exe simulated_annealing.exe ant_system.exe
+build all: phony brute_force.exe random.exe nearest_neighbour.exe branch_and_bound.exe simulated_annealing.exe ant_system.exe test.exe
 
 # =============================================================================
 # Built-in targets

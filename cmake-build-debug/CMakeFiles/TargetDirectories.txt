@@ -4,5 +4,6 @@ C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/nearest_
 C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/branch_and_bound.dir
 C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/simulated_annealing.dir
 C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/ant_system.dir
+C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/test.dir
 C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/michal_studia/Desktop/PEA zad 3.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
