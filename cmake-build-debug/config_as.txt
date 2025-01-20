@@ -1,9 +1,9 @@
-input_files=asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
-max_exec_time_s=10
-iterations=5
+input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp
+max_exec_time_s=900
+iterations=1
 num_ants=-1                     # -1 - ants = n
-alpha=3
-beta=1
+alpha=1
+beta=3
 evaporation_rate=0.5
 pheromone_quantity=100
 alg_iterations=0                # 0 = INF

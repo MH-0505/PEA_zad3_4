@@ -415,3 +415,105 @@ iteracja;czas [ms];wynik;sciezka
 1;77;209;0 1 9 4 5 3 6 7 8 2 0
 sredni czas [ms]
 77
+
+
+BADANIE;20:57:51
+metoda:;brute-force
+konfiguracja:;branches=3         , input_files=g/gr9s.txt,g/gr8s.txt,g/gr7s.txt,g/gr7.txt,g/gr6s.txt,g/gr6.txt,g/gr5.txt,g/gr11.txt, iterations=1, max_exec_time_s=1000, search_type=2            , starting_node_bb=-1          # warto, starting_node_nn=-1          # warto, 
+
+plik:;g/gr9s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;9
+iteracja;czas [ms];wynik;sciezka
+1;9;215;0 3 4 2 8 7 6 1 5 0
+sredni czas [ms]
+9
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;8
+iteracja;czas [ms];wynik;sciezka
+1;1;202;0 3 2 4 1 6 7 5 0
+sredni czas [ms]
+1
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;7
+iteracja;czas [ms];wynik;sciezka
+1;0;215;0 3 2 4 6 1 5 0
+sredni czas [ms]
+0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;7
+iteracja;czas [ms];wynik;sciezka
+1;0;146;0 4 5 3 6 1 2 0
+sredni czas [ms]
+0
+
+
+plik:;g/gr6s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;6
+iteracja;czas [ms];wynik;sciezka
+1;0;158;0 3 2 4 1 5 0
+sredni czas [ms]
+0
+
+
+plik:;g/gr6.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;6
+iteracja;czas [ms];wynik;sciezka
+1;0;132;0 1 2 3 4 5 0
+sredni czas [ms]
+0
+
+
+plik:;g/gr5.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;5
+iteracja;czas [ms];wynik;sciezka
+1;0;98;0 2 4 1 3 0
+sredni czas [ms]
+0
+
+
+plik:;g/gr11.txt
+wynik optymalny:;115
+liczba wierzcholkow:;11
+iteracja;czas [ms];wynik;sciezka
+1;1041;115;0 7 1 8 5 10 2 6 9 4 3 0
+sredni czas [ms]
+1041
+
+
+BADANIE;21:00:00
+metoda:;brute-force
+konfiguracja:;branches=3         , input_files=g/gr11s.txt, iterations=1, max_exec_time_s=1000, search_type=2            , starting_node_bb=-1          # warto, starting_node_nn=-1          # warto, 
+
+plik:;g/gr11s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;11
+iteracja;czas [ms];wynik;sciezka
+1;735;251;0 1 8 4 6 2 9 7 5 3 10 0
+sredni czas [ms]
+735
+
+
+BADANIE;21:00:05
+metoda:;brute-force
+konfiguracja:;branches=3         , input_files=g/gr11s.txt, iterations=1, max_exec_time_s=1000, search_type=2            , starting_node_bb=-1          # warto, starting_node_nn=-1          # warto, 
+
+plik:;g/gr11s.txt
+wynik optymalny:;-1
+liczba wierzcholkow:;11
+iteracja;czas [ms];wynik;sciezka
+1;1302;251;0 1 8 4 6 2 9 7 5 3 10 0
+sredni czas [ms]
+1302

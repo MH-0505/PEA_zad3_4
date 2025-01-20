@@ -128,7 +128,7 @@ std::vector<int> TspAntSystem::startAlgorithm(AdjMatrix& graph, int exec_time, i
                 pheromone[from][to] += pheromone_quantity / ant_costs[ant];
             }
         }
-        if(std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() > exec_time) break;
+        if(best_cost == graph.tsp_optimal_weight || std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() > exec_time) break;
     }
 
     std::vector<int> return_v(n+1);

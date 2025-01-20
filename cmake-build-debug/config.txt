@@ -1,5 +1,5 @@
-input_files=g/gr16.txt
-max_exec_time_s=10
+input_files=g/gr11s.txt
+max_exec_time_s=1000
 iterations=1
 
 # NEAREST NEIGHBOUR
