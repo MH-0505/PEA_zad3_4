@@ -1,6 +1,6 @@
-input_files=asy/ftv44.atsp
-max_exec_time_s=100
-iterations=3
+input_files=asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
+max_exec_time_s=10
+iterations=5
 num_ants=-1                     # -1 - ants = n
 alpha=3
 beta=1

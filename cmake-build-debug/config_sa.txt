@@ -1,11 +1,11 @@
-input_files=asy/ftv44.atsp
-max_exec_time_s=100
-iterations=3
+input_files=asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
+max_exec_time_s=10
+iterations=5
 initial_temperature=1000.0
 minimum_temperature=0.000001
 cooling_rate=0.99
 sa_iterations=0                 # 0 = INF
-epoch=100
+epoch=1000
 annealing_mode=0                # 0 - wyżarzanie geometryczne, 1 - wyżarzanie logarytmiczne
 solution_gen_mode=0             # 0 - zamiana miejscami dwóch losowowych wierzchołków, 1 - losowe przetasowanie wierzchołków między nimi
 random_start_path=0             # 0 - początkowa ścieżka wyznaczona przez alg. nn, 1 - wygenerowana losowo

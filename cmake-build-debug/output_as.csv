@@ -27,3 +27,7 @@ konfiguracja:;alg_iterations=0               , alpha=3, beta=1, dorigo_alg=0    
 BADANIE;00:15:45
 metoda:;ant system
 konfiguracja:;alg_iterations=0               , alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv44.atsp, iterations=3, max_exec_time_s=100, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;20:28:56
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=3, beta=1, dorigo_alg=0           , evaporation_rate=0.5, input_files=asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=5, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
