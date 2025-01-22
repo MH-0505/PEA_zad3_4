@@ -1,6 +1,3 @@
-//
-// Created by micha on 18.12.2024.
-//
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -25,9 +22,8 @@ int TspSA::calculateRouteCost(AdjMatrix& graph, const std::vector<int>& route) {
     return cost;
 }
 
-std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, double minimum_temperature, double cooling_rate, int exec_time, long long int max_iterations, int epoch, int annealing_mode, int solution_generator_mode, bool random_start_path) {
+std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, double minimum_temperature, double cooling_rate, int exec_time, long long int max_iterations, int epoch, int annealing_mode, int solution_generator_mode, bool random_start_path, double prob, int sample_num) {
     std::vector<int> bestSolution = TspNearestNeighbour::start_algorithm(graph, 900, -1, TspNearestNeighbour::RANDOM);
-    //std::vector<int> bestSolution = TspNearestNeighbour::start_algorithm(graph, 900, 4, TspNearestNeighbour::FIRST);
     long long int maxIterations;
 
     if(max_iterations == 0){
@@ -43,6 +39,12 @@ std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, do
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> range(0, graph.vertex_count - 1);
     std::uniform_real_distribution<double> randomDouble(0.0, 1.0);
+    double temperature = initial_temp;
+
+    if(initial_temp == 0){
+        temperature = compute_temp(sample_num, graph, prob);
+    }
+
 
     if(random_start_path){
         for(int i = 0; i < graph.vertex_count; i++){
@@ -57,7 +59,7 @@ std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, do
     }
 
 
-    double temperature = initial_temp;
+
     long long int iteration = 0;
 
     auto start = std::chrono::steady_clock::now();
@@ -104,4 +106,31 @@ std::vector<int> TspSA::startAlgorithm(AdjMatrix& graph, double initial_temp, do
     } while (temperature > minimum_temperature && iteration < maxIterations && currentCost != graph.tsp_optimal_weight && std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - start).count() < exec_time);
 
     return bestSolution;
+}
+
+int TspSA::compute_temp(int sample_num, AdjMatrix &graph, double prob){
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    int max_cost = 0;
+    int min_cost = INT_MAX;
+    int cur_cost;
+    std::vector<int> temp_sol(graph.vertex_count);
+
+    for(int i = 0; i < graph.vertex_count; i++){
+        temp_sol[i] = i;
+    }
+
+    for(int n = 0; n < sample_num; n++) {
+        std::shuffle(temp_sol.begin(), temp_sol.end(), gen);
+        cur_cost = calculateRouteCost(graph, temp_sol);
+
+        if (cur_cost > max_cost) {
+            max_cost = cur_cost;
+        } else if (cur_cost < min_cost) {
+            min_cost = cur_cost;
+        }
+    }
+
+    double delta = (max_cost-min_cost);
+    return (int) (-delta/log(prob));
 }

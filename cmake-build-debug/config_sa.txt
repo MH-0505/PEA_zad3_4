@@ -1,7 +1,8 @@
-input_files=asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
-max_exec_time_s=10
-iterations=5
-initial_temperature=1000.0
+#input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
+input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp
+#input_files=sym/gr21.tsp
+max_exec_time_s=900
+iterations=1
 minimum_temperature=0.000001
 cooling_rate=0.99
 sa_iterations=0                 # 0 = INF
@@ -9,3 +10,6 @@ epoch=1000
 annealing_mode=0                # 0 - wyżarzanie geometryczne, 1 - wyżarzanie logarytmiczne
 solution_gen_mode=0             # 0 - zamiana miejscami dwóch losowowych wierzchołków, 1 - losowe przetasowanie wierzchołków między nimi
 random_start_path=0             # 0 - początkowa ścieżka wyznaczona przez alg. nn, 1 - wygenerowana losowo
+initial_temperature=0.0
+samples_number=10
+desired_acceptance=0.8

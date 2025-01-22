@@ -53,9 +53,6 @@ void TsplibParser::parseTSPFile(AdjMatrix& graph, const std::string& filename) {
             }
 
             if (edgeWeightFormat == "FULL_MATRIX") {
-                if (weights.size() != dimension * dimension) {
-                    throw std::runtime_error("Invalid FULL_MATRIX size.");
-                }
 
                 int count = 0;
                 for (int i = 0; i < dimension; ++i) {
@@ -69,17 +66,10 @@ void TsplibParser::parseTSPFile(AdjMatrix& graph, const std::string& filename) {
 
                 for (int i = 0; i < dimension; ++i) {
                     for (int j = 0; j <= i; ++j) {
-                        if (count >= weights.size()) {
-                            throw std::runtime_error("Invalid LOWER_DIAG_ROW size.");
-                        }
 
                         graph.matrix[i][j] = weights[count];
                         graph.matrix[j][i] = weights[count];
                         ++count;
-                        /*
-                        weights[count] >> graph.matrix[i][j];
-                        weights[count] >> graph.matrix[j][i];
-                        ++count;*/
                     }
                 }
             } else {

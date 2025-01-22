@@ -8,7 +8,7 @@
 #include "TsplibParser.h"
 
 int main() {
-    std::string filename = "asy/br17.atsp";  // Replace with your file path
+    std::string filename = "sym/bays29.tsp";  // Replace with your file path
     AdjMatrix graph{};
 
     try {

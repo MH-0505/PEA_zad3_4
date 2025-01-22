@@ -1,134 +1,3615 @@
 
 
-BADANIE;21:52:27
-metoda:;ant system
-konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
-
-BADANIE;21:55:35
+BADANIE;22:00:15
 metoda:;ant system
 konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
 
 plik:;g/gr6.txt
 wynik optymalny:;132
 liczba wierzcholkow:;6
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;1;132;0;0;1 2 3 4 5 0 1
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-1;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1484;132;0;0;0 1 2 3 4 5 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1484;0;0;0
 
 
 plik:;g/gr7.txt
 wynik optymalny:;146
 liczba wierzcholkow:;7
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;0;146;0;0;3 6 1 2 0 4 5 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-0;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;780;146;0;0;3 6 1 2 0 4 5 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+780;0;0;0
 
 
 plik:;g/gr8.txt
 wynik optymalny:;162
 liczba wierzcholkow:;8
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;0;162;0;0;7 6 4 5 3 0 1 2 7
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-0;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;407;162;0;0;3 0 1 2 7 6 4 5 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+407;0;0;0
 
 
 plik:;g/gr9.txt
 wynik optymalny:;193
 liczba wierzcholkow:;9
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;0;193;0;0;5 6 4 3 0 1 2 7 8 5
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-0;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3895;193;0;0;4 3 0 1 2 7 8 5 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3895;0;0;0
 
 
 plik:;g/gr10.txt
 wynik optymalny:;209
 liczba wierzcholkow:;10
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;1;209;0;0;6 7 8 2 0 1 9 4 5 3 6
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-1;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1525;209;0;0;5 3 6 7 8 2 0 1 9 4 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1525;0;0;0
 
 
 plik:;g/gr11.txt
 wynik optymalny:;115
 liczba wierzcholkow:;11
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;0;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-0;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;947;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+947;0;0;0
 
 
 plik:;g/gr12.txt
 wynik optymalny:;244
 liczba wierzcholkow:;12
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;20;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-20;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1612;244;0;0;11 8 5 10 0 1 2 9 4 3 6 7 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1612;0;0;0
 
 
 plik:;g/gr13.txt
 wynik optymalny:;266
 liczba wierzcholkow:;13
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;12;266;0;0;3 9 5 10 8 2 0 1 12 7 11 6 4 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-12;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;6530;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+6530;0;0;0
 
 
 plik:;g/gr14.txt
 wynik optymalny:;279
 liczba wierzcholkow:;14
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;10;279;0;0;9 5 10 8 13 11 12 7 6 4 3 0 1 2 9
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-10;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;10574;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+10574;0;0;0
 
 
 plik:;g/gr15.txt
 wynik optymalny:;303
 liczba wierzcholkow:;15
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;7;303;0;0;3 9 5 10 0 1 2 14 7 8 13 11 12 6 4 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-7;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;218300;303;0;0;13 11 12 6 4 3 9 5 10 0 1 2 14 7 8 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+218300;0;0;0
 
 
 plik:;g/gr16.txt
 wynik optymalny:;328
 liczba wierzcholkow:;16
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;63;328;0;0;3 9 5 10 0 1 2 14 7 8 13 11 15 12 6 4 3
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-63;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;17093590;328;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+17093590;0;0;0
 
 
 plik:;g/gr17.txt
 wynik optymalny:;344
 liczba wierzcholkow:;17
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;14274;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-14274;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;25557658;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+25557658;0;0;0
 
 
 plik:;g/gr18.txt
 wynik optymalny:;141
 liczba wierzcholkow:;18
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;3;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-3;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;345598;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+345598;0;0;0
 
 
 plik:;g/gr19.txt
 wynik optymalny:;147
 liczba wierzcholkow:;19
-iteracja;czas [ms];wynik;blad bezwzgledny;blad wzgledny;sciezka
-1;820;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
-sredni czas [ms];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
-820;0;0;0
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;150492;147;0;0;17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11 17
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+150492;0;0;0
+
+
+plik:;g/gr20.txt
+wynik optymalny:;148
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901000518;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901000518;1;2;0.0135135
+
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;32568;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+32568;0;0;0
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;211970;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+211970;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;483469;1272;0;0;2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+483469;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;24510;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+24510;0;0;0
+
+
+BADANIE;22:34:49
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:34:51
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:34:52
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:35:42
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:42:48
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:43:29
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1738432;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1738432;0;0;0
+
+
+BADANIE;22:45:26
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:45:28
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:45:30
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/dantzig42.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;22:46:29
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;sym/gr48.tsp
+wynik optymalny:;5046
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901016806;5252;206;4.08244;31 26 16 20 8 13 35 5 25 17 45 27 6 28 47 10 15 12 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 31
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901016806;206;412;0.0816488
+
+
+BADANIE;23:08:49
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr20.txt, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;23:12:54
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr20.txt, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+BADANIE;23:29:36
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6s.txt
+wynik optymalny:;158
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1804;158;0;0;3 0 5 1 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1804;0;0;0
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;404;215;0;0;4 2 3 0 5 1 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+404;0;0;0
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;202
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;394;202;0;0;4 2 3 0 5 7 6 1 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+394;0;0;0
+
+
+plik:;g/gr9s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;748;215;0;0;6 7 8 2 4 3 0 5 1 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+748;0;0;0
+
+
+plik:;g/gr10s.txt
+wynik optymalny:;212
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;623;212;0;0;7 6 9 1 5 0 3 4 2 8 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+623;0;0;0
+
+
+plik:;g/gr11s.txt
+wynik optymalny:;251
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;252;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+252;0;0;0
+
+
+plik:;g/gr12s.txt
+wynik optymalny:;264
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;555;264;0;0;0 1 8 4 6 2 11 9 7 5 3 10 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+555;0;0;0
+
+
+plik:;g/gr13s.txt
+wynik optymalny:;269
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;768;269;0;0;7 9 11 2 6 4 8 1 12 0 10 3 5 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+768;0;0;0
+
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901000200;290;8;2.83688;4 8 1 12 0 10 3 5 7 9 11 13 2 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901000200;8;16;0.0567376
+
+
+plik:;g/gr15s.txt
+wynik optymalny:;291
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1983;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1983;0;0;0
+
+
+plik:;g/gr16s.txt
+wynik optymalny:;268
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;367270;268;0;0;5 6 2 7 11 15 10 1 13 14 3 9 0 8 4 12 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+367270;0;0;0
+
+
+plik:;g/gr17s.txt
+wynik optymalny:;292
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;433549;292;0;0;4 12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+433549;0;0;0
+
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901000127;297;3;1.02041;3 9 0 13 1 15 11 7 16 2 6 5 12 4 8 17 10 14 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901000127;3;6;0.0204082
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;33334394;309;0;0;16 2 18 5 6 12 4 8 17 0 9 3 14 13 1 10 15 11 7 16
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+33334394;0;0;0
+
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;493485;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+493485;0;0;0
+
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;29765112;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+29765112;0;0;0
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3272624;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3272624;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11084485;1272;0;0;22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11084485;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;29029659;937;0;0;5 4 6 7 8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+29029659;0;0;0
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;110633395;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+110633395;0;0;0
+
+
+plik:;sym/gr48.tsp
+wynik optymalny:;5046
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901011109;5227;181;3.587;8 13 35 5 25 46 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 41 38 39 36 23 14 30 9 11 4 32 7 21 16 26 31 20 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901011109;181;362;0.07174
+
+
+BADANIE;00:28:36
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6.txt
+wynik optymalny:;132
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1856;132;0;0;3 4 5 0 1 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1856;0;0;0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;146
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;4866;146;0;0;3 6 1 2 0 4 5 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+4866;0;0;0
+
+
+plik:;g/gr8.txt
+wynik optymalny:;162
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;549;162;0;0;7 6 4 5 3 0 1 2 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+549;0;0;0
+
+
+BADANIE;00:40:25
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6.txt
+wynik optymalny:;132
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1632;132;0;0;1 2 3 4 5 0 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1632;0;0;0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;146
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;580;146;0;0;4 5 3 6 1 2 0 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+580;0;0;0
+
+
+plik:;g/gr8.txt
+wynik optymalny:;162
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2273;162;0;0;6 4 5 3 0 1 2 7 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2273;0;0;0
+
+
+plik:;g/gr9.txt
+wynik optymalny:;193
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;349;193;0;0;0 1 2 7 8 5 6 4 3 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+349;0;0;0
+
+
+plik:;g/gr10.txt
+wynik optymalny:;209
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1580;209;0;0;4 5 3 6 7 8 2 0 1 9 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1580;0;0;0
+
+
+plik:;g/gr11.txt
+wynik optymalny:;115
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2195;115;0;0;8 5 10 2 6 9 4 3 0 7 1 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2195;0;0;0
+
+
+plik:;g/gr12.txt
+wynik optymalny:;244
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2258;244;0;0;11 8 5 10 0 1 2 9 4 3 6 7 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2258;0;0;0
+
+
+plik:;g/gr13.txt
+wynik optymalny:;266
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;24370;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+24370;0;0;0
+
+
+plik:;g/gr14.txt
+wynik optymalny:;279
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5234;279;0;0;9 5 10 8 13 11 12 7 6 4 3 0 1 2 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+5234;0;0;0
+
+
+plik:;g/gr15.txt
+wynik optymalny:;303
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;17891;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+17891;0;0;0
+
+
+plik:;g/gr16.txt
+wynik optymalny:;328
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;18566;328;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+18566;0;0;0
+
+
+plik:;g/gr17.txt
+wynik optymalny:;344
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2348570;344;0;0;15 12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2348570;0;0;0
+
+
+plik:;g/gr18.txt
+wynik optymalny:;141
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;85113;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+85113;0;0;0
+
+
+plik:;g/gr19.txt
+wynik optymalny:;147
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;4479;147;0;0;13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+4479;0;0;0
+
+
+plik:;g/gr20.txt
+wynik optymalny:;148
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;205009769;148;0;0;17 12 16 0 7 9 10 6 2 5 8 14 4 19 13 3 15 1 11 18 17
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+205009769;0;0;0
+
+
+plik:;asy/br17.atsp
+wynik optymalny:;39
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;807;39;0;0;3 4 16 8 7 12 10 1 9 2 13 0 11 6 14 15 5 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+807;0;0;0
+
+
+plik:;asy/ftv33.atsp
+wynik optymalny:;1286
+liczba wierzcholkow:;34
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2815744;1286;0;0;8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18 19 17 11 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2815744;0;0;0
+
+
+plik:;asy/ftv35.atsp
+wynik optymalny:;1473
+liczba wierzcholkow:;36
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;70392825;1473;0;0;33 18 17 10 9 34 8 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 33
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+70392825;0;0;0
+
+
+plik:;asy/ftv38.atsp
+wynik optymalny:;1530
+liczba wierzcholkow:;39
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901006115;1547;17;1.11111;15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 36 21 20 13 12 11 37 9 8 10 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901006115;17;34;0.0222222
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901009786;1626;13;0.805952;23 22 18 16 17 14 43 11 10 12 13 15 19 20 7 9 8 40 41 6 39 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 21 1 2 31 30 29 24 42 23
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901009786;13;26;0.016119
+
+
+plik:;asy/ftv47.atsp
+wynik optymalny:;1776
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901009023;1882;106;5.96847;0 25 1 9 33 27 28 2 41 43 22 20 38 18 17 34 13 46 36 14 16 45 39 21 40 47 26 42 19 44 15 35 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901009023;106;212;0.119369
+
+
+BADANIE;08:23:03
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6.txt
+wynik optymalny:;132
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1212;132;0;0;1 2 3 4 5 0 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1212;0;0;0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;146
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3255;146;0;0;6 1 2 0 4 5 3 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3255;0;0;0
+
+
+plik:;g/gr8.txt
+wynik optymalny:;162
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;222;162;0;0;3 0 1 2 7 6 4 5 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+222;0;0;0
+
+
+plik:;g/gr9.txt
+wynik optymalny:;193
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1427;193;0;0;4 3 0 1 2 7 8 5 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1427;0;0;0
+
+
+plik:;g/gr10.txt
+wynik optymalny:;209
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;14777;209;0;0;8 2 0 1 9 4 5 3 6 7 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+14777;0;0;0
+
+
+plik:;g/gr11.txt
+wynik optymalny:;115
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;248811;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+248811;0;0;0
+
+
+plik:;g/gr12.txt
+wynik optymalny:;244
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1320;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1320;0;0;0
+
+
+plik:;g/gr13.txt
+wynik optymalny:;266
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;209267;266;0;0;11 6 4 3 9 5 10 8 2 0 1 12 7 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+209267;0;0;0
+
+
+plik:;g/gr14.txt
+wynik optymalny:;279
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3941;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3941;0;0;0
+
+
+plik:;g/gr15.txt
+wynik optymalny:;303
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5441;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+5441;0;0;0
+
+
+plik:;g/gr16.txt
+wynik optymalny:;328
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901000255;329;1;0.304878;3 0 1 12 7 6 13 11 15 9 4 5 10 8 2 14 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901000255;1;2;0.00609756
+
+
+plik:;g/gr17.txt
+wynik optymalny:;344
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;25889236;344;0;0;15 12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+25889236;0;0;0
+
+
+plik:;g/gr18.txt
+wynik optymalny:;141
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;517017;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+517017;0;0;0
+
+
+plik:;g/gr19.txt
+wynik optymalny:;147
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;15420;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+15420;0;0;0
+
+
+plik:;g/gr20.txt
+wynik optymalny:;148
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901000554;149;1;0.675676;10 6 2 5 8 17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901000554;1;2;0.0135135
+
+
+plik:;asy/br17.atsp
+wynik optymalny:;39
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;821;39;0;0;5 15 6 14 9 1 10 12 2 13 0 11 16 7 8 3 4 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+821;0;0;0
+
+
+plik:;asy/ftv33.atsp
+wynik optymalny:;1286
+liczba wierzcholkow:;34
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;117724;1286;0;0;27 28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+117724;0;0;0
+
+
+plik:;asy/ftv35.atsp
+wynik optymalny:;1473
+liczba wierzcholkow:;36
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;16044785;1473;0;0;33 18 17 10 9 34 8 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 33
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+16044785;0;0;0
+
+
+plik:;asy/ftv38.atsp
+wynik optymalny:;1530
+liczba wierzcholkow:;39
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901002147;1586;56;3.66013;25 26 23 24 36 21 22 20 13 12 11 37 9 8 10 15 5 7 6 4 35 33 30 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 25
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901002147;56;112;0.0732026
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901004181;1679;66;4.09175;33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 15 12 13 43 11 10 14 1 2 31 30 29 27 33
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901004181;66;132;0.0818351
+
+
+plik:;asy/ftv47.atsp
+wynik optymalny:;1776
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901011330;1887;111;6.25;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901011330;111;222;0.125
+
+
+BADANIE;09:47:41
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp, iterations=1, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6s.txt
+wynik optymalny:;158
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1349;158;0;0;4 2 3 0 5 1 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1349;0;0;0
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;440;215;0;0;4 2 3 0 5 1 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+440;0;0;0
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;202
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;755;202;0;0;3 0 5 7 6 1 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+755;0;0;0
+
+
+plik:;g/gr9s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;442;215;0;0;6 7 8 2 4 3 0 5 1 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+442;0;0;0
+
+
+plik:;g/gr10s.txt
+wynik optymalny:;212
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;537;212;0;0;8 7 6 9 1 5 0 3 4 2 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+537;0;0;0
+
+
+plik:;g/gr11s.txt
+wynik optymalny:;251
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1048;251;0;0;2 9 7 5 3 10 0 1 8 4 6 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1048;0;0;0
+
+
+plik:;g/gr12s.txt
+wynik optymalny:;264
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1023;264;0;0;9 7 5 3 10 0 1 8 4 6 2 11 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1023;0;0;0
+
+
+plik:;g/gr13s.txt
+wynik optymalny:;269
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;974;269;0;0;3 5 7 9 11 2 6 4 8 1 12 0 10 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+974;0;0;0
+
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2678;282;0;0;0 10 3 5 7 9 13 11 2 6 4 8 1 12 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2678;0;0;0
+
+
+plik:;g/gr15s.txt
+wynik optymalny:;291
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2097;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2097;0;0;0
+
+
+plik:;g/gr16s.txt
+wynik optymalny:;268
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;8578;268;0;0;15 10 1 13 14 3 9 0 8 4 12 5 6 2 7 11 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+8578;0;0;0
+
+
+plik:;g/gr17s.txt
+wynik optymalny:;292
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3401;292;0;0;13 14 3 0 9 16 7 2 6 5 12 4 8 11 15 10 1 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3401;0;0;0
+
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1746577;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1746577;0;0;0
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;15985136;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+15985136;0;0;0
+
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;580414;330;0;0;16 7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+580414;0;0;0
+
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7473403;2085;0;0;11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+7473403;0;0;0
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;424045;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+424045;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;394038;1272;0;0;18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+394038;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;47752;937;0;0;23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+47752;0;0;0
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2782287;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2782287;0;0;0
+
+
+plik:;sym/gr48.tsp
+wynik optymalny:;5046
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;901010909;5216;170;3.36901;47 10 15 12 0 43 40 33 22 24 2 18 3 29 37 19 39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 47
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+901010909;170;340;0.0673801
+
+
+BADANIE;10:09:27
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr14s.txt,g/gr18s.txt, iterations=3, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7605;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+2;1001;282;0;0;5 3 10 0 12 1 8 4 6 2 11 13 9 7 5
+3;927;282;0;0;4 8 1 12 0 10 3 5 7 9 13 11 2 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3177;0;0;0
+
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1482482;294;0;0;5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5
+2;6040326;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+3;1561;294;0;0;17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2508123;0;0;0
+
+
+BADANIE;10:25:34
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr20s.txt, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;74557;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+2;252181;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+3;1766555;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+4;26877;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+5;214632;330;0;0;19 0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19
+6;4923927;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+7;1250783;330;0;0;3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14 3
+8;56778;330;0;0;4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10 17 8 4
+9;1973963;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+10;100182;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1064043;0;0;0
+
+
+BADANIE;10:28:21
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr18s.txt,g/gr19s.txt, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3612345;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+2;6008395;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+3;935336;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+4;7133;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+5;723802;294;0;0;6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6
+6;2661178;294;0;0;6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6
+7;4987812;294;0;0;11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11
+8;281477;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+9;320922;294;0;0;4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4
+10;878379;294;0;0;11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2041677;0;0;0
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1797068;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+2;5735745;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+3;5143521;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+4;1337380;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+5;465562;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+6;1876909;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+7;1499202;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+8;15367;309;0;0;17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14 3 9 0 17
+9;1196110;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+10;182500;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1924936;0;0;0
+
+
+BADANIE;10:31:06
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr18s.txt,g/gr19s.txt,g/gr20.txt, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;531958;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+2;15064271;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+3;1534861;294;0;0;11 15 6 5 12 4 8 17 10 1 13 14 3 0 9 16 2 7 11
+4;3244760;294;0;0;14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14
+5;2309396;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+6;2438008;294;0;0;17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17
+7;16337836;294;0;0;6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6
+8;557853;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+9;3798476;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+10;598021;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+4641544;0;0;0
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5118845;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+2;427872;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+3;10809;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+4;1424881;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+5;1609509;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+6;9160820;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+7;3636815;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+8;4956383;309;0;0;2 18 5 6 12 4 8 17 0 9 3 14 13 1 10 15 11 7 16 2
+9;4106275;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+10;2076273;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3252848;0;0;0
+
+
+BADANIE;10:40:27
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr18s.txt,g/gr19s.txt,g/gr20s.txt, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1801543;294;0;0;5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5
+2;13943373;294;0;0;9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0 9
+3;118200;294;0;0;17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17
+4;3671041;294;0;0;5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5
+5;1027523;294;0;0;2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0 9 16 2
+6;3772639;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+7;1476938;294;0;0;5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5
+8;4603368;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+9;3488915;294;0;0;6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6
+10;3661816;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3756535;0;0;0
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;456284;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+2;7434000;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+3;730105;309;0;0;2 16 7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2
+4;6524487;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+5;2640664;309;0;0;10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10
+6;4028769;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+7;107325;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+8;1846794;309;0;0;9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14 3 9
+9;481091;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+10;314849;309;0;0;15 11 7 16 2 18 5 6 12 4 8 17 0 9 3 14 13 1 10 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2456436;0;0;0
+
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;339941;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+2;389539;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+3;767188;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+4;1683644;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+5;10137;330;0;0;8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10 17 8
+6;2300600;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+7;2042358;330;0;0;12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2 18 5 6 12
+8;232792;330;0;0;17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10 17
+9;1766441;330;0;0;9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9
+10;540965;330;0;0;6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2 18 5 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1007360;0;0;0
+
+
+BADANIE;10:45:43
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6s.txt
+wynik optymalny:;158
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1332;158;0;0;4 2 3 0 5 1 4
+2;290;158;0;0;5 1 4 2 3 0 5
+3;132;158;0;0;4 2 3 0 5 1 4
+4;123;158;0;0;4 2 3 0 5 1 4
+5;218;158;0;0;4 2 3 0 5 1 4
+6;159;158;0;0;4 2 3 0 5 1 4
+7;160;158;0;0;3 0 5 1 4 2 3
+8;116;158;0;0;3 0 5 1 4 2 3
+9;101;158;0;0;3 2 4 1 5 0 3
+10;119;158;0;0;0 3 2 4 1 5 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+275;0;0;0
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;288;215;0;0;6 1 5 0 3 2 4 6
+2;155;215;0;0;3 0 5 1 6 4 2 3
+3;205;215;0;0;4 2 3 0 5 1 6 4
+4;171;215;0;0;4 2 3 0 5 1 6 4
+5;108;215;0;0;5 1 6 4 2 3 0 5
+6;154;215;0;0;3 0 5 1 6 4 2 3
+7;117;215;0;0;4 2 3 0 5 1 6 4
+8;218;215;0;0;5 1 6 4 2 3 0 5
+9;106;215;0;0;4 2 3 0 5 1 6 4
+10;274;215;0;0;4 2 3 0 5 1 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+179;0;0;0
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;202
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;196;202;0;0;4 2 3 0 5 7 6 1 4
+2;136;202;0;0;4 2 3 0 5 7 6 1 4
+3;395;202;0;0;4 2 3 0 5 7 6 1 4
+4;321;202;0;0;3 0 5 7 6 1 4 2 3
+5;213;202;0;0;4 2 3 0 5 7 6 1 4
+6;384;202;0;0;4 2 3 0 5 7 6 1 4
+7;127;202;0;0;4 2 3 0 5 7 6 1 4
+8;227;202;0;0;0 3 2 4 1 6 7 5 0
+9;213;202;0;0;4 2 3 0 5 7 6 1 4
+10;338;202;0;0;3 0 5 7 6 1 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+255;0;0;0
+
+
+plik:;g/gr9s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;427;215;0;0;8 2 4 3 0 5 1 6 7 8
+2;162;215;0;0;0 3 4 2 8 7 6 1 5 0
+3;309;215;0;0;0 3 4 2 8 7 6 1 5 0
+4;154;215;0;0;4 2 8 7 6 1 5 0 3 4
+5;305;215;0;0;1 6 7 8 2 4 3 0 5 1
+6;173;215;0;0;6 7 8 2 4 3 0 5 1 6
+7;161;215;0;0;6 7 8 2 4 3 0 5 1 6
+8;613;215;0;0;8 7 6 1 5 0 3 4 2 8
+9;145;215;0;0;3 4 2 8 7 6 1 5 0 3
+10;169;215;0;0;8 7 6 1 5 0 3 4 2 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+261;0;0;0
+
+
+plik:;g/gr10s.txt
+wynik optymalny:;212
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;516;212;0;0;5 0 3 4 2 8 7 6 9 1 5
+2;199;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+3;572;212;0;0;2 4 3 0 5 1 9 6 7 8 2
+4;184;212;0;0;3 0 5 1 9 6 7 8 2 4 3
+5;525;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+6;184;212;0;0;5 1 9 6 7 8 2 4 3 0 5
+7;185;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+8;185;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+9;339;212;0;0;4 2 8 7 6 9 1 5 0 3 4
+10;514;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+340;0;0;0
+
+
+plik:;g/gr11s.txt
+wynik optymalny:;251
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;839;251;0;0;6 2 9 7 5 3 10 0 1 8 4 6
+2;419;251;0;0;5 3 10 0 1 8 4 6 2 9 7 5
+3;613;251;0;0;0 1 8 4 6 2 9 7 5 3 10 0
+4;217;251;0;0;8 4 6 2 9 7 5 3 10 0 1 8
+5;874;251;0;0;6 2 9 7 5 3 10 0 1 8 4 6
+6;1039;251;0;0;2 9 7 5 3 10 0 1 8 4 6 2
+7;901;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+8;1404;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+9;415;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+10;644;251;0;0;8 4 6 2 9 7 5 3 10 0 1 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+736;0;0;0
+
+
+plik:;g/gr12s.txt
+wynik optymalny:;264
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;521;264;0;0;1 8 4 6 2 11 9 7 5 3 10 0 1
+2;781;264;0;0;0 1 8 4 6 2 11 9 7 5 3 10 0
+3;1037;264;0;0;3 5 7 9 11 2 6 4 8 1 0 10 3
+4;1019;264;0;0;6 2 11 9 7 5 3 10 0 1 8 4 6
+5;1057;264;0;0;3 10 0 1 8 4 6 2 11 9 7 5 3
+6;519;264;0;0;9 7 5 3 10 0 1 8 4 6 2 11 9
+7;812;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+8;801;264;0;0;5 3 10 0 1 8 4 6 2 11 9 7 5
+9;572;264;0;0;8 4 6 2 11 9 7 5 3 10 0 1 8
+10;271;264;0;0;6 2 11 9 7 5 3 10 0 1 8 4 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+739;0;0;0
+
+
+plik:;g/gr13s.txt
+wynik optymalny:;269
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;641;269;0;0;8 4 6 2 11 9 7 5 3 10 0 12 1 8
+2;1055;269;0;0;10 3 5 7 9 11 2 6 4 8 1 12 0 10
+3;728;269;0;0;3 5 7 9 11 2 6 4 8 1 12 0 10 3
+4;1070;269;0;0;3 10 0 12 1 8 4 6 2 11 9 7 5 3
+5;1269;269;0;0;12 1 8 4 6 2 11 9 7 5 3 10 0 12
+6;1004;269;0;0;3 5 7 9 11 2 6 4 8 1 12 0 10 3
+7;2124;269;0;0;1 12 0 10 3 5 7 9 11 2 6 4 8 1
+8;948;269;0;0;0 10 3 5 7 9 11 2 6 4 8 1 12 0
+9;637;269;0;0;3 5 7 9 11 2 6 4 8 1 12 0 10 3
+10;1267;269;0;0;2 11 9 7 5 3 10 0 12 1 8 4 6 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1074;0;0;0
+
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2510;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+2;1243;282;0;0;12 1 8 4 6 2 11 13 9 7 5 3 10 0 12
+3;846;282;0;0;8 4 6 2 11 13 9 7 5 3 10 0 12 1 8
+4;2485;282;0;0;1 12 0 10 3 5 7 9 13 11 2 6 4 8 1
+5;1597;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+6;1154;282;0;0;10 3 5 7 9 13 11 2 6 4 8 1 12 0 10
+7;1206;282;0;0;10 3 5 7 9 13 11 2 6 4 8 1 12 0 10
+8;1573;282;0;0;4 6 2 11 13 9 7 5 3 10 0 12 1 8 4
+9;1156;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+10;1297;282;0;0;1 8 4 6 2 11 13 9 7 5 3 10 0 12 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1506;0;0;0
+
+
+plik:;g/gr15s.txt
+wynik optymalny:;291
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1118;291;0;0;2 6 4 8 14 1 12 0 10 3 5 7 9 13 11 2
+2;2768;291;0;0;2 11 13 9 7 5 3 10 0 12 1 14 8 4 6 2
+3;2121;291;0;0;2 6 4 8 14 1 12 0 10 3 5 7 9 13 11 2
+4;1423;291;0;0;7 9 13 11 2 6 4 8 14 1 12 0 10 3 5 7
+5;1393;291;0;0;14 1 12 0 10 3 5 7 9 13 11 2 6 4 8 14
+6;1854;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+7;1853;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+8;2549;291;0;0;6 4 8 14 1 12 0 10 3 5 7 9 13 11 2 6
+9;2377;291;0;0;4 6 2 11 13 9 7 5 3 10 0 12 1 14 8 4
+10;2064;291;0;0;6 2 11 13 9 7 5 3 10 0 12 1 14 8 4 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1952;0;0;0
+
+
+plik:;g/gr16s.txt
+wynik optymalny:;268
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;149567;268;0;0;13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13
+2;8088;268;0;0;14 13 1 10 15 11 7 2 6 5 12 4 8 0 9 3 14
+3;210493;268;0;0;7 2 6 5 12 4 8 0 9 3 14 13 1 10 15 11 7
+4;3992;268;0;0;2 7 11 15 10 1 13 14 3 9 0 8 4 12 5 6 2
+5;9108;268;0;0;11 15 10 1 13 14 3 9 0 8 4 12 5 6 2 7 11
+6;3531;268;0;0;7 2 6 5 12 4 8 0 9 3 14 13 1 10 15 11 7
+7;349932;268;0;0;1 13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1
+8;5719;268;0;0;0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8 0
+9;403827;268;0;0;4 12 5 6 2 7 11 15 10 1 13 14 3 9 0 8 4
+10;1607282;268;0;0;14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13 14
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+275153;0;0;0
+
+
+plik:;g/gr17s.txt
+wynik optymalny:;292
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;736097;292;0;0;2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2
+2;523487;292;0;0;16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2 7 16
+3;86455;292;0;0;12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12
+4;68159;292;0;0;4 12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4
+5;319223;292;0;0;2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2
+6;5264;292;0;0;7 2 6 5 12 4 8 11 15 10 1 13 14 3 0 9 16 7
+7;247076;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+8;8823;292;0;0;15 11 8 4 12 5 6 2 7 16 9 0 3 14 13 1 10 15
+9;119043;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+10;33687;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+214731;0;0;0
+
+
+BADANIE;10:49:17
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/gr17.tsp, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;8654619;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+2;2536002;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+3;3054886;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+4;10104;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+5;753480;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+6;18256543;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+7;4285564;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+8;29542;2085;0;0;13 16 5 7 6 12 3 0 15 11 8 4 1 9 10 2 14 13
+9;692247;2085;0;0;11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11
+10;156841;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3842982;0;0;0
+
+
+BADANIE;10:54:23
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp, iterations=10, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;26022;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+2;183397;2707;0;0;6 0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6
+3;410867;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+4;90625;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+5;703498;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+6;10941;2707;0;0;14 13 12 17 9 16 18 19 10 3 11 0 6 7 5 15 4 8 2 1 20 14
+7;23116;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+8;201759;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+9;14695;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+10;15800;2707;0;0;19 10 3 11 0 6 7 5 15 4 8 2 1 20 14 13 12 17 9 16 18 19
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+168072;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;36144;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+2;2815716;1272;0;0;10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10
+3;1364700;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+4;2120660;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+5;227307;1272;0;0;2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2
+6;285789;1272;0;0;8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8
+7;574790;1272;0;0;21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21
+8;140819;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+9;292821;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+10;519161;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+837790;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;32528;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+2;10644;937;0;0;2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2
+3;36451;937;0;0;5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5
+4;679247;937;0;0;4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4
+5;53676;937;0;0;1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1
+6;19580;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+7;31152;937;0;0;6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6
+8;20445;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+9;18022;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+10;19681;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+92142;0;0;0
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5567463;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+2;21882911;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+3;18167584;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+4;56924812;2020;0;0;19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19
+5;980310;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+6;591573;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+7;2437396;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+8;14143972;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+9;858237;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+10;9726074;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+13128033;0;0;0
+
+
+BADANIE;18:01:42
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp, iterations=15, max_exec_time_s=900, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;9438730;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+2;1906474;2085;0;0;0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0
+3;16952;2085;0;0;1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4 1
+4;4689330;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+5;1792462;2085;0;0;0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0
+6;12104;2085;0;0;5 7 6 12 3 0 15 11 8 4 1 9 10 2 14 13 16 5
+7;3838621;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+8;28800;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+9;3772979;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+10;1271843;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+11;2367949;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+12;2023151;2085;0;0;16 5 7 6 12 3 0 15 11 8 4 1 9 10 2 14 13 16
+13;429747;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+14;7129685;2085;0;0;6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3 12 6
+15;1453639;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2678164;0;0;0
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;40393;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+2;319822;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+3;756706;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+4;23948;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+5;15875;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+6;286841;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+7;36932;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+8;963033;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+9;53014;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+10;312234;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+11;26654;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+12;13263;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+13;46530;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+14;93411;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+15;202414;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+212738;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1031855;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+2;104564;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+3;100763;1272;0;0;17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17
+4;1225787;1272;0;0;3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3
+5;996082;1272;0;0;2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2
+6;212382;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+7;123751;1272;0;0;20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20
+8;669169;1272;0;0;5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5
+9;267403;1272;0;0;10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10
+10;2080156;1272;0;0;1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1
+11;165973;1272;0;0;21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21
+12;523167;1272;0;0;22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22
+13;326676;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+14;826374;1272;0;0;2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2
+15;103120;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+583814;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;13042;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+2;44195;937;0;0;25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25
+3;23606;937;0;0;15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15
+4;28402;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+5;19500;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+6;30076;937;0;0;5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5
+7;17588;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+8;33344;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+9;52026;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+10;11499;937;0;0;8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8
+11;45512;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+12;15187;937;0;0;2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2
+13;38866;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+14;41635;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+15;34882;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+29957;0;0;0
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1436975;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+2;1730875;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+3;7721361;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+4;5205672;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+5;51587461;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+6;976019;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+7;72454216;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+8;1469701;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+9;28733703;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+10;4638246;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+11;46537775;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+12;2797350;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+13;3794573;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+14;5880767;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+15;1255720;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+15748027;0;0;0
+
+
+BADANIE;23:21:56
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp, iterations=15, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6s.txt
+wynik optymalny:;158
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1197;158;0;0;3 0 5 1 4 2 3
+2;98;158;0;0;3 0 5 1 4 2 3
+3;85;158;0;0;1 4 2 3 0 5 1
+4;78;158;0;0;0 3 2 4 1 5 0
+5;165;158;0;0;4 2 3 0 5 1 4
+6;134;158;0;0;3 0 5 1 4 2 3
+7;381;158;0;0;4 2 3 0 5 1 4
+8;88;158;0;0;2 3 0 5 1 4 2
+9;398;158;0;0;4 2 3 0 5 1 4
+10;87;158;0;0;4 2 3 0 5 1 4
+11;144;158;0;0;3 2 4 1 5 0 3
+12;99;158;0;0;3 0 5 1 4 2 3
+13;99;158;0;0;4 2 3 0 5 1 4
+14;82;158;0;0;0 3 2 4 1 5 0
+15;88;158;0;0;0 3 2 4 1 5 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+214;0;0;0
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;217;215;0;0;4 2 3 0 5 1 6 4
+2;243;215;0;0;4 2 3 0 5 1 6 4
+3;167;215;0;0;4 2 3 0 5 1 6 4
+4;103;215;0;0;4 2 3 0 5 1 6 4
+5;364;215;0;0;4 2 3 0 5 1 6 4
+6;159;215;0;0;4 2 3 0 5 1 6 4
+7;286;215;0;0;6 4 2 3 0 5 1 6
+8;167;215;0;0;4 2 3 0 5 1 6 4
+9;170;215;0;0;4 2 3 0 5 1 6 4
+10;109;215;0;0;1 5 0 3 2 4 6 1
+11;211;215;0;0;1 6 4 2 3 0 5 1
+12;263;215;0;0;4 2 3 0 5 1 6 4
+13;105;215;0;0;4 2 3 0 5 1 6 4
+14;104;215;0;0;3 0 5 1 6 4 2 3
+15;91;215;0;0;1 5 0 3 2 4 6 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+183;0;0;0
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;202
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;130;202;0;0;4 1 6 7 5 0 3 2 4
+2;155;202;0;0;2 3 0 5 7 6 1 4 2
+3;579;202;0;0;4 2 3 0 5 7 6 1 4
+4;276;202;0;0;4 2 3 0 5 7 6 1 4
+5;560;202;0;0;4 2 3 0 5 7 6 1 4
+6;133;202;0;0;0 3 2 4 1 6 7 5 0
+7;147;202;0;0;1 6 7 5 0 3 2 4 1
+8;116;202;0;0;1 4 2 3 0 5 7 6 1
+9;394;202;0;0;4 2 3 0 5 7 6 1 4
+10;280;202;0;0;4 2 3 0 5 7 6 1 4
+11;297;202;0;0;3 0 5 7 6 1 4 2 3
+12;120;202;0;0;5 7 6 1 4 2 3 0 5
+13;199;202;0;0;5 7 6 1 4 2 3 0 5
+14;118;202;0;0;6 7 5 0 3 2 4 1 6
+15;120;202;0;0;1 4 2 3 0 5 7 6 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+241;0;0;0
+
+
+plik:;g/gr9s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;151;215;0;0;8 2 4 3 0 5 1 6 7 8
+2;492;215;0;0;8 7 6 1 5 0 3 4 2 8
+3;510;215;0;0;7 6 1 5 0 3 4 2 8 7
+4;149;215;0;0;3 4 2 8 7 6 1 5 0 3
+5;152;215;0;0;0 3 4 2 8 7 6 1 5 0
+6;384;215;0;0;6 7 8 2 4 3 0 5 1 6
+7;498;215;0;0;7 6 1 5 0 3 4 2 8 7
+8;548;215;0;0;3 4 2 8 7 6 1 5 0 3
+9;277;215;0;0;0 3 4 2 8 7 6 1 5 0
+10;432;215;0;0;6 7 8 2 4 3 0 5 1 6
+11;305;215;0;0;6 7 8 2 4 3 0 5 1 6
+12;376;215;0;0;3 4 2 8 7 6 1 5 0 3
+13;1084;215;0;0;3 4 2 8 7 6 1 5 0 3
+14;167;215;0;0;7 8 2 4 3 0 5 1 6 7
+15;268;215;0;0;6 7 8 2 4 3 0 5 1 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+386;0;0;0
+
+
+plik:;g/gr10s.txt
+wynik optymalny:;212
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;349;212;0;0;4 3 0 5 1 9 6 7 8 2 4
+2;1072;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+3;797;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+4;179;212;0;0;9 6 7 8 2 4 3 0 5 1 9
+5;491;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+6;506;212;0;0;7 8 2 4 3 0 5 1 9 6 7
+7;484;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+8;651;212;0;0;3 4 2 8 7 6 9 1 5 0 3
+9;483;212;0;0;9 6 7 8 2 4 3 0 5 1 9
+10;1101;212;0;0;7 8 2 4 3 0 5 1 9 6 7
+11;407;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+12;372;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+13;513;212;0;0;5 1 9 6 7 8 2 4 3 0 5
+14;486;212;0;0;2 4 3 0 5 1 9 6 7 8 2
+15;330;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+548;0;0;0
+
+
+plik:;g/gr11s.txt
+wynik optymalny:;251
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;622;251;0;0;10 3 5 7 9 2 6 4 8 1 0 10
+2;271;251;0;0;3 5 7 9 2 6 4 8 1 0 10 3
+3;947;251;0;0;0 10 3 5 7 9 2 6 4 8 1 0
+4;622;251;0;0;6 2 9 7 5 3 10 0 1 8 4 6
+5;1604;251;0;0;7 9 2 6 4 8 1 0 10 3 5 7
+6;414;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+7;420;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+8;649;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+9;215;251;0;0;5 3 10 0 1 8 4 6 2 9 7 5
+10;434;251;0;0;5 7 9 2 6 4 8 1 0 10 3 5
+11;1411;251;0;0;8 1 0 10 3 5 7 9 2 6 4 8
+12;616;251;0;0;6 2 9 7 5 3 10 0 1 8 4 6
+13;1016;251;0;0;2 9 7 5 3 10 0 1 8 4 6 2
+14;221;251;0;0;3 5 7 9 2 6 4 8 1 0 10 3
+15;418;251;0;0;5 3 10 0 1 8 4 6 2 9 7 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+658;0;0;0
+
+
+plik:;g/gr12s.txt
+wynik optymalny:;264
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;559;264;0;0;6 2 11 9 7 5 3 10 0 1 8 4 6
+2;1025;264;0;0;4 8 1 0 10 3 5 7 9 11 2 6 4
+3;522;264;0;0;11 9 7 5 3 10 0 1 8 4 6 2 11
+4;515;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+5;558;264;0;0;11 9 7 5 3 10 0 1 8 4 6 2 11
+6;874;264;0;0;8 4 6 2 11 9 7 5 3 10 0 1 8
+7;943;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+8;558;264;0;0;11 9 7 5 3 10 0 1 8 4 6 2 11
+9;511;264;0;0;9 7 5 3 10 0 1 8 4 6 2 11 9
+10;275;264;0;0;6 2 11 9 7 5 3 10 0 1 8 4 6
+11;1025;264;0;0;8 4 6 2 11 9 7 5 3 10 0 1 8
+12;776;264;0;0;1 8 4 6 2 11 9 7 5 3 10 0 1
+13;522;264;0;0;2 11 9 7 5 3 10 0 1 8 4 6 2
+14;773;264;0;0;6 4 8 1 0 10 3 5 7 9 11 2 6
+15;1093;264;0;0;10 3 5 7 9 11 2 6 4 8 1 0 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+701;0;0;0
+
+
+plik:;g/gr13s.txt
+wynik optymalny:;269
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;644;269;0;0;5 3 10 0 12 1 8 4 6 2 11 9 7 5
+2;952;269;0;0;8 4 6 2 11 9 7 5 3 10 0 12 1 8
+3;947;269;0;0;2 11 9 7 5 3 10 0 12 1 8 4 6 2
+4;1660;269;0;0;1 12 0 10 3 5 7 9 11 2 6 4 8 1
+5;1364;269;0;0;12 1 8 4 6 2 11 9 7 5 3 10 0 12
+6;996;269;0;0;1 12 0 10 3 5 7 9 11 2 6 4 8 1
+7;784;269;0;0;6 4 8 1 12 0 10 3 5 7 9 11 2 6
+8;1611;269;0;0;5 3 10 0 12 1 8 4 6 2 11 9 7 5
+9;639;269;0;0;4 6 2 11 9 7 5 3 10 0 12 1 8 4
+10;946;269;0;0;5 3 10 0 12 1 8 4 6 2 11 9 7 5
+11;344;269;0;0;6 2 11 9 7 5 3 10 0 12 1 8 4 6
+12;1278;269;0;0;5 3 10 0 12 1 8 4 6 2 11 9 7 5
+13;944;269;0;0;2 6 4 8 1 12 0 10 3 5 7 9 11 2
+14;1602;269;0;0;11 2 6 4 8 1 12 0 10 3 5 7 9 11
+15;1260;269;0;0;10 3 5 7 9 11 2 6 4 8 1 12 0 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1064;0;0;0
+
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2016;282;0;0;12 1 8 4 6 2 11 13 9 7 5 3 10 0 12
+2;1333;282;0;0;5 3 10 0 12 1 8 4 6 2 11 13 9 7 5
+3;2209;282;0;0;2 11 13 9 7 5 3 10 0 12 1 8 4 6 2
+4;2124;282;0;0;2 6 4 8 1 12 0 10 3 5 7 9 13 11 2
+5;1311;282;0;0;5 3 10 0 12 1 8 4 6 2 11 13 9 7 5
+6;11000077;290;8;2.83688;11 13 2 6 4 8 1 12 0 10 3 5 7 9 11
+7;1668;282;0;0;2 11 13 9 7 5 3 10 0 12 1 8 4 6 2
+8;1755;282;0;0;7 9 13 11 2 6 4 8 1 12 0 10 3 5 7
+9;1616;282;0;0;12 1 8 4 6 2 11 13 9 7 5 3 10 0 12
+10;1316;282;0;0;10 3 5 7 9 13 11 2 6 4 8 1 12 0 10
+11;395;282;0;0;8 1 12 0 10 3 5 7 9 13 11 2 6 4 8
+12;1275;282;0;0;4 6 2 11 13 9 7 5 3 10 0 12 1 8 4
+13;1220;282;0;0;2 11 13 9 7 5 3 10 0 12 1 8 4 6 2
+14;1544;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+15;1153;282;0;0;8 4 6 2 11 13 9 7 5 3 10 0 12 1 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+734734;0.533333;1.06667;0.00378251
+
+
+plik:;g/gr15s.txt
+wynik optymalny:;291
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1912;291;0;0;8 14 1 12 0 10 3 5 7 9 13 11 2 6 4 8
+2;1855;291;0;0;6 4 8 14 1 12 0 10 3 5 7 9 13 11 2 6
+3;1398;291;0;0;5 3 10 0 12 1 14 8 4 6 2 11 13 9 7 5
+4;1459;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+5;931;291;0;0;11 13 9 7 5 3 10 0 12 1 14 8 4 6 2 11
+6;1398;291;0;0;7 9 13 11 2 6 4 8 14 1 12 0 10 3 5 7
+7;945;291;0;0;9 7 5 3 10 0 12 1 14 8 4 6 2 11 13 9
+8;2823;291;0;0;12 1 14 8 4 6 2 11 13 9 7 5 3 10 0 12
+9;1047;291;0;0;8 14 1 12 0 10 3 5 7 9 13 11 2 6 4 8
+10;1865;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+11;1130;291;0;0;9 7 5 3 10 0 12 1 14 8 4 6 2 11 13 9
+12;2356;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+13;1119;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+14;950;291;0;0;6 4 8 14 1 12 0 10 3 5 7 9 13 11 2 6
+15;1860;291;0;0;2 11 13 9 7 5 3 10 0 12 1 14 8 4 6 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1536;0;0;0
+
+
+plik:;g/gr16s.txt
+wynik optymalny:;268
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5095;268;0;0;0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8 0
+2;20149;268;0;0;0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8 0
+3;329522;268;0;0;14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13 14
+4;30750;268;0;0;3 14 13 1 10 15 11 7 2 6 5 12 4 8 0 9 3
+5;66188;268;0;0;13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13
+6;24306;268;0;0;8 0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8
+7;5555;268;0;0;15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15
+8;69503;268;0;0;3 14 13 1 10 15 11 7 2 6 5 12 4 8 0 9 3
+9;54182;268;0;0;1 13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1
+10;175319;268;0;0;2 7 11 15 10 1 13 14 3 9 0 8 4 12 5 6 2
+11;209930;268;0;0;13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13
+12;15550;268;0;0;15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15
+13;299683;268;0;0;15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15
+14;2301;268;0;0;5 6 2 7 11 15 10 1 13 14 3 9 0 8 4 12 5
+15;245909;268;0;0;8 4 12 5 6 2 7 11 15 10 1 13 14 3 9 0 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+103596;0;0;0
+
+
+plik:;g/gr17s.txt
+wynik optymalny:;292
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7389;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+2;10470;292;0;0;9 0 3 14 13 1 10 15 11 8 4 12 5 6 2 7 16 9
+3;269926;292;0;0;8 4 12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8
+4;149806;292;0;0;6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6
+5;10823;292;0;0;8 4 12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8
+6;126509;292;0;0;16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2 7 16
+7;58815;292;0;0;6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6
+8;4050;292;0;0;5 12 4 8 11 15 10 1 13 14 3 0 9 16 7 2 6 5
+9;160151;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+10;19094;292;0;0;4 12 5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4
+11;345139;292;0;0;6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6
+12;16125;292;0;0;10 15 11 8 4 12 5 6 2 7 16 9 0 3 14 13 1 10
+13;116649;292;0;0;2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2
+14;257729;292;0;0;12 4 8 11 15 10 1 13 14 3 0 9 16 7 2 6 5 12
+15;81439;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+108940;0;0;0
+
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;14268;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+2;3934677;294;0;0;5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5
+3;359733;294;0;0;7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11 7
+4;3507293;294;0;0;6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6
+5;579173;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+6;2999315;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+7;5256730;294;0;0;14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14
+8;4695;294;0;0;9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0 9
+9;909241;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+10;11000514;296;2;0.680272;11 15 10 1 13 14 3 9 0 17 8 4 12 5 6 2 16 7 11
+11;2222104;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+12;11000080;297;3;1.02041;8 17 10 15 11 7 2 16 9 0 3 14 13 1 6 5 12 4 8
+13;11000392;296;2;0.680272;10 1 13 14 3 9 0 17 8 4 12 5 6 2 16 7 11 15 10
+14;3999902;294;0;0;16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11 7 2 16
+15;5298429;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+4139103;0.466667;0.933333;0.0031746
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;302249;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+2;544939;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+3;866585;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+4;222341;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+5;2529033;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+6;11000391;310;1;0.323625;7 16 2 18 5 6 12 4 8 17 10 14 3 9 0 13 1 15 11 7
+7;909482;309;0;0;12 4 8 17 0 9 3 14 13 1 10 15 11 7 16 2 18 5 6 12
+8;8386666;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+9;6002898;309;0;0;13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13
+10;331898;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+11;1622977;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+12;2597187;309;0;0;16 7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16
+13;4132479;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+14;14774;309;0;0;6 12 4 8 17 0 9 3 14 13 1 10 15 11 7 16 2 18 5 6
+15;6533078;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3066465;0.0666667;0.133333;0.000431499
+
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;987979;330;0;0;13 14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13
+2;36578;330;0;0;15 11 19 0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15
+3;1676262;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+4;393479;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+5;69644;330;0;0;17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10 17
+6;17053;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+7;1534067;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+8;2294191;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+9;768210;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+10;1342700;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+11;754258;330;0;0;11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11
+12;2139781;330;0;0;13 14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13
+13;245002;330;0;0;5 18 2 7 16 15 11 19 0 9 3 14 13 1 10 17 8 4 12 6 5
+14;69870;330;0;0;1 10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1
+15;337816;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+844459;0;0;0
+
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;9299;2085;0;0;2 14 13 16 5 7 6 12 3 0 15 11 8 4 1 9 10 2
+2;275731;2085;0;0;9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4 1 9
+3;323156;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+4;2244467;2085;0;0;11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11
+5;2609952;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+6;795462;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+7;644487;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+8;3359902;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+9;3109971;2085;0;0;6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3 12 6
+10;6663762;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+11;171275;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+12;147831;2085;0;0;9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4 1 9
+13;5839353;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+14;5344679;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+15;2039332;2085;0;0;8 11 15 0 3 12 6 7 5 16 13 14 2 10 9 1 4 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2238577;0;0;0
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;19885;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+2;107824;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+3;66973;2707;0;0;9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18 16 9
+4;62460;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+5;126631;2707;0;0;18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18
+6;286060;2707;0;0;18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18
+7;72276;2707;0;0;9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18 16 9
+8;162521;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+9;159175;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+10;248314;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+11;62761;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+12;42299;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+13;677127;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+14;31983;2707;0;0;5 7 6 0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5
+15;201104;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+155159;0;0;0
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;825842;1272;0;0;6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6
+2;1442318;1272;0;0;5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5
+3;144838;1272;0;0;15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15
+4;212004;1272;0;0;18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18
+5;140736;1272;0;0;13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13
+6;153604;1272;0;0;16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16
+7;942289;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+8;604142;1272;0;0;22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22
+9;1161393;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+10;802111;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+11;62527;1272;0;0;1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1
+12;328454;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+13;2744416;1272;0;0;9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9
+14;613309;1272;0;0;21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21
+15;1833998;1272;0;0;4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+800798;0;0;0
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;22288;937;0;0;8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8
+2;50449;937;0;0;6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6
+3;17464;937;0;0;8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8
+4;29227;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+5;15407;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+6;95152;937;0;0;1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1
+7;33210;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+8;25062;937;0;0;2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2
+9;46335;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+10;29805;937;0;0;21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21
+11;9038;937;0;0;6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6
+12;37752;937;0;0;1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1
+13;8413;937;0;0;3 5 4 6 7 8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+14;20043;937;0;0;3 5 4 6 7 8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+15;20561;937;0;0;9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+30680;0;0;0
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3421839;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+2;11002708;2054;34;1.68317;13 21 10 18 24 6 22 23 7 26 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+3;11002651;2062;42;2.07921;16 17 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 16
+4;11000680;2028;8;0.39604;16 13 21 10 18 24 6 22 26 15 23 7 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16
+5;11000936;2062;42;2.07921;19 9 3 14 16 17 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19
+6;2126155;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+7;11000107;2034;14;0.693069;13 21 10 18 24 6 22 26 7 27 5 11 8 4 25 28 2 1 20 0 23 15 12 9 19 3 14 17 16 13
+8;3999583;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+9;6004001;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+10;419115;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+11;1686962;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+12;10387464;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+13;94676;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+14;2771833;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+15;11001022;2055;35;1.73267;13 21 10 18 24 6 22 26 23 15 7 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+6461315;11.6667;23.3333;0.0115512
+
+
+plik:;sym/gr48.tsp
+wynik optymalny:;5046
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11009038;5380;334;6.6191;27 45 17 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 25 5 21 7 32 30 9 11 4 20 31 26 16 8 13 35 10 15 12 47 28 6 0 43 40 27
+2;11001092;5249;203;4.02299;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 39
+3;11002970;5392;346;6.85692;4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 4
+4;11000094;5378;332;6.57947;13 8 20 31 26 16 4 32 7 21 5 25 14 9 11 30 23 36 39 38 41 34 1 44 42 24 2 18 3 29 37 19 46 17 45 33 22 40 43 0 28 6 27 47 12 15 10 35 13
+5;11011701;5249;203;4.02299;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 39
+6;11006776;5379;333;6.59929;26 16 20 31 8 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 26
+7;11012221;5262;216;4.28062;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 39
+8;11001325;5395;349;6.91637;35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35
+9;11009190;5366;320;6.34166;22 33 40 43 0 28 6 27 45 17 25 5 35 10 15 12 47 13 8 20 31 26 16 21 7 32 4 30 9 11 14 23 36 39 38 41 34 1 44 42 24 2 18 3 29 37 19 46 22
+10;11006857;5249;203;4.02299;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 39
+11;11009244;5262;216;4.28062;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 39
+12;11007721;5349;303;6.00476;47 10 15 12 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 47
+13;11005809;5298;252;4.99405;31 26 16 20 8 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 31
+14;11004983;5379;333;6.59929;4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 4
+15;11011297;5249;203;4.02299;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 39
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006687;276.4;552.8;0.109552
+
+
+BADANIE;23:31:39
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp, iterations=15, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6s.txt
+wynik optymalny:;158
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2689;158;0;0;4 1 5 0 3 2 4
+2;705;158;0;0;1 5 0 3 2 4 1
+3;386;158;0;0;3 0 5 1 4 2 3
+4;91;158;0;0;3 0 5 1 4 2 3
+5;89;158;0;0;4 2 3 0 5 1 4
+6;97;158;0;0;4 1 5 0 3 2 4
+7;304;158;0;0;4 2 3 0 5 1 4
+8;159;158;0;0;4 2 3 0 5 1 4
+9;215;158;0;0;3 0 5 1 4 2 3
+10;211;158;0;0;4 2 3 0 5 1 4
+11;121;158;0;0;3 0 5 1 4 2 3
+12;453;158;0;0;4 2 3 0 5 1 4
+13;80;158;0;0;3 0 5 1 4 2 3
+14;187;158;0;0;2 3 0 5 1 4 2
+15;84;158;0;0;3 0 5 1 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+391;0;0;0
+
+
+plik:;g/gr7s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;538;215;0;0;4 2 3 0 5 1 6 4
+2;139;215;0;0;6 1 5 0 3 2 4 6
+3;105;215;0;0;4 2 3 0 5 1 6 4
+4;98;215;0;0;4 2 3 0 5 1 6 4
+5;173;215;0;0;3 0 5 1 6 4 2 3
+6;151;215;0;0;6 4 2 3 0 5 1 6
+7;119;215;0;0;1 5 0 3 2 4 6 1
+8;94;215;0;0;4 2 3 0 5 1 6 4
+9;116;215;0;0;1 6 4 2 3 0 5 1
+10;456;215;0;0;4 2 3 0 5 1 6 4
+11;151;215;0;0;4 2 3 0 5 1 6 4
+12;233;215;0;0;4 2 3 0 5 1 6 4
+13;208;215;0;0;3 0 5 1 6 4 2 3
+14;221;215;0;0;4 2 3 0 5 1 6 4
+15;216;215;0;0;3 0 5 1 6 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+201;0;0;0
+
+
+plik:;g/gr8s.txt
+wynik optymalny:;202
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;379;202;0;0;4 2 3 0 5 7 6 1 4
+2;214;202;0;0;3 0 5 7 6 1 4 2 3
+3;124;202;0;0;3 0 5 7 6 1 4 2 3
+4;402;202;0;0;3 0 5 7 6 1 4 2 3
+5;134;202;0;0;4 2 3 0 5 7 6 1 4
+6;733;202;0;0;4 2 3 0 5 7 6 1 4
+7;301;202;0;0;4 2 3 0 5 7 6 1 4
+8;753;202;0;0;4 2 3 0 5 7 6 1 4
+9;724;202;0;0;3 0 5 7 6 1 4 2 3
+10;123;202;0;0;3 0 5 7 6 1 4 2 3
+11;11000067;204;2;0.990099;5 7 6 1 3 0 2 4 5
+12;224;202;0;0;4 2 3 0 5 7 6 1 4
+13;523;202;0;0;4 2 3 0 5 7 6 1 4
+14;283;202;0;0;2 3 0 5 7 6 1 4 2
+15;307;202;0;0;3 0 5 7 6 1 4 2 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+733686;0.133333;0.266667;0.00132013
+
+
+plik:;g/gr9s.txt
+wynik optymalny:;215
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;153;215;0;0;4 2 8 7 6 1 5 0 3 4
+2;154;215;0;0;8 7 6 1 5 0 3 4 2 8
+3;260;215;0;0;6 7 8 2 4 3 0 5 1 6
+4;259;215;0;0;8 7 6 1 5 0 3 4 2 8
+5;962;215;0;0;7 6 1 5 0 3 4 2 8 7
+6;148;215;0;0;0 3 4 2 8 7 6 1 5 0
+7;203;215;0;0;6 7 8 2 4 3 0 5 1 6
+8;307;215;0;0;0 3 4 2 8 7 6 1 5 0
+9;269;215;0;0;4 2 8 7 6 1 5 0 3 4
+10;2567;215;0;0;0 3 4 2 8 7 6 1 5 0
+11;155;215;0;0;3 4 2 8 7 6 1 5 0 3
+12;267;215;0;0;6 7 8 2 4 3 0 5 1 6
+13;281;215;0;0;2 4 3 0 5 1 6 7 8 2
+14;382;215;0;0;0 3 4 2 8 7 6 1 5 0
+15;168;215;0;0;2 4 3 0 5 1 6 7 8 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+435;0;0;0
+
+
+plik:;g/gr10s.txt
+wynik optymalny:;212
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;199;212;0;0;3 4 2 8 7 6 9 1 5 0 3
+2;2183;212;0;0;3 4 2 8 7 6 9 1 5 0 3
+3;13949;212;0;0;7 8 2 4 3 0 5 1 9 6 7
+4;1816;212;0;0;2 4 3 0 5 1 9 6 7 8 2
+5;17422;212;0;0;3 4 2 8 7 6 9 1 5 0 3
+6;367;212;0;0;7 8 2 4 3 0 5 1 9 6 7
+7;229;212;0;0;4 2 8 7 6 9 1 5 0 3 4
+8;387;212;0;0;4 3 0 5 1 9 6 7 8 2 4
+9;2041;212;0;0;3 4 2 8 7 6 9 1 5 0 3
+10;571;212;0;0;4 2 8 7 6 9 1 5 0 3 4
+11;250;212;0;0;9 1 5 0 3 4 2 8 7 6 9
+12;336;212;0;0;1 9 6 7 8 2 4 3 0 5 1
+13;333;212;0;0;4 3 0 5 1 9 6 7 8 2 4
+14;349;212;0;0;7 8 2 4 3 0 5 1 9 6 7
+15;726;212;0;0;0 3 4 2 8 7 6 9 1 5 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2743;0;0;0
+
+
+plik:;g/gr11s.txt
+wynik optymalny:;251
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1027;251;0;0;10 3 5 7 9 2 6 4 8 1 0 10
+2;273;251;0;0;1 8 4 6 2 9 7 5 3 10 0 1
+3;271;251;0;0;1 8 4 6 2 9 7 5 3 10 0 1
+4;473;251;0;0;7 9 2 6 4 8 1 0 10 3 5 7
+5;421;251;0;0;0 1 8 4 6 2 9 7 5 3 10 0
+6;483;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+7;226;251;0;0;3 10 0 1 8 4 6 2 9 7 5 3
+8;418;251;0;0;7 9 2 6 4 8 1 0 10 3 5 7
+9;506;251;0;0;0 10 3 5 7 9 2 6 4 8 1 0
+10;865;251;0;0;10 0 1 8 4 6 2 9 7 5 3 10
+11;1246;251;0;0;7 9 2 6 4 8 1 0 10 3 5 7
+12;460;251;0;0;10 0 1 8 4 6 2 9 7 5 3 10
+13;226;251;0;0;9 7 5 3 10 0 1 8 4 6 2 9
+14;231;251;0;0;5 3 10 0 1 8 4 6 2 9 7 5
+15;620;251;0;0;5 3 10 0 1 8 4 6 2 9 7 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+516;0;0;0
+
+
+plik:;g/gr12s.txt
+wynik optymalny:;264
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;288;264;0;0;9 7 5 3 10 0 1 8 4 6 2 11 9
+2;276;264;0;0;6 4 8 1 0 10 3 5 7 9 11 2 6
+3;273;264;0;0;10 3 5 7 9 11 2 6 4 8 1 0 10
+4;1551;264;0;0;1 8 4 6 2 11 9 7 5 3 10 0 1
+5;523;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+6;290;264;0;0;5 3 10 0 1 8 4 6 2 11 9 7 5
+7;1538;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+8;275;264;0;0;2 11 9 7 5 3 10 0 1 8 4 6 2
+9;526;264;0;0;4 8 1 0 10 3 5 7 9 11 2 6 4
+10;281;264;0;0;3 5 7 9 11 2 6 4 8 1 0 10 3
+11;1024;264;0;0;3 10 0 1 8 4 6 2 11 9 7 5 3
+12;625;264;0;0;0 10 3 5 7 9 11 2 6 4 8 1 0
+13;283;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+14;2214;264;0;0;7 9 11 2 6 4 8 1 0 10 3 5 7
+15;487;264;0;0;2 11 9 7 5 3 10 0 1 8 4 6 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+696;0;0;0
+
+
+plik:;g/gr13s.txt
+wynik optymalny:;269
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;646;269;0;0;11 2 6 4 8 1 12 0 10 3 5 7 9 11
+2;680;269;0;0;7 9 11 2 6 4 8 1 12 0 10 3 5 7
+3;652;269;0;0;7 9 11 2 6 4 8 1 12 0 10 3 5 7
+4;12528;269;0;0;8 4 6 2 11 9 7 5 3 10 0 12 1 8
+5;1372;269;0;0;6 2 11 9 7 5 3 10 0 12 1 8 4 6
+6;1804;269;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 9
+7;334;269;0;0;0 12 1 8 4 6 2 11 9 7 5 3 10 0
+8;1357;269;0;0;8 4 6 2 11 9 7 5 3 10 0 12 1 8
+9;1016;269;0;0;11 9 7 5 3 10 0 12 1 8 4 6 2 11
+10;358;269;0;0;1 12 0 10 3 5 7 9 11 2 6 4 8 1
+11;337;269;0;0;11 9 7 5 3 10 0 12 1 8 4 6 2 11
+12;338;269;0;0;5 3 10 0 12 1 8 4 6 2 11 9 7 5
+13;645;269;0;0;2 11 9 7 5 3 10 0 12 1 8 4 6 2
+14;339;269;0;0;10 3 5 7 9 11 2 6 4 8 1 12 0 10
+15;339;269;0;0;4 6 2 11 9 7 5 3 10 0 12 1 8 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1516;0;0;0
+
+
+plik:;g/gr14s.txt
+wynik optymalny:;282
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1299;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+2;860;282;0;0;12 1 8 4 6 2 11 13 9 7 5 3 10 0 12
+3;2001;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+4;473;282;0;0;6 2 11 13 9 7 5 3 10 0 12 1 8 4 6
+5;2354;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+6;1377;282;0;0;10 0 12 1 8 4 6 2 11 13 9 7 5 3 10
+7;6032;282;0;0;5 3 10 0 12 1 8 4 6 2 11 13 9 7 5
+8;937;282;0;0;0 12 1 8 4 6 2 11 13 9 7 5 3 10 0
+9;1160;282;0;0;8 4 6 2 11 13 9 7 5 3 10 0 12 1 8
+10;5044;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+11;410;282;0;0;9 7 5 3 10 0 12 1 8 4 6 2 11 13 9
+12;2167;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+13;1157;282;0;0;13 11 2 6 4 8 1 12 0 10 3 5 7 9 13
+14;11000264;294;12;4.25532;10 0 1 12 8 4 6 2 11 13 9 7 5 3 10
+15;906;282;0;0;10 3 5 7 9 13 11 2 6 4 8 1 12 0 10
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+735096;0.8;1.6;0.00567376
+
+
+plik:;g/gr15s.txt
+wynik optymalny:;291
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;486;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+2;1427;291;0;0;6 2 11 13 9 7 5 3 10 0 12 1 14 8 4 6
+3;943;291;0;0;0 12 1 14 8 4 6 2 11 13 9 7 5 3 10 0
+4;1053;291;0;0;9 7 5 3 10 0 12 1 14 8 4 6 2 11 13 9
+5;576;291;0;0;0 10 3 5 7 9 13 11 2 6 4 8 14 1 12 0
+6;4344;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+7;944;291;0;0;7 9 13 11 2 6 4 8 14 1 12 0 10 3 5 7
+8;470;291;0;0;11 13 9 7 5 3 10 0 12 1 14 8 4 6 2 11
+9;1076;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+10;80915;291;0;0;11 13 9 7 5 3 10 0 12 1 14 8 4 6 2 11
+11;7835598;291;0;0;11 13 9 7 5 3 10 0 12 1 14 8 4 6 2 11
+12;939;291;0;0;13 11 2 6 4 8 14 1 12 0 10 3 5 7 9 13
+13;1862;291;0;0;14 8 4 6 2 11 13 9 7 5 3 10 0 12 1 14
+14;1585;291;0;0;9 7 5 3 10 0 12 1 14 8 4 6 2 11 13 9
+15;11000371;299;8;2.74914;5 3 10 0 12 1 14 8 4 6 2 13 11 9 7 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1262172;0.533333;1.06667;0.00366552
+
+
+plik:;g/gr16s.txt
+wynik optymalny:;268
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;42059;268;0;0;15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15
+2;188324;268;0;0;10 15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10
+3;1849604;268;0;0;3 14 13 1 10 15 11 7 2 6 5 12 4 8 0 9 3
+4;524239;268;0;0;4 12 5 6 2 7 11 15 10 1 13 14 3 9 0 8 4
+5;51618;268;0;0;5 12 4 8 0 9 3 14 13 1 10 15 11 7 2 6 5
+6;1124104;268;0;0;0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8 0
+7;5762;268;0;0;8 0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8
+8;464884;268;0;0;7 2 6 5 12 4 8 0 9 3 14 13 1 10 15 11 7
+9;2838;268;0;0;12 4 8 0 9 3 14 13 1 10 15 11 7 2 6 5 12
+10;10162;268;0;0;11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15 11
+11;2171916;268;0;0;4 12 5 6 2 7 11 15 10 1 13 14 3 9 0 8 4
+12;45191;268;0;0;15 11 7 2 6 5 12 4 8 0 9 3 14 13 1 10 15
+13;11000453;274;6;2.23881;15 11 8 4 12 5 6 2 7 10 14 3 9 0 13 1 15
+14;12110;268;0;0;8 0 9 3 14 13 1 10 15 11 7 2 6 5 12 4 8
+15;2249671;268;0;0;13 14 3 9 0 8 4 12 5 6 2 7 11 15 10 1 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1316195;0.4;0.8;0.00298507
+
+
+plik:;g/gr17s.txt
+wynik optymalny:;292
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;19108;292;0;0;14 3 0 9 16 7 2 6 5 12 4 8 11 15 10 1 13 14
+2;11000499;294;2;0.684932;2 7 11 8 4 12 6 5 9 0 3 14 13 1 10 15 16 2
+3;44275;292;0;0;6 5 12 4 8 11 15 10 1 13 14 3 0 9 16 7 2 6
+4;76981;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+5;1218017;292;0;0;1 13 14 3 0 9 16 7 2 6 5 12 4 8 11 15 10 1
+6;2387052;292;0;0;0 9 16 7 2 6 5 12 4 8 11 15 10 1 13 14 3 0
+7;206592;292;0;0;7 16 9 0 3 14 13 1 10 15 11 8 4 12 5 6 2 7
+8;176972;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+9;64682;292;0;0;0 9 16 7 2 6 5 12 4 8 11 15 10 1 13 14 3 0
+10;1088231;292;0;0;13 1 10 15 11 8 4 12 5 6 2 7 16 9 0 3 14 13
+11;1465400;292;0;0;0 9 16 7 2 6 5 12 4 8 11 15 10 1 13 14 3 0
+12;3377257;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+13;346143;292;0;0;9 0 3 14 13 1 10 15 11 8 4 12 5 6 2 7 16 9
+14;49140;292;0;0;15 11 8 4 12 5 6 2 7 16 9 0 3 14 13 1 10 15
+15;5292;292;0;0;5 6 2 7 16 9 0 3 14 13 1 10 15 11 8 4 12 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1435042;0.133333;0.266667;0.000913242
+
+
+plik:;g/gr18s.txt
+wynik optymalny:;294
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2249402;294;0;0;14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14
+2;2181148;294;0;0;0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14 3 0
+3;2696784;294;0;0;17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17
+4;3858612;294;0;0;15 11 7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15
+5;1250015;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+6;17229;294;0;0;7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11 7
+7;2594749;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+8;2670544;294;0;0;4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17 8 4
+9;77810;294;0;0;1 13 14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1
+10;544911;294;0;0;7 2 16 9 0 3 14 13 1 10 17 8 4 12 5 6 15 11 7
+11;18670;294;0;0;1 13 14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1
+12;3427290;294;0;0;14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13 14
+13;1324987;294;0;0;17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10 17
+14;8493217;294;0;0;10 17 8 4 12 5 6 15 11 7 2 16 9 0 3 14 13 1 10
+15;35331;294;0;0;13 14 3 0 9 16 2 7 11 15 6 5 12 4 8 17 10 1 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2096046;0;0;0
+
+
+plik:;g/gr19s.txt
+wynik optymalny:;309
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000869;310;1;0.323625;6 5 18 2 7 16 15 11 3 0 9 1 13 14 10 17 8 4 12 6
+2;11000659;310;1;0.323625;2 18 5 6 12 4 8 17 10 14 3 9 0 13 1 15 11 7 16 2
+3;797666;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+4;11000793;310;1;0.323625;13 0 9 3 14 10 17 8 4 12 6 5 18 2 16 7 11 15 1 13
+5;11000083;310;1;0.323625;17 8 4 12 6 5 18 2 7 11 15 16 9 0 3 14 13 1 10 17
+6;11000405;310;1;0.323625;5 6 12 4 8 17 10 14 13 1 9 0 3 11 15 16 7 2 18 5
+7;4275582;309;0;0;1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1
+8;11000668;310;1;0.323625;2 18 5 6 12 4 8 17 10 14 13 1 9 0 3 11 15 16 7 2
+9;11000289;310;1;0.323625;12 4 8 17 10 14 3 9 0 13 1 15 11 7 16 2 18 5 6 12
+10;11000842;310;1;0.323625;17 8 4 12 6 5 18 2 7 11 15 16 9 0 3 14 13 1 10 17
+11;53337;309;0;0;16 2 18 5 6 12 4 8 17 0 9 3 14 13 1 10 15 11 7 16
+12;11000284;310;1;0.323625;4 12 6 5 18 2 7 16 9 0 3 14 13 1 17 10 15 11 8 4
+13;2284022;309;0;0;14 3 9 0 17 8 4 12 6 5 18 2 16 7 11 15 10 1 13 14
+14;459356;309;0;0;7 11 15 10 1 13 14 3 9 0 17 8 4 12 6 5 18 2 16 7
+15;11001571;310;1;0.323625;1 13 0 9 3 14 10 15 11 7 16 2 18 5 6 12 4 8 17 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+7858428;0.666667;1.33333;0.00431499
+
+
+plik:;g/gr20s.txt
+wynik optymalny:;330
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;51282;330;0;0;9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9
+2;2066098;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+3;7968032;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+4;785830;330;0;0;19 0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19
+5;557621;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+6;6267240;330;0;0;13 14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13
+7;1243243;330;0;0;2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7 2
+8;51207;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+9;190769;330;0;0;19 0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19
+10;176242;330;0;0;19 0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19
+11;2705830;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+12;2410271;330;0;0;10 17 8 4 12 6 5 18 2 7 16 15 11 19 0 9 3 14 13 1 10
+13;2517816;330;0;0;0 9 3 14 13 1 10 17 8 4 12 6 5 18 2 7 16 15 11 19 0
+14;523709;330;0;0;7 2 18 5 6 12 4 8 17 10 1 13 14 3 9 0 19 11 15 16 7
+15;1486762;330;0;0;14 3 9 0 19 11 15 16 7 2 18 5 6 12 4 8 17 10 1 13 14
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1933463;0;0;0
+
+
+plik:;sym/gr17.tsp
+wynik optymalny:;2085
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000236;2088;3;0.143885;8 11 15 3 12 0 6 7 5 16 13 14 2 10 9 1 4 8
+2;11000400;2094;9;0.431655;8 11 15 0 12 3 6 7 5 16 13 14 2 10 9 1 4 8
+3;11000694;2088;3;0.143885;4 8 11 15 3 12 0 6 7 5 16 13 14 2 10 9 1 4
+4;90401;2085;0;0;4 1 9 10 2 14 13 16 5 7 6 12 3 0 15 11 8 4
+5;4355;2085;0;0;3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 3
+6;11000206;2088;3;0.143885;8 11 15 3 12 0 6 7 5 16 13 14 2 10 9 1 4 8
+7;11000585;2088;3;0.143885;8 11 15 3 12 0 6 7 5 16 13 14 2 10 9 1 4 8
+8;11000507;2094;9;0.431655;6 7 5 16 13 14 2 10 9 1 4 8 11 15 0 12 3 6
+9;824891;2085;0;0;0 3 12 6 7 5 16 13 14 2 10 9 1 4 8 11 15 0
+10;11000526;2094;9;0.431655;8 11 15 0 12 3 6 7 5 16 13 14 2 10 9 1 4 8
+11;13840;2085;0;0;15 11 8 4 1 9 10 2 14 13 16 5 7 6 12 3 0 15
+12;11000540;2104;19;0.911271;8 11 15 0 12 3 16 6 7 5 13 14 2 10 9 1 4 8
+13;11000243;2088;3;0.143885;8 11 15 3 12 0 6 7 5 16 13 14 2 10 9 1 4 8
+14;11000590;2094;9;0.431655;8 11 15 0 12 3 6 7 5 16 13 14 2 10 9 1 4 8
+15;11000363;2088;3;0.143885;0 6 7 5 16 13 14 2 10 9 1 4 8 11 15 3 12 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+8129225;4.86667;9.73333;0.00466827
+
+
+plik:;sym/gr21.tsp
+wynik optymalny:;2707
+liczba wierzcholkow:;21
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7746877;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+2;137203;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+3;5414369;2707;0;0;19 10 3 11 0 6 7 5 15 4 8 2 1 20 14 13 12 17 9 16 18 19
+4;22192;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+5;713350;2707;0;0;9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18 16 9
+6;26313;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+7;1718547;2707;0;0;18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11 3 10 19 18
+8;78265;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+9;25783;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+10;8177;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+11;14519;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+12;21772;2707;0;0;11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0 11
+13;11000050;2758;51;1.884;20 14 1 2 8 4 15 5 7 6 0 11 3 10 19 18 16 9 17 12 13 20
+14;1226348;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+15;9069;2707;0;0;0 11 3 10 19 18 16 9 17 12 13 14 20 1 2 8 4 15 5 7 6 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1877522;3.4;6.8;0.00251201
+
+
+plik:;sym/gr24.tsp
+wynik optymalny:;1272
+liczba wierzcholkow:;24
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7494573;1272;0;0;5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5
+2;9462056;1272;0;0;12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12
+3;11001361;1306;34;2.67296;7 6 5 23 4 20 9 16 21 17 18 14 1 19 13 12 8 22 11 3 0 15 10 2 7
+4;11001652;1310;38;2.98742;18 21 17 16 9 4 23 5 6 7 20 2 10 15 0 11 3 22 12 8 13 19 1 14 18
+5;11000314;1278;6;0.471698;16 9 4 23 5 6 7 20 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16
+6;1037466;1272;0;0;19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19
+7;9314160;1272;0;0;23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23
+8;3089693;1272;0;0;5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5
+9;6403360;1272;0;0;7 23 5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7
+10;9784854;1272;0;0;5 6 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5
+11;11001755;1310;38;2.98742;4 23 5 6 7 20 2 10 15 0 11 3 22 12 8 13 19 1 14 18 21 17 16 9 4
+12;11000579;1278;6;0.471698;19 1 14 18 21 17 16 9 4 23 5 6 7 20 2 10 15 0 11 3 22 8 12 13 19
+13;5444233;1272;0;0;19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22 8 12 13 19
+14;258303;1272;0;0;22 8 12 13 19 1 14 18 21 17 16 9 4 20 7 23 5 6 2 10 15 0 11 3 22
+15;11000766;1278;6;0.471698;16 9 4 23 5 6 7 20 2 10 15 0 11 3 22 8 12 13 19 1 14 18 21 17 16
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+7886341;8.53333;17.0667;0.0134172
+
+
+plik:;sym/fri26.tsp
+wynik optymalny:;937
+liczba wierzcholkow:;26
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;98206;937;0;0;18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18
+2;5926493;937;0;0;4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4
+3;4271;937;0;0;6 7 8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6
+4;9105;937;0;0;0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0
+5;11001502;941;4;0.426894;6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 4 5 6
+6;19516;937;0;0;9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9
+7;11000189;941;4;0.426894;3 4 5 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+8;63284;937;0;0;15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15
+9;11315;937;0;0;3 5 4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+10;64630;937;0;0;18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13 14 12 11 10 15 18
+11;11002017;941;4;0.426894;3 4 5 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+12;137787;937;0;0;3 5 4 6 7 8 9 13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3
+13;2223365;937;0;0;4 6 7 8 9 13 14 12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4
+14;11000627;941;4;0.426894;12 11 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 4 5 6 7 8 9 13 14 12
+15;72544;937;0;0;13 14 11 12 10 15 18 19 17 16 20 21 25 22 23 24 0 1 2 3 5 4 6 7 8 9 13
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3508990;1.06667;2.13333;0.00227677
+
+
+plik:;sym/bays29.tsp
+wynik optymalny:;2020
+liczba wierzcholkow:;29
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11003036;2041;21;1.0396;22 26 23 7 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16 13 21 10 18 15 24 6 22
+2;9138707;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+3;2957940;2020;0;0;13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13
+4;11001480;2055;35;1.73267;16 13 21 10 18 24 6 22 26 23 15 7 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16
+5;11001860;2041;21;1.0396;24 6 22 26 23 7 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16 13 21 10 18 15 24
+6;11000156;2026;6;0.29703;16 13 21 10 18 24 6 22 26 15 12 23 7 0 27 5 11 8 4 25 28 2 1 20 19 9 3 14 17 16
+7;11003514;2022;2;0.0990099;21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 13 16 21
+8;11001911;2038;18;0.891089;13 21 10 18 24 6 22 15 26 7 23 0 27 5 11 8 4 25 28 2 1 20 12 9 19 3 14 17 16 13
+9;302629;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+10;11001388;2034;14;0.693069;16 13 21 10 18 24 6 22 26 7 27 5 11 8 4 25 28 2 1 20 0 23 15 12 9 19 3 14 17 16
+11;1871341;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+12;11002871;2022;2;0.0990099;19 9 3 14 17 13 16 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19
+13;43542;2020;0;0;20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16 13 21 10 18 24 6 22 26 7 23 15 12 20
+14;9536846;2020;0;0;16 13 21 10 18 24 6 22 26 7 23 15 12 20 0 27 5 11 8 4 25 28 2 1 19 9 3 14 17 16
+15;11001530;2062;42;2.07921;20 0 27 5 11 8 4 25 28 2 1 19 9 3 10 21 16 13 17 14 18 24 6 22 26 7 23 15 12 20
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+8191250;10.7333;21.4667;0.0106271
+
+
+plik:;sym/gr48.tsp
+wynik optymalny:;5046
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11004698;5349;303;6.00476;47 10 15 12 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 47
+2;11003401;5349;303;6.00476;24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 47 10 15 12 0 43 40 33 22 24
+3;11001694;5386;340;6.73801;27 45 17 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 32 4 20 31 26 16 13 8 21 7 25 5 35 10 15 12 47 28 6 0 43 40 27
+4;11013755;5378;332;6.57947;45 17 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 10 15 12 47 0 28 6 27 43 40 45
+5;11000350;5252;206;4.08244;31 26 16 20 8 13 35 5 25 17 45 27 6 28 47 10 15 12 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 31
+6;11012210;5379;333;6.59929;4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 4
+7;11005775;5410;364;7.21363;32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 47 12 15 10 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 4 32
+8;11012346;5360;314;6.22275;1 44 37 19 34 41 38 39 36 46 17 45 27 6 28 12 47 15 10 35 5 25 14 23 9 11 30 4 32 7 21 8 20 26 16 31 13 0 43 40 33 22 24 2 18 3 29 42 1
+9;11002551;5351;305;6.04439;27 45 17 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 25 5 21 7 32 30 9 11 4 31 26 16 20 8 13 35 10 47 12 15 28 6 0 43 40 27
+10;11012668;5275;229;4.53825;1 44 42 24 2 18 3 29 37 19 34 41 38 39 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 46 1
+11;11003826;5294;248;4.91478;20 31 26 16 8 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 20
+12;11001293;5285;239;4.73642;31 26 16 20 8 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 31
+13;11002883;5379;333;6.59929;32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 15 10 47 0 43 40 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 9 11 30 4 32
+14;11012439;5262;216;4.28062;39 38 41 34 1 44 42 46 36 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 17 45 27 6 28 12 47 10 15 0 43 40 33 22 24 2 18 3 29 37 19 39
+15;11002784;5391;345;6.8371;45 17 33 22 24 2 18 3 29 37 19 34 1 44 42 46 36 39 38 41 23 14 30 9 11 4 32 7 21 8 20 31 26 16 13 35 5 25 47 10 15 12 0 28 6 27 43 40 45
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006178;294;588;0.116528
+
+
+BADANIE;23:49:09
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=0           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=15, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6.txt
+wynik optymalny:;132
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;4531;132;0;0;1 2 3 4 5 0 1
+2;141;132;0;0;1 2 3 4 5 0 1
+3;94;132;0;0;2 3 4 5 0 1 2
+4;325;132;0;0;0 1 2 3 4 5 0
+5;134;132;0;0;1 2 3 4 5 0 1
+6;134;132;0;0;0 1 2 3 4 5 0
+7;100;132;0;0;1 2 3 4 5 0 1
+8;77;132;0;0;1 2 3 4 5 0 1
+9;98;132;0;0;0 1 2 3 4 5 0
+10;119;132;0;0;0 1 2 3 4 5 0
+11;95;132;0;0;1 2 3 4 5 0 1
+12;77;132;0;0;1 2 3 4 5 0 1
+13;85;132;0;0;2 3 4 5 0 1 2
+14;86;132;0;0;2 3 4 5 0 1 2
+15;110;132;0;0;1 2 3 4 5 0 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+413;0;0;0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;146
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;635;146;0;0;1 2 0 4 5 3 6 1
+2;401;146;0;0;6 1 2 0 4 5 3 6
+3;155;146;0;0;2 0 4 5 3 6 1 2
+4;158;146;0;0;6 1 2 0 4 5 3 6
+5;325;146;0;0;5 3 6 1 2 0 4 5
+6;193;146;0;0;2 0 4 5 3 6 1 2
+7;210;146;0;0;4 5 3 6 1 2 0 4
+8;366;146;0;0;3 6 1 2 0 4 5 3
+9;268;146;0;0;3 6 1 2 0 4 5 3
+10;245;146;0;0;6 1 2 0 4 5 3 6
+11;171;146;0;0;3 6 1 2 0 4 5 3
+12;342;146;0;0;1 2 0 4 5 3 6 1
+13;224;146;0;0;6 1 2 0 4 5 3 6
+14;280;146;0;0;1 2 0 4 5 3 6 1
+15;285;146;0;0;6 1 2 0 4 5 3 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+283;0;0;0
+
+
+plik:;g/gr8.txt
+wynik optymalny:;162
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;450;162;0;0;0 1 2 7 6 4 5 3 0
+2;296;162;0;0;0 1 2 7 6 4 5 3 0
+3;127;162;0;0;3 0 1 2 7 6 4 5 3
+4;310;162;0;0;7 6 4 5 3 0 1 2 7
+5;244;162;0;0;7 6 4 5 3 0 1 2 7
+6;292;162;0;0;3 0 1 2 7 6 4 5 3
+7;200;162;0;0;4 5 3 0 1 2 7 6 4
+8;231;162;0;0;0 1 2 7 6 4 5 3 0
+9;625;162;0;0;6 4 5 3 0 1 2 7 6
+10;124;162;0;0;4 5 3 0 1 2 7 6 4
+11;1052;162;0;0;7 6 4 5 3 0 1 2 7
+12;366;162;0;0;2 7 6 4 5 3 0 1 2
+13;1042;162;0;0;3 0 1 2 7 6 4 5 3
+14;527;162;0;0;5 3 0 1 2 7 6 4 5
+15;716;162;0;0;7 6 4 5 3 0 1 2 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+440;0;0;0
+
+
+plik:;g/gr9.txt
+wynik optymalny:;193
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5850;193;0;0;3 0 1 2 7 8 5 6 4 3
+2;3336;193;0;0;4 3 0 1 2 7 8 5 6 4
+3;6585;193;0;0;6 4 3 0 1 2 7 8 5 6
+4;2093;193;0;0;6 4 3 0 1 2 7 8 5 6
+5;1619;193;0;0;6 4 3 0 1 2 7 8 5 6
+6;957;193;0;0;6 4 3 0 1 2 7 8 5 6
+7;8932;193;0;0;6 4 3 0 1 2 7 8 5 6
+8;2268;193;0;0;3 0 1 2 7 8 5 6 4 3
+9;564;193;0;0;3 0 1 2 7 8 5 6 4 3
+10;150;193;0;0;4 3 0 1 2 7 8 5 6 4
+11;11222;193;0;0;0 1 2 7 8 5 6 4 3 0
+12;727;193;0;0;8 5 6 4 3 0 1 2 7 8
+13;297;193;0;0;1 2 7 8 5 6 4 3 0 1
+14;1529;193;0;0;6 4 3 0 1 2 7 8 5 6
+15;709;193;0;0;0 1 2 7 8 5 6 4 3 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+3122;0;0;0
+
+
+plik:;g/gr10.txt
+wynik optymalny:;209
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11717;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+2;2169;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+3;1491;209;0;0;5 3 6 7 8 2 0 1 9 4 5
+4;1108;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+5;11873;209;0;0;8 2 0 1 9 4 5 3 6 7 8
+6;1678;209;0;0;5 3 6 7 8 2 0 1 9 4 5
+7;797;209;0;0;1 9 4 5 3 6 7 8 2 0 1
+8;499;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+9;1861;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+10;487;209;0;0;6 7 8 2 0 1 9 4 5 3 6
+11;1411;209;0;0;5 3 6 7 8 2 0 1 9 4 5
+12;679;209;0;0;5 3 6 7 8 2 0 1 9 4 5
+13;1681;209;0;0;2 0 1 9 4 5 3 6 7 8 2
+14;1410;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+15;3398;209;0;0;4 5 3 6 7 8 2 0 1 9 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2817;0;0;0
+
+
+plik:;g/gr11.txt
+wynik optymalny:;115
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;724;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+2;1612;115;0;0;8 5 10 2 6 9 4 3 0 7 1 8
+3;243;115;0;0;4 3 0 7 1 8 5 10 2 6 9 4
+4;1606;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+5;819;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+6;1769;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+7;697;115;0;0;7 1 8 5 10 2 6 9 4 3 0 7
+8;225;115;0;0;4 3 0 7 1 8 5 10 2 6 9 4
+9;413;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+10;8341;115;0;0;2 6 9 4 3 0 7 1 8 5 10 2
+11;2136;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+12;725;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+13;1018;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+14;722;115;0;0;7 1 8 5 10 2 6 9 4 3 0 7
+15;421;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1431;0;0;0
+
+
+plik:;g/gr12.txt
+wynik optymalny:;244
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1773;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+2;4080;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+3;3607;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+4;1270;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+5;12370;244;0;0;4 3 6 7 11 8 5 10 0 1 2 9 4
+6;26743;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+7;7904;244;0;0;1 2 9 4 3 6 7 11 8 5 10 0 1
+8;2135;244;0;0;1 2 9 4 3 6 7 11 8 5 10 0 1
+9;1812;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+10;2277;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+11;3599;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+12;7811;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+13;18592;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+14;2038;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+15;1902;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+6527;0;0;0
+
+
+plik:;g/gr13.txt
+wynik optymalny:;266
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;5267;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+2;15457;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+3;23057;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+4;2202;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+5;15620;266;0;0;8 2 0 1 12 7 11 6 4 3 9 5 10 8
+6;4320;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+7;74909;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+8;9867;266;0;0;10 8 2 0 1 12 7 11 6 4 3 9 5 10
+9;3450;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+10;955;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+11;4819;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+12;3551;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+13;36437;266;0;0;0 1 12 7 11 6 4 3 9 5 10 8 2 0
+14;42317;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+15;2278;266;0;0;8 2 0 1 12 7 11 6 4 3 9 5 10 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+16300;0;0;0
+
+
+plik:;g/gr14.txt
+wynik optymalny:;279
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;7105;279;0;0;3 0 1 2 9 5 10 8 13 11 12 7 6 4 3
+2;5443;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+3;4216;279;0;0;0 1 2 9 5 10 8 13 11 12 7 6 4 3 0
+4;79751;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+5;3897;279;0;0;0 1 2 9 5 10 8 13 11 12 7 6 4 3 0
+6;23051;279;0;0;9 5 10 8 13 11 12 7 6 4 3 0 1 2 9
+7;8508;279;0;0;4 3 0 1 2 9 5 10 8 13 11 12 7 6 4
+8;6717;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+9;9822;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+10;5651;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+11;13335;279;0;0;11 12 7 6 4 3 0 1 2 9 5 10 8 13 11
+12;17303;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+13;9944;279;0;0;0 1 2 9 5 10 8 13 11 12 7 6 4 3 0
+14;4541;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+15;7414;279;0;0;9 5 10 8 13 11 12 7 6 4 3 0 1 2 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+13779;0;0;0
+
+
+plik:;g/gr15.txt
+wynik optymalny:;303
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;9744;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+2;85955;303;0;0;9 5 10 0 1 2 14 7 8 13 11 12 6 4 3 9
+3;197811;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+4;91386;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+5;5474;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+6;547378;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+7;112235;303;0;0;4 3 9 5 10 0 1 2 14 7 8 13 11 12 6 4
+8;49400;303;0;0;4 3 9 5 10 0 1 2 14 7 8 13 11 12 6 4
+9;184069;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+10;904951;303;0;0;13 11 12 6 4 3 9 5 10 0 1 2 14 7 8 13
+11;42268;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+12;147832;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+13;341934;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+14;191140;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+15;21717;303;0;0;0 1 2 14 7 8 13 11 12 6 4 3 9 5 10 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+195552;0;0;0
+
+
+plik:;g/gr16.txt
+wynik optymalny:;328
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;6712820;328;0;0;4 3 9 5 10 0 1 2 14 7 8 13 11 15 12 6 4
+2;8745747;328;0;0;5 10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5
+3;7738536;328;0;0;5 10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5
+4;108390;328;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12 6
+5;7538533;328;0;0;12 6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12
+6;11000362;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+7;3526224;328;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12 6
+8;7353123;328;0;0;12 6 4 3 9 5 10 0 1 2 14 7 8 13 11 15 12
+9;8693348;328;0;0;5 10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5
+10;11000431;329;1;0.304878;0 1 12 7 6 13 11 15 9 4 5 10 8 2 14 3 0
+11;6241679;328;0;0;10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5 10
+12;11000281;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+13;11000363;329;1;0.304878;15 9 4 5 10 8 2 14 3 0 1 12 7 6 13 11 15
+14;11000421;329;1;0.304878;1 12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1
+15;15700;328;0;0;5 10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+7445063;0.333333;0.666667;0.00203252
+
+
+plik:;g/gr17.txt
+wynik optymalny:;344
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000587;345;1;0.290698;3 0 1 2 14 7 16 9 4 5 10 8 13 11 15 12 6 3
+2;726635;344;0;0;6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12 6
+3;802302;344;0;0;4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12 6 4
+4;11000210;345;1;0.290698;12 6 3 0 1 2 14 7 16 9 4 5 10 8 13 11 15 12
+5;11000579;345;1;0.290698;0 1 2 14 6 13 11 15 12 7 8 5 10 16 9 4 3 0
+6;41500;344;0;0;0 1 2 14 7 16 9 5 10 8 13 11 15 12 6 4 3 0
+7;6451850;344;0;0;8 13 11 15 12 6 4 3 0 1 2 14 7 16 9 5 10 8
+8;179074;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
+9;11000457;345;1;0.290698;6 13 11 15 12 7 8 5 10 16 9 4 3 0 1 2 14 6
+10;8100311;344;0;0;6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12 6
+11;11000142;345;1;0.290698;15 12 7 8 5 10 16 9 4 3 0 1 2 14 6 13 11 15
+12;1182660;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
+13;11000549;345;1;0.290698;5 10 16 9 4 3 0 1 2 14 6 13 11 15 12 7 8 5
+14;11000462;345;1;0.290698;12 7 8 5 10 16 9 4 3 0 1 2 14 6 13 11 15 12
+15;11000512;346;2;0.581395;6 4 5 10 16 9 3 0 1 2 14 7 8 13 11 15 12 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+7032522;0.6;1.2;0.00348837
+
+
+plik:;g/gr18.txt
+wynik optymalny:;141
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;503127;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+2;11681;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+3;281781;141;0;0;12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11 17 12
+4;1546;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+5;336840;141;0;0;3 15 2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3
+6;71352;141;0;0;17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11 17
+7;89124;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+8;299128;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+9;205647;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+10;1582679;141;0;0;17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11 17
+11;166805;141;0;0;17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11 17
+12;2328;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+13;340170;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+14;775949;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+15;62608;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+315384;0;0;0
+
+
+plik:;g/gr19.txt
+wynik optymalny:;147
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;2434369;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+2;430292;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+3;3056;147;0;0;15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15
+4;7798;147;0;0;13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13
+5;739093;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+6;18716;147;0;0;13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13
+7;178950;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+8;2470918;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+9;893598;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+10;389626;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+11;505147;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+12;920529;147;0;0;13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13
+13;19185;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+14;15439;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+15;4649;147;0;0;12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11 17 12
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+602091;0;0;0
+
+
+plik:;g/gr20.txt
+wynik optymalny:;148
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000674;149;1;0.675676;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11
+2;11000360;152;4;2.7027;18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17 12 16 11 18
+3;11000181;152;4;2.7027;19 13 3 15 17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19
+4;11001088;153;5;3.37838;19 13 3 15 1 12 16 11 18 0 7 9 10 6 14 4 2 5 8 17 19
+5;11001460;152;4;2.7027;17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17
+6;11001011;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+7;11001061;149;1;0.675676;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11
+8;11000726;152;4;2.7027;17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17
+9;11000724;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+10;11000803;152;4;2.7027;17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17
+11;11000552;154;6;4.05405;17 12 16 11 18 0 7 9 14 19 13 3 15 1 10 6 2 5 8 4 17
+12;11000786;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+13;11000223;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+14;11000904;149;1;0.675676;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11
+15;11000893;149;1;0.675676;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11000763;2.6;5.2;0.0351351
+
+
+plik:;asy/br17.atsp
+wynik optymalny:;39
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;648;39;0;0;9 1 10 12 13 2 11 0 14 15 6 5 3 4 16 8 7 9
+2;622;39;0;0;7 8 16 0 11 2 13 1 9 12 10 15 6 5 14 4 3 7
+3;619;39;0;0;3 4 5 15 14 6 10 9 12 1 2 13 0 11 8 7 16 3
+4;629;39;0;0;5 15 6 14 4 3 8 16 7 9 12 10 1 2 13 0 11 5
+5;620;39;0;0;7 8 16 12 1 10 9 2 13 0 11 6 14 5 15 4 3 7
+6;640;39;0;0;3 4 6 5 14 15 9 1 12 10 2 13 0 11 8 16 7 3
+7;624;39;0;0;3 4 6 5 14 15 10 12 1 9 13 2 0 11 7 16 8 3
+8;623;39;0;0;7 16 8 10 12 1 9 13 2 0 11 6 5 15 14 3 4 7
+9;630;39;0;0;3 4 16 8 7 9 10 12 1 13 2 0 11 15 5 6 14 3
+10;625;39;0;0;0 11 6 14 15 5 4 3 16 7 8 10 1 9 12 13 2 0
+11;632;39;0;0;2 13 9 10 1 12 6 5 15 14 4 3 16 7 8 11 0 2
+12;630;39;0;0;14 5 15 6 4 3 8 7 16 1 10 12 9 13 2 0 11 14
+13;621;39;0;0;15 6 5 14 9 12 10 1 2 13 0 11 16 7 8 4 3 15
+14;721;39;0;0;1 10 9 12 2 13 11 0 7 16 8 3 4 14 5 6 15 1
+15;626;39;0;0;7 8 16 12 10 1 9 13 2 11 0 14 6 15 5 4 3 7
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+634;0;0;0
+
+
+plik:;asy/ftv33.atsp
+wynik optymalny:;1286
+liczba wierzcholkow:;34
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;90914;1286;0;0;28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28
+2;474191;1286;0;0;26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26
+3;51162;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+4;814080;1286;0;0;27 28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+5;65850;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+6;129595;1286;0;0;18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18
+7;87828;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+8;65552;1286;0;0;20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20
+9;1375640;1286;0;0;18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18
+10;84322;1286;0;0;10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18 19 17 11 8 10
+11;299545;1286;0;0;27 28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+12;89316;1286;0;0;27 28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+13;60446;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+14;1200055;1286;0;0;28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28
+15;412175;1286;0;0;28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+353378;0;0;0
+
+
+plik:;asy/ftv35.atsp
+wynik optymalny:;1473
+liczba wierzcholkow:;36
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11004078;1528;55;3.73388;17 10 33 18 19 20 21 22 23 27 28 29 31 30 1 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 14 15 16 26 25 24 17
+2;11002251;1496;23;1.56144;18 17 10 9 12 34 8 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 33 18
+3;11001847;1516;43;2.91921;33 18 19 17 10 9 34 8 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 33
+4;11001608;1499;26;1.76511;12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12
+5;11001318;1520;47;3.19077;13 11 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 16 15 14 1 26 25 24 19 33 18 17 10 9 8 34 13
+6;11002678;1499;26;1.76511;30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12 5 7 6 4 32 30
+7;11003816;1513;40;2.71555;30 27 23 20 21 33 18 19 17 10 9 34 8 12 5 7 6 4 32 35 2 3 0 13 11 14 15 16 1 26 25 24 22 28 29 31 30
+8;843913;1473;0;0;33 18 17 10 9 34 8 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 33
+9;11004514;1479;6;0.407332;13 0 16 15 14 11 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 1 26 25 24 19 33 18 17 10 9 34 8 13
+10;11005244;1538;65;4.41276;12 34 8 9 11 14 15 16 1 26 25 24 19 17 10 33 18 20 21 22 23 27 28 29 30 31 35 32 4 5 7 6 2 3 0 13 12
+11;11004130;1502;29;1.96877;11 14 15 16 1 26 25 24 17 10 33 18 19 20 21 22 23 27 30 28 29 31 35 32 4 5 7 6 2 3 0 13 12 34 8 9 11
+12;11001968;1512;39;2.64766;22 23 20 21 33 18 17 10 9 34 8 12 5 7 6 4 32 30 27 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 22
+13;11003530;1499;26;1.76511;30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12 5 7 6 4 32 30
+14;11004756;1499;26;1.76511;34 8 9 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34
+15;11004630;1517;44;2.9871;33 18 17 10 9 34 8 12 5 7 6 4 2 3 0 13 11 14 15 16 1 35 32 30 27 23 20 21 22 28 29 31 26 25 24 19 33
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+10326018;33;66;0.0448065
+
+
+plik:;asy/ftv38.atsp
+wynik optymalny:;1530
+liczba wierzcholkow:;39
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11004398;1601;71;4.64052;25 31 32 34 38 2 3 15 5 7 6 4 35 33 30 26 23 24 36 21 22 20 13 12 11 37 9 8 10 14 17 18 19 0 16 1 29 28 27 25
+2;11002425;1595;65;4.24837;37 9 8 11 14 15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 18 19 17 1 29 28 27 22 36 21 20 13 12 10 37
+3;11001022;1602;72;4.70588;16 0 19 18 17 14 15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 1 29 28 27 22 20 13 36 21 11 37 9 8 10 12 16
+4;11007023;1599;69;4.5098;15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 15
+5;11004164;1598;68;4.44444;4 2 3 0 16 14 15 5 7 6 8 37 9 10 12 13 36 21 20 11 17 18 19 1 29 28 27 22 23 24 25 26 30 33 31 32 34 38 35 4
+6;11001118;1599;69;4.5098;4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 15 5 7 6 4
+7;11002803;1610;80;5.22876;6 7 5 8 11 37 9 10 12 13 36 21 22 20 14 17 18 19 0 16 1 29 28 27 30 26 23 24 25 31 32 33 34 38 35 4 2 3 15 6
+8;11002272;1598;68;4.44444;3 0 16 14 15 5 7 6 8 37 9 10 12 13 36 21 22 20 11 17 18 19 1 29 28 27 23 24 25 26 30 33 31 32 34 38 35 4 2 3
+9;11006642;1570;40;2.61438;17 18 19 1 3 0 16 14 15 5 7 6 8 37 9 10 12 13 36 21 22 23 24 25 26 30 31 32 34 38 2 4 35 33 29 28 27 20 11 17
+10;11005122;1598;68;4.44444;16 14 15 5 7 6 8 37 9 10 12 13 36 21 22 20 11 17 18 19 1 29 28 27 23 24 25 26 30 33 31 32 34 38 35 4 2 3 0 16
+11;11003543;1599;69;4.5098;30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 15 5 7 6 4 35 33 30
+12;11001220;1588;58;3.79085;14 15 5 7 6 8 37 9 10 12 13 36 21 20 11 16 0 1 29 28 27 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 19 18 17 14
+13;11002327;1599;69;4.5098;15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 15
+14;11000403;1599;69;4.5098;15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 15
+15;11003978;1576;46;3.00654;15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 14 17 18 19 1 29 28 27 20 21 22 36 13 10 12 11 37 9 8 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11003230;65.4;130.8;0.0854902
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11003904;1690;77;4.77371;33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27 33
+2;11003650;1664;51;3.16181;21 19 20 7 9 8 40 41 6 39 38 44 3 4 5 0 1 2 31 30 29 24 27 33 34 36 37 35 32 28 25 26 42 23 22 18 16 17 14 43 11 10 12 13 15 21
+3;11006709;1668;55;3.4098;42 23 22 18 16 17 14 43 11 10 12 13 15 21 19 20 7 9 8 40 41 6 39 38 44 3 4 5 0 1 2 31 30 29 25 26 27 33 34 36 37 35 32 28 24 42
+4;11005808;1670;57;3.53379;21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 1 2 31 30 29 22 23 24 42 18 16 17 14 43 11 10 12 13 15 21
+5;11007924;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+6;11005365;1626;13;0.805952;22 18 16 17 14 43 11 10 12 13 15 19 20 7 9 8 40 41 6 39 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 21 1 2 31 30 29 24 42 23 22
+7;11009451;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+8;11001597;1688;75;4.64972;27 33 34 36 37 35 32 28 25 26 42 23 24 22 18 16 14 43 11 10 12 13 15 17 20 7 9 8 40 41 6 39 38 44 3 4 5 0 21 19 1 2 31 30 29 27
+9;11007199;1663;50;3.09981;16 17 18 42 23 24 25 26 27 28 32 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 1 2 31 30 29 22 14 43 11 10 12 13 15 16
+10;11010183;1690;77;4.77371;38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27 33 34 36 37 38
+11;11008028;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+12;11010240;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+13;11002881;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+14;11006450;1667;54;3.3478;23 24 22 18 16 17 14 43 11 10 12 13 15 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 1 2 31 30 29 42 23
+15;11004502;1667;54;3.3478;42 23 24 22 18 16 17 14 43 11 10 12 13 15 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 27 33 34 36 37 38 44 3 4 5 0 1 2 31 30 29 42
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006259;63.2;126.4;0.0783633
+
+
+plik:;asy/ftv47.atsp
+wynik optymalny:;1776
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11006003;1887;111;6.25;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23
+2;11007562;1916;140;7.88288;18 17 12 32 7 23 34 13 46 36 14 16 45 39 21 40 47 26 42 28 2 41 43 22 20 38 0 25 1 9 33 27 4 29 30 5 31 6 24 3 10 8 11 37 19 44 15 35 18
+3;11007203;1895;119;6.70045;46 36 14 16 45 39 21 40 47 26 42 22 20 38 37 0 25 1 9 33 27 28 2 41 43 19 44 15 35 34 13 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 18 17 46
+4;11010946;1916;140;7.88288;13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 34 23 13
+5;11001540;1910;134;7.54505;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 11 8 0 25 37 19 44 15 35 23
+6;11012724;1887;111;6.25;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23
+7;11003779;1895;119;6.70045;45 39 21 20 38 37 0 25 1 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 34 13 46 36 14 35 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 18 17 45
+8;11000196;1887;111;6.25;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23
+9;11006356;1895;119;6.70045;46 36 14 16 45 39 21 40 47 26 42 22 20 38 0 25 1 9 33 27 28 2 41 43 19 44 15 35 34 13 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 18 17 46
+10;11006595;1917;141;7.93919;0 25 1 9 33 27 28 2 41 43 42 22 40 47 26 19 44 15 16 45 39 21 20 38 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 0
+11;11003769;1910;134;7.54505;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 11 8 10 0 25 37 19 44 15 35 23
+12;11008156;1887;111;6.25;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23
+13;11003020;1884;108;6.08108;34 13 46 36 14 16 45 39 21 40 47 26 42 22 20 38 37 0 25 1 9 33 27 28 2 41 43 19 44 15 35 23 12 32 7 31 5 6 24 4 29 30 3 8 10 11 18 17 34
+14;11008802;1917;141;7.93919;38 0 25 1 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 45 39 21 20 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 38
+15;11003586;1905;129;7.26351;0 25 1 10 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 45 39 21 20 38 37 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 8 11 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006015;124.533;249.067;0.14024
+
+
+BADANIE;00:09:05
+metoda:;ant system
+konfiguracja:;alg_iterations=0               , alpha=1, beta=3, dorigo_alg=1           , evaporation_rate=0.5, input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp, iterations=15, max_exec_time_s=10, num_ants=-1         , pheromone_quantity=100, 
+
+plik:;g/gr6.txt
+wynik optymalny:;132
+liczba wierzcholkow:;6
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3977;132;0;0;1 2 3 4 5 0 1
+2;199;132;0;0;0 1 2 3 4 5 0
+3;207;132;0;0;1 2 3 4 5 0 1
+4;134;132;0;0;1 2 3 4 5 0 1
+5;89;132;0;0;1 2 3 4 5 0 1
+6;120;132;0;0;1 2 3 4 5 0 1
+7;130;132;0;0;0 1 2 3 4 5 0
+8;89;132;0;0;1 2 3 4 5 0 1
+9;122;132;0;0;1 2 3 4 5 0 1
+10;88;132;0;0;4 5 0 1 2 3 4
+11;79;132;0;0;0 1 2 3 4 5 0
+12;95;132;0;0;1 2 3 4 5 0 1
+13;161;132;0;0;1 2 3 4 5 0 1
+14;99;132;0;0;3 4 5 0 1 2 3
+15;100;132;0;0;2 3 4 5 0 1 2
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+379;0;0;0
+
+
+plik:;g/gr7.txt
+wynik optymalny:;146
+liczba wierzcholkow:;7
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;159;146;0;0;1 2 0 4 5 3 6 1
+2;94;146;0;0;1 2 0 4 5 3 6 1
+3;106;146;0;0;3 6 1 2 0 4 5 3
+4;93;146;0;0;3 6 1 2 0 4 5 3
+5;114;146;0;0;3 6 1 2 0 4 5 3
+6;379;146;0;0;1 2 0 4 5 3 6 1
+7;398;146;0;0;4 5 3 6 1 2 0 4
+8;323;146;0;0;6 1 2 0 4 5 3 6
+9;367;146;0;0;6 1 2 0 4 5 3 6
+10;266;146;0;0;5 3 6 1 2 0 4 5
+11;1430;146;0;0;6 1 2 0 4 5 3 6
+12;331;146;0;0;1 2 0 4 5 3 6 1
+13;241;146;0;0;5 3 6 1 2 0 4 5
+14;114;146;0;0;1 2 0 4 5 3 6 1
+15;93;146;0;0;1 2 0 4 5 3 6 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+300;0;0;0
+
+
+plik:;g/gr8.txt
+wynik optymalny:;162
+liczba wierzcholkow:;8
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;215;162;0;0;0 1 2 7 6 4 5 3 0
+2;148;162;0;0;7 6 4 5 3 0 1 2 7
+3;126;162;0;0;3 0 1 2 7 6 4 5 3
+4;561;162;0;0;1 2 7 6 4 5 3 0 1
+5;364;162;0;0;7 6 4 5 3 0 1 2 7
+6;321;162;0;0;4 5 3 0 1 2 7 6 4
+7;116;162;0;0;0 1 2 7 6 4 5 3 0
+8;465;162;0;0;4 5 3 0 1 2 7 6 4
+9;200;162;0;0;1 2 7 6 4 5 3 0 1
+10;207;162;0;0;3 0 1 2 7 6 4 5 3
+11;539;162;0;0;0 1 2 7 6 4 5 3 0
+12;11000078;163;1;0.617284;6 4 3 0 1 2 5 7 6
+13;317;162;0;0;5 3 0 1 2 7 6 4 5
+14;6632;162;0;0;0 1 2 7 6 4 5 3 0
+15;1209;162;0;0;1 2 7 6 4 5 3 0 1
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+734099;0.0666667;0.133333;0.000823045
+
+
+plik:;g/gr9.txt
+wynik optymalny:;193
+liczba wierzcholkow:;9
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;68335;193;0;0;6 4 3 0 1 2 7 8 5 6
+2;498;193;0;0;3 0 1 2 7 8 5 6 4 3
+3;12831;193;0;0;6 4 3 0 1 2 7 8 5 6
+4;7883;193;0;0;6 4 3 0 1 2 7 8 5 6
+5;4469;193;0;0;6 4 3 0 1 2 7 8 5 6
+6;44314;193;0;0;6 4 3 0 1 2 7 8 5 6
+7;11000111;194;1;0.518135;0 1 4 5 3 6 7 8 2 0
+8;1181;193;0;0;6 4 3 0 1 2 7 8 5 6
+9;487;193;0;0;6 4 3 0 1 2 7 8 5 6
+10;1186;193;0;0;7 8 5 6 4 3 0 1 2 7
+11;3687;193;0;0;3 0 1 2 7 8 5 6 4 3
+12;2849;193;0;0;6 4 3 0 1 2 7 8 5 6
+13;843;193;0;0;1 2 7 8 5 6 4 3 0 1
+14;4476;193;0;0;6 4 3 0 1 2 7 8 5 6
+15;31984;193;0;0;6 4 3 0 1 2 7 8 5 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+745675;0.0666667;0.133333;0.000690846
+
+
+plik:;g/gr10.txt
+wynik optymalny:;209
+liczba wierzcholkow:;10
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;988;209;0;0;2 0 1 9 4 5 3 6 7 8 2
+2;24007;209;0;0;8 2 0 1 9 4 5 3 6 7 8
+3;58363;209;0;0;3 6 7 8 2 0 1 9 4 5 3
+4;3008;209;0;0;6 7 8 2 0 1 9 4 5 3 6
+5;227348;209;0;0;8 2 0 1 9 4 5 3 6 7 8
+6;672;209;0;0;2 0 1 9 4 5 3 6 7 8 2
+7;16525;209;0;0;2 0 1 9 4 5 3 6 7 8 2
+8;17524;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+9;25737;209;0;0;9 4 5 3 6 7 8 2 0 1 9
+10;1346;209;0;0;9 4 5 3 6 7 8 2 0 1 9
+11;1694;209;0;0;7 8 2 0 1 9 4 5 3 6 7
+12;7386;209;0;0;4 5 3 6 7 8 2 0 1 9 4
+13;756;209;0;0;6 7 8 2 0 1 9 4 5 3 6
+14;3065;209;0;0;2 0 1 9 4 5 3 6 7 8 2
+15;920;209;0;0;6 7 8 2 0 1 9 4 5 3 6
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+25955;0;0;0
+
+
+plik:;g/gr11.txt
+wynik optymalny:;115
+liczba wierzcholkow:;11
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;95282;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+2;31848;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+3;30572;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+4;1879;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+5;25258;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+6;1439;115;0;0;8 5 10 2 6 9 4 3 0 7 1 8
+7;5315;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+8;277;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+9;621;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+10;623;115;0;0;5 10 2 6 9 4 3 0 7 1 8 5
+11;856;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+12;212458;115;0;0;9 4 3 0 7 1 8 5 10 2 6 9
+13;34230;115;0;0;2 6 9 4 3 0 7 1 8 5 10 2
+14;3195;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+15;3184617;115;0;0;3 0 7 1 8 5 10 2 6 9 4 3
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+241898;0;0;0
+
+
+plik:;g/gr12.txt
+wynik optymalny:;244
+liczba wierzcholkow:;12
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1532;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+2;11000285;250;6;2.45902;5 10 4 3 6 7 11 8 2 0 1 9 5
+3;543;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+4;1019;244;0;0;4 3 6 7 11 8 5 10 0 1 2 9 4
+5;1513;244;0;0;5 10 0 1 2 9 4 3 6 7 11 8 5
+6;92753;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+7;10577;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+8;1575;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+9;11000046;250;6;2.45902;11 8 2 0 1 9 5 10 4 3 6 7 11
+10;79896;244;0;0;7 11 8 5 10 0 1 2 9 4 3 6 7
+11;631;244;0;0;11 8 5 10 0 1 2 9 4 3 6 7 11
+12;13434;244;0;0;3 6 7 11 8 5 10 0 1 2 9 4 3
+13;3747;244;0;0;9 4 3 6 7 11 8 5 10 0 1 2 9
+14;21306;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+15;17687;244;0;0;0 1 2 9 4 3 6 7 11 8 5 10 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1483102;0.8;1.6;0.00655738
+
+
+plik:;g/gr13.txt
+wynik optymalny:;266
+liczba wierzcholkow:;13
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;1243;266;0;0;2 0 1 12 7 11 6 4 3 9 5 10 8 2
+2;2920;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+3;30616;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+4;58967;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+5;80099;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+6;512656;266;0;0;3 9 5 10 8 2 0 1 12 7 11 6 4 3
+7;3477;266;0;0;12 7 11 6 4 3 9 5 10 8 2 0 1 12
+8;29543;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+9;180317;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+10;5948;266;0;0;11 6 4 3 9 5 10 8 2 0 1 12 7 11
+11;48346;266;0;0;6 4 3 9 5 10 8 2 0 1 12 7 11 6
+12;421901;266;0;0;4 3 9 5 10 8 2 0 1 12 7 11 6 4
+13;3274;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+14;70514;266;0;0;5 10 8 2 0 1 12 7 11 6 4 3 9 5
+15;169533;266;0;0;9 5 10 8 2 0 1 12 7 11 6 4 3 9
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+107956;0;0;0
+
+
+plik:;g/gr14.txt
+wynik optymalny:;279
+liczba wierzcholkow:;14
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3683;279;0;0;6 4 3 0 1 2 9 5 10 8 13 11 12 7 6
+2;359124;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+3;77292;279;0;0;7 6 4 3 0 1 2 9 5 10 8 13 11 12 7
+4;11000313;289;10;3.58423;0 1 2 3 9 4 5 10 13 11 12 6 7 8 0
+5;9386;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+6;84116;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+7;5217;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+8;94320;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+9;11480;279;0;0;5 10 8 13 11 12 7 6 4 3 0 1 2 9 5
+10;4592;279;0;0;3 0 1 2 9 5 10 8 13 11 12 7 6 4 3
+11;3523;279;0;0;13 11 12 7 6 4 3 0 1 2 9 5 10 8 13
+12;102080;279;0;0;0 1 2 9 5 10 8 13 11 12 7 6 4 3 0
+13;3581;279;0;0;8 13 11 12 7 6 4 3 0 1 2 9 5 10 8
+14;11000100;280;1;0.358423;8 13 11 12 6 7 3 0 1 2 9 4 5 10 8
+15;55770;279;0;0;0 1 2 9 5 10 8 13 11 12 7 6 4 3 0
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+1520971;0.733333;1.46667;0.00525687
+
+
+plik:;g/gr15.txt
+wynik optymalny:;303
+liczba wierzcholkow:;15
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000149;305;2;0.660066;4 5 10 0 1 12 7 6 13 11 8 2 14 3 9 4
+2;3766942;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+3;272431;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+4;2098340;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+5;55187;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+6;3364338;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+7;1450825;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+8;2791;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+9;1230673;303;0;0;6 4 3 9 5 10 0 1 2 14 7 8 13 11 12 6
+10;11000505;305;2;0.660066;0 1 12 7 6 13 11 8 2 14 3 9 4 5 10 0
+11;3704062;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+12;32266;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+13;1064600;303;0;0;5 10 0 1 2 14 7 8 13 11 12 6 4 3 9 5
+14;226868;303;0;0;7 8 13 11 12 6 4 3 9 5 10 0 1 2 14 7
+15;11174;303;0;0;4 3 9 5 10 0 1 2 14 7 8 13 11 12 6 4
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2618743;0.266667;0.533333;0.00176018
+
+
+plik:;g/gr16.txt
+wynik optymalny:;328
+liczba wierzcholkow:;16
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;108738;328;0;0;5 10 0 1 2 14 7 8 13 11 15 12 6 4 3 9 5
+2;11000265;329;1;0.304878;7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12 7
+3;11000231;329;1;0.304878;12 6 3 9 4 5 10 0 1 2 14 7 8 13 11 15 12
+4;11000286;329;1;0.304878;6 3 9 4 5 10 0 1 2 14 7 8 13 11 15 12 6
+5;11000356;329;1;0.304878;0 1 12 7 6 13 11 15 9 4 5 10 8 2 14 3 0
+6;11000248;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+7;11000113;329;1;0.304878;8 2 14 3 0 1 12 7 6 13 11 15 9 4 5 10 8
+8;11000110;329;1;0.304878;2 14 3 0 1 12 7 6 13 11 15 9 4 5 10 8 2
+9;11000255;329;1;0.304878;0 1 12 7 6 13 11 15 9 4 5 10 8 2 14 3 0
+10;1046242;328;0;0;0 1 2 14 7 8 13 11 15 12 6 4 3 9 5 10 0
+11;11000186;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+12;11000430;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+13;11000169;329;1;0.304878;7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12 7
+14;11000306;329;1;0.304878;7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12 7
+15;11000397;329;1;0.304878;12 7 6 13 11 15 9 4 5 10 8 2 14 3 0 1 12
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+9610555;0.866667;1.73333;0.00528455
+
+
+plik:;g/gr17.txt
+wynik optymalny:;344
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000166;347;3;0.872093;7 8 13 11 12 15 9 5 10 16 4 3 0 1 2 14 6 7
+2;11000423;347;3;0.872093;5 10 16 4 3 0 1 2 14 6 7 8 13 11 12 15 9 5
+3;11000470;347;3;0.872093;7 8 13 11 12 15 9 5 10 16 4 3 0 1 2 14 6 7
+4;11000606;346;2;0.581395;6 4 5 10 16 9 3 0 1 2 14 7 8 13 11 15 12 6
+5;11000654;345;1;0.290698;4 3 0 1 2 14 6 13 11 15 12 7 8 5 10 16 9 4
+6;38499;344;0;0;3 0 1 2 14 7 16 9 5 10 8 13 11 15 12 6 4 3
+7;11000468;347;3;0.872093;6 7 8 13 11 12 15 9 5 10 16 4 3 0 1 2 14 6
+8;11000606;345;1;0.290698;13 11 15 12 7 8 5 10 16 9 4 3 0 1 2 14 6 13
+9;11000607;347;3;0.872093;7 8 13 11 12 15 9 5 10 16 4 3 0 1 2 14 6 7
+10;7572889;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
+11;11000542;345;1;0.290698;10 16 9 4 3 0 1 2 14 6 13 11 15 12 7 8 5 10
+12;13763;344;0;0;4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12 6 4
+13;10627197;344;0;0;12 6 4 3 0 1 2 14 7 16 9 5 10 8 13 11 15 12
+14;11000267;347;3;0.872093;7 8 13 11 12 15 9 5 10 16 4 3 0 1 2 14 6 7
+15;14820;344;0;0;16 9 5 10 8 13 11 15 12 6 4 3 0 1 2 14 7 16
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+8551465;1.53333;3.06667;0.00891473
+
+
+plik:;g/gr18.txt
+wynik optymalny:;141
+liczba wierzcholkow:;18
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;3222745;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+2;8841269;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+3;91518;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+4;808240;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+5;3765079;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+6;3361361;141;0;0;1 11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1
+7;796;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+8;1764692;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+9;3910061;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+10;1707434;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+11;700655;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+12;2332022;141;0;0;11 17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11
+13;144497;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+14;6828502;141;0;0;2 5 8 4 1 11 17 12 16 0 7 9 10 6 14 13 3 15 2
+15;494578;141;0;0;17 12 16 0 7 9 10 6 14 13 3 15 2 5 8 4 1 11 17
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+2531563;0;0;0
+
+
+plik:;g/gr19.txt
+wynik optymalny:;147
+liczba wierzcholkow:;19
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;19890;147;0;0;13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13
+2;1545808;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+3;18722;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+4;50116;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+5;1062452;147;0;0;17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11 17
+6;23220;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+7;399436;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+8;11203;147;0;0;0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11 17 12 16 0
+9;886;147;0;0;1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1
+10;1387743;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+11;89324;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+12;506693;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+13;157510;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+14;1791;147;0;0;17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11 17
+15;619518;147;0;0;11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 13 3 15 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+392954;0;0;0
+
+
+plik:;g/gr20.txt
+wynik optymalny:;148
+liczba wierzcholkow:;20
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11000564;152;4;2.7027;0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17 12 16 11 18 0
+2;11000735;152;4;2.7027;17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17
+3;210225;148;0;0;4 19 13 3 15 1 11 18 17 12 16 0 7 9 10 6 2 5 8 14 4
+4;11000102;149;1;0.675676;19 13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19
+5;4383;148;0;0;4 19 13 3 15 1 11 18 17 12 16 0 7 9 10 6 2 5 8 14 4
+6;11000349;149;1;0.675676;19 13 3 15 1 11 17 12 16 0 7 9 10 6 14 4 2 5 8 18 19
+7;139297;148;0;0;4 19 13 3 15 1 11 18 17 12 16 0 7 9 10 6 2 5 8 14 4
+8;11000995;149;1;0.675676;17 12 16 11 18 0 7 9 14 4 19 13 3 15 1 10 6 2 5 8 17
+9;11000116;149;1;0.675676;17 12 16 0 7 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11 17
+10;11000731;152;4;2.7027;17 12 16 11 18 0 7 9 10 6 2 5 8 4 1 14 19 13 3 15 17
+11;4228;148;0;0;4 19 13 3 15 1 11 18 17 12 16 0 7 9 10 6 2 5 8 14 4
+12;11000420;154;6;4.05405;17 12 16 11 18 0 7 9 14 19 13 3 15 1 10 6 2 5 8 4 17
+13;11000815;155;7;4.72973;5 8 4 19 13 3 15 1 12 16 11 18 0 7 17 14 9 10 6 2 5
+14;11000060;151;3;2.02703;19 13 3 15 1 11 17 12 16 0 7 9 14 4 10 6 2 5 8 18 19
+15;11000634;154;6;4.05405;11 7 17 12 16 0 9 10 6 14 4 2 5 8 18 19 13 3 15 1 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+8090910;2.53333;5.06667;0.0342342
+
+
+plik:;asy/br17.atsp
+wynik optymalny:;39
+liczba wierzcholkow:;17
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;655;39;0;0;15 5 14 6 1 12 9 10 2 13 0 11 8 7 16 3 4 15
+2;653;39;0;0;16 7 8 1 9 12 10 13 2 11 0 14 5 6 15 3 4 16
+3;2780;39;0;0;8 7 16 11 0 2 13 10 1 9 12 5 6 15 14 4 3 8
+4;653;39;0;0;15 5 14 6 10 1 9 12 13 2 0 11 7 8 16 4 3 15
+5;2707;39;0;0;0 11 2 13 9 10 1 12 7 16 8 3 4 14 5 15 6 0
+6;645;39;0;0;15 14 5 6 4 3 8 16 7 9 12 1 10 2 13 0 11 15
+7;645;39;0;0;15 6 14 5 1 10 9 12 2 13 0 11 16 7 8 4 3 15
+8;737;39;0;0;14 6 5 15 9 12 10 1 2 13 11 0 7 8 16 4 3 14
+9;655;39;0;0;14 5 6 15 3 4 16 7 8 11 0 2 13 12 10 1 9 14
+10;683;39;0;0;9 12 10 1 13 2 0 11 8 16 7 3 4 5 14 15 6 9
+11;673;39;0;0;16 7 8 12 10 9 1 2 13 0 11 5 15 6 14 4 3 16
+12;647;39;0;0;10 1 12 9 2 13 11 0 6 14 5 15 3 4 7 8 16 10
+13;655;39;0;0;10 9 12 1 13 2 11 0 14 5 15 6 4 3 7 8 16 10
+14;647;39;0;0;5 14 15 6 9 12 1 10 2 13 0 11 8 7 16 3 4 5
+15;677;39;0;0;15 6 5 14 4 3 8 7 16 1 10 9 12 2 13 11 0 15
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+940;0;0;0
+
+
+plik:;asy/ftv33.atsp
+wynik optymalny:;1286
+liczba wierzcholkow:;34
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;206304;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+2;11001124;1300;14;1.08865;31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 15 14 16 1 25 24 23 27 28 29 26 22 20 21 31
+3;11004090;1316;30;2.33281;18 19 17 11 10 9 32 7 8 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18
+4;781840;1286;0;0;26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26
+5;518141;1286;0;0;27 28 29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+6;6215646;1286;0;0;10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18 19 17 11 8 10
+7;2368508;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+8;903802;1286;0;0;31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31
+9;11002326;1316;30;2.33281;27 28 29 26 22 20 21 31 18 19 17 11 10 9 32 7 8 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27
+10;5503059;1286;0;0;22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22
+11;11000539;1332;46;3.57698;27 28 29 26 22 20 21 31 18 19 17 11 10 9 32 7 8 4 6 5 30 33 2 3 16 15 14 12 13 0 1 25 24 23 27
+12;11000423;1316;30;2.33281;4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18 19 17 11 10 9 32 7 8 4
+13;3312495;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+14;7270140;1286;0;0;29 26 22 20 21 31 18 19 17 11 8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29
+15;10194723;1286;0;0;8 10 9 32 7 4 6 5 30 33 2 3 0 13 12 14 15 16 1 25 24 23 27 28 29 26 22 20 21 31 18 19 17 11 8
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+6152210;10;20;0.0155521
+
+
+plik:;asy/ftv35.atsp
+wynik optymalny:;1473
+liczba wierzcholkow:;36
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11002649;1541;68;4.61643;22 23 20 21 33 18 19 17 10 9 34 8 12 5 7 6 4 32 35 2 3 0 13 11 14 15 16 1 26 25 24 28 29 31 30 27 22
+2;11002337;1529;56;3.80177;17 10 33 18 19 20 21 22 28 29 30 27 23 31 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 14 15 16 1 26 25 24 17
+3;11000907;1499;26;1.76511;32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12 5 7 6 4 32
+4;11003821;1499;26;1.76511;27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12 5 7 6 4 32 30 27
+5;11005711;1538;65;4.41276;35 32 4 5 7 6 2 3 0 13 12 34 8 9 11 14 15 16 1 26 25 24 19 17 10 33 18 20 21 22 23 27 30 28 29 31 35
+6;11003755;1528;55;3.73388;17 10 33 18 19 20 21 22 23 27 30 28 29 31 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 14 15 16 1 26 25 24 17
+7;11004351;1528;55;3.73388;10 33 18 19 20 21 22 23 27 30 28 29 31 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 14 15 16 1 26 25 24 17 10
+8;11005131;1517;44;2.9871;18 17 10 9 34 8 12 5 7 6 4 2 3 0 13 11 14 15 16 1 35 32 30 27 23 20 21 22 28 29 31 26 25 24 19 33 18
+9;11004282;1528;55;3.73388;10 33 18 19 20 21 22 23 27 30 28 29 31 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 14 15 16 1 26 25 24 17 10
+10;11000425;1499;26;1.76511;31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31
+11;11005388;1547;74;5.02376;33 18 19 20 21 22 23 27 30 28 29 31 35 32 4 5 7 6 2 3 0 13 11 12 34 8 9 16 15 14 1 26 25 24 17 10 33
+12;11001047;1499;26;1.76511;12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 12
+13;11000754;1516;43;2.91921;33 18 19 17 10 9 34 8 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 11 14 15 16 1 26 25 24 33
+14;11003507;1538;65;4.41276;31 35 32 4 5 7 6 2 3 0 13 12 34 8 9 11 14 15 16 1 26 25 24 19 17 10 33 18 20 21 22 23 27 30 28 29 31
+15;11003374;1503;30;2.03666;11 12 5 7 6 4 32 30 27 23 20 21 22 28 29 31 35 2 3 0 13 14 15 16 1 26 25 24 19 17 10 33 18 34 8 9 11
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11003162;47.6;95.2;0.06463
+
+
+plik:;asy/ftv38.atsp
+wynik optymalny:;1530
+liczba wierzcholkow:;39
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11003424;1645;115;7.51634;26 23 24 25 31 32 33 30 34 38 35 4 5 7 6 2 3 0 16 14 15 8 9 37 10 12 13 36 21 22 20 11 17 18 19 1 29 28 27 26
+2;11005063;1583;53;3.46405;11 16 0 19 18 17 14 15 5 7 6 8 37 9 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 1 29 28 27 20 11
+3;11001009;1626;96;6.27451;20 11 16 0 19 17 18 14 15 5 7 6 8 9 37 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 1 29 28 27 20
+4;11000241;1634;104;6.79739;8 9 37 10 12 13 36 21 22 20 11 15 5 7 6 2 3 0 16 14 17 18 19 1 29 28 27 23 24 25 26 30 33 31 32 34 38 35 4 8
+5;11003878;1623;93;6.07843;11 16 0 19 18 17 14 15 5 7 6 8 9 37 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 1 29 28 27 20 11
+6;11000885;1622;92;6.01307;15 5 7 6 8 9 37 10 12 13 36 21 22 20 11 16 14 17 18 19 0 1 29 28 27 23 24 25 26 30 33 31 32 34 38 35 4 2 3 15
+7;11004448;1643;113;7.38562;19 18 17 14 15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 0 16 1 29 28 27 22 20 13 36 21 12 11 37 9 8 10 19
+8;11001652;1652;122;7.97386;20 21 22 23 24 25 26 30 33 29 28 27 31 32 34 38 35 4 2 3 0 16 14 17 18 19 1 15 5 7 6 8 9 37 10 11 12 13 36 20
+9;11005267;1617;87;5.68627;20 11 15 5 7 6 8 9 37 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 0 16 14 17 18 19 1 29 28 27 20
+10;11002405;1572;42;2.7451;15 5 7 6 8 37 9 10 12 13 36 21 22 20 11 14 17 18 19 1 29 28 27 23 24 25 26 30 33 31 32 34 38 35 4 2 3 0 16 15
+11;11001966;1626;96;6.27451;38 35 4 5 7 6 2 3 0 16 14 15 8 37 9 10 12 13 36 21 22 20 11 19 18 17 1 29 28 27 30 26 23 24 25 31 32 33 34 38
+12;11006198;1623;93;6.07843;11 16 0 19 18 17 14 15 5 7 6 8 9 37 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 1 29 28 27 20 11
+13;11003993;1596;66;4.31373;21 22 20 13 12 11 37 9 8 10 16 0 19 18 17 14 15 5 7 6 4 35 33 30 26 23 24 25 31 32 34 38 2 3 1 29 28 27 36 21
+14;11002039;1611;81;5.29412;16 0 19 18 17 14 15 5 7 6 4 35 38 2 3 1 29 28 27 20 11 37 9 8 10 12 13 36 21 22 23 24 25 26 30 31 32 34 33 16
+15;11006392;1623;93;6.07843;20 11 16 0 19 18 17 14 15 5 7 6 8 9 37 10 12 13 36 21 22 23 24 25 26 30 33 31 32 34 38 35 4 2 3 1 29 28 27 20
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11003257;89.7333;179.467;0.117298
+
+
+plik:;asy/ftv44.atsp
+wynik optymalny:;1613
+liczba wierzcholkow:;45
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11001446;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+2;11011864;1721;108;6.6956;22 23 24 25 26 27 28 32 35 1 2 31 30 29 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 39 41 6 10 43 11 12 13 15 17 14 16 18 42 22
+3;11003789;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 24 27
+4;11001683;1690;77;4.77371;34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 24 27 33 34
+5;11010083;1679;66;4.09175;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 15 12 13 14 43 11 10 1 2 31 30 29 27
+6;11008581;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+7;11006052;1705;92;5.70366;1 2 5 0 21 19 20 7 9 8 40 39 38 44 3 4 6 41 35 32 28 25 26 27 33 34 36 37 31 30 29 24 42 23 22 18 16 17 14 43 11 10 12 13 15 1
+8;11008961;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+9;11003869;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+10;11007970;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+11;11002688;1705;92;5.70366;10 43 11 12 13 15 17 14 19 20 7 9 8 40 41 6 39 38 44 3 4 5 0 21 1 2 31 30 29 24 25 26 27 33 34 36 37 35 32 28 42 23 22 18 16 10
+12;11007302;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+13;11007670;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+14;11000442;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+15;11011346;1690;77;4.77371;27 33 34 36 37 38 44 3 4 5 0 21 19 20 7 9 8 40 41 6 39 35 32 28 25 26 42 23 24 22 18 16 17 14 43 11 10 12 13 15 1 2 31 30 29 27
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006249;80.3333;160.667;0.0996074
+
+
+plik:;asy/ftv47.atsp
+wynik optymalny:;1776
+liczba wierzcholkow:;48
+iteracja;czas [us];wynik;blad bezwzgledny;blad wzgledny;sciezka
+1;11012868;1929;153;8.61486;44 15 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44
+2;11003274;1899;123;6.92568;25 1 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 45 39 21 20 38 37 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25
+3;11005174;1950;174;9.7973;11 0 25 1 9 33 27 28 3 24 4 29 30 5 31 6 8 32 7 23 34 13 46 36 14 16 45 20 38 37 18 17 12 35 15 19 44 39 21 40 47 26 22 41 43 42 2 10 11
+4;11011024;1918;142;7.9955;0 25 1 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 45 39 21 20 38 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 8 11 10 37 0
+5;11005403;1899;123;6.92568;11 0 25 1 9 33 27 28 2 41 43 22 40 47 26 42 19 44 15 16 45 39 21 20 38 37 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11
+6;11004782;1928;152;8.55856;19 44 15 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 8 11 10 0 25 37 19
+7;11003544;1928;152;8.55856;0 25 1 9 33 27 28 2 43 22 40 47 26 42 41 19 44 15 16 45 39 21 20 38 18 17 36 14 35 34 13 46 23 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 0
+8;11001995;1931;155;8.72748;23 34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 37 0 25 19 44 15 35 23
+9;11011273;1920;144;8.10811;34 13 46 36 14 16 45 39 21 40 47 26 42 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 9 33 27 3 10 8 11 0 25 1 37 19 44 15 35 23 34
+10;11009300;1916;140;7.88288;13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 34 23 13
+11;11009461;1887;111;6.25;34 13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 23 34
+12;11004212;1886;110;6.19369;24 4 29 30 5 31 6 10 11 8 32 7 23 12 13 46 36 14 16 45 39 21 40 47 26 42 28 2 41 43 22 20 38 18 17 34 35 15 19 44 37 0 25 1 9 33 27 3 24
+13;11008777;1916;140;7.88288;13 46 36 14 16 45 39 21 40 47 26 42 1 9 33 27 28 2 41 43 22 20 38 18 17 12 32 7 31 5 6 24 4 29 30 3 10 8 11 0 25 37 19 44 15 35 34 23 13
+14;11002581;1912;136;7.65766;24 4 29 30 5 31 6 11 10 8 32 7 23 12 13 46 36 14 16 45 39 21 40 47 26 42 28 2 41 43 22 20 38 18 17 34 35 15 19 44 37 0 25 1 9 33 27 3 24
+15;11005527;1903;127;7.1509;24 4 29 30 5 31 6 10 11 8 32 7 23 34 13 46 36 14 16 45 39 21 40 47 26 42 28 2 41 43 22 20 38 18 17 12 35 15 19 44 37 0 25 1 9 33 27 3 24
+sredni czas [us];blad bezwzgledny;blad bezwzgledny x2;blad wzgledny [%]
+11006613;138.8;277.6;0.156306

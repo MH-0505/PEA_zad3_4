@@ -1,10 +1,12 @@
-input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/dantzig42.tsp,sym/gr48.tsp
-max_exec_time_s=900
-iterations=1
+input_files=g/gr6.txt,g/gr7.txt,g/gr8.txt,g/gr9.txt,g/gr10.txt,g/gr11.txt,g/gr12.txt,g/gr13.txt,g/gr14.txt,g/gr15.txt,g/gr16.txt,g/gr17.txt,g/gr18.txt,g/gr19.txt,g/gr20.txt,asy/br17.atsp,asy/ftv33.atsp,asy/ftv35.atsp,asy/ftv38.atsp,asy/ftv44.atsp,asy/ftv47.atsp
+#input_files=g/gr6s.txt,g/gr7s.txt,g/gr8s.txt,g/gr9s.txt,g/gr10s.txt,g/gr11s.txt,g/gr12s.txt,g/gr13s.txt,g/gr14s.txt,g/gr15s.txt,g/gr16s.txt,g/gr17s.txt,g/gr18s.txt,g/gr19s.txt,g/gr20s.txt,sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp,sym/gr48.tsp
+#input_files=sym/gr17.tsp,sym/gr21.tsp,sym/gr24.tsp,sym/fri26.tsp,sym/bays29.tsp
+max_exec_time_s=10
+iterations=15
 num_ants=-1                     # -1 - ants = n
 alpha=1
 beta=3
 evaporation_rate=0.5
 pheromone_quantity=100
 alg_iterations=0                # 0 = INF
-dorigo_alg=0                    # 0 - CAS, 1 - QAS
+dorigo_alg=1                    # 0 - CAS, 1 - QAS

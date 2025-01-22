@@ -65,7 +65,9 @@ int main() {
                                                              std::stoi(configuration["epoch"]),
                                                              std::stoi(configuration["annealing_mode"]),
                                                              std::stoi(configuration["solution_gen_mode"]),
-                                                             std::stoi(configuration["random_start_path"]));
+                                                             std::stoi(configuration["random_start_path"]),
+                                                             std::stod(configuration["desired_acceptance"]),
+                                                             std::stoi(configuration["samples_number"]));
 
             auto end_time = std::chrono::high_resolution_clock::now();
             auto time = std::chrono::duration_cast<std::chrono::microseconds >(end_time-start_time).count();
